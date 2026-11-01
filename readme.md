@@ -1,21 +1,21 @@
 
 ## 1. Create venv
 ```
-python -m venv cs_statistics
+python -m venv cs_statistics_venv
 ```
 
 ## 2. Activate venv
 
 ```
-source cs_statistics/bin/activate
+source cs_statistics_venv/bin/activate
 ```
 
 ```
-cs_statistics\Scripts\Activate.ps1
+cs_statistics_venv\Scripts\Activate.ps1
 ```
 
 ```
-cs_statistics\Scripts\activate.bat
+cs_statistics_venv\Scripts\activate.bat
 ```
 
 ## 3. Install requirements
