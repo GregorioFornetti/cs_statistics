@@ -1,4 +1,12 @@
 
+
+import os
+import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
+from src.scripts.constants import ROOT_DIR
+
+
+
 import sys
 from pathlib import Path
 import argparse
@@ -53,7 +61,7 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    save_path = Path(args.save_path)
+    save_path = Path(ROOT_DIR) / Path(args.save_path)
 
     download_dblp_xml_data(save_path)
 
