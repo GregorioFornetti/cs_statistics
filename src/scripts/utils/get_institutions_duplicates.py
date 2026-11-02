@@ -1,9 +1,48 @@
+import os
+import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
+from src.scripts.constants import DBLP_STORE_FILE, CORRECTED_INSTITUTION_DUPLICATES_FILE, DUPLICATE_INSTITUTIONS_FILE, DUPLICATE_INSTITUTIONS_NOT_CORRECTED_FILE
+
 
 import json
 from tqdm import tqdm
 from pyoxigraph import Store
-from tqdm import tqdm
-import os
+import argparse
+
+
+parser = argparse.ArgumentParser(
+    description="Get the institutions with duplicates."
+)
+parser.add_argument(
+    "--dblp_store_path",
+    type=str,
+    default=DBLP_STORE_FILE,
+    help="Path to the DBLP store.",
+)
+parser.add_argument(
+    "--corrected_institution_duplicates_path",
+    type=str,
+    default=CORRECTED_INSTITUTION_DUPLICATES_FILE,
+    help="Path to the corrected institution duplicates JSON file.",
+)
+parser.add_argument(
+    "--duplicate_institutions_path",
+    type=str,
+    default=DUPLICATE_INSTITUTIONS_FILE,
+    help="Path to the duplicate institutions JSON file.",
+)
+parser.add_argument(
+    "--duplicate_institutions_not_corrected_path",
+    type=str,
+    default=DUPLICATE_INSTITUTIONS_NOT_CORRECTED_FILE,
+    help="Path to the duplicate institutions not corrected JSON file.",
+)
+args = parser.parse_args()
+
+store_path = args.dblp_store_path
+corrected_institution_duplicates_path = args.corrected_institution_duplicates_path
+duplicate_institutions_path = args.duplicate_institutions_path
+duplicate_institutions_not_corrected_path = args.duplicate_institutions_not_corrected_path
 
 # Persistent database stored on disk
 store = Store("data/raw/dblp_store")
@@ -42,13 +81,13 @@ WHERE {
 }
 """
 
-with open('data/utils/corrected_institution_duplicates.json', 'r') as f:
+with open(corrected_institution_duplicates_path, 'r') as f:
     corrected_institution_duplicates = json.load(f)
 
 institutions_data = {}
 results = store.query(query)
 
-for row in results:
+for row in tqdm(results):
 
     institution_id = row['institution'].value.replace("https://dblp.org/inst/", "")
     data = {
@@ -81,8 +120,8 @@ print('Saving data...')
 
 os.makedirs('data/temp', exist_ok=True)
 
-with open('data/temp/duplicate_institutions.json', 'w') as f:
+with open(duplicate_institutions_path, 'w') as f:
     json.dump(duplicate_institutions, f, indent=4, ensure_ascii=False)
 
-with open('data/temp/duplicate_institutions_not_corrected.json', 'w') as f:
+with open(duplicate_institutions_not_corrected_path, 'w') as f:
     json.dump(duplicate_institutions_not_corrected, f, indent=4, ensure_ascii=False)
