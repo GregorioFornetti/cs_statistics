@@ -1,0 +1,327 @@
+{
+    "11/719": {
+        "name": "Intel",
+        "country": "United States of America",
+        "state": "California",
+        "city": "Santa Clara"
+    },
+    "4/598":{
+        "name": "Collège des Ingénieurs",
+        "country": "France"
+    },
+    "1/354": {
+        "name": "Mid Sweden University",
+        "country": "Sweden",
+        "state": "Västernorrland",
+        "city": "Sundsvall"
+    },
+    "7/851": {
+        "name": "Linnaeus University",
+        "country": "Sweden",
+        "state": "Kronoberg",
+        "city": "Vaxjo"
+    },
+    "2/385": {
+        "name": "Alabama Agricultural and Mechanical University",
+        "country": "United States of America",
+        "state": "Alabama",
+        "city": "Normal"
+    },
+    "9/291": {
+        "name": "National Institute of Technology Goa",
+        "country": "India",
+        "state": "Goa",
+        "city": "Cuncolim"
+    },
+    "5/883": {
+        "name": "Brandenburg University of Technology",
+        "country": "Germany",
+        "state": "Brandenburg",
+        "city": "Cottbus"
+    },
+    "11/694": {
+        "name": "Fraunhofer Institute for Computer Graphics Research",
+        "country": "Germany",
+        "state": "Hesse",
+        "city": "Darmstadt"
+    },
+    "2/725": {
+        "name": "University of the West Indies",
+        "country": "Jamaica",
+        "state": "Kingston",
+        "city": "Kingston"
+    },
+    "1/453": {
+        "name": "Hong Kong University of Science and Technology",
+        "country": "Hong Kong",
+        "city": "Clear Water Bay"
+    },
+    "5/916": {
+        "name": "University of Eastern Finland",
+        "country": "Finland",
+        "state": "North Savo",
+        "city": "Kuopio"
+    },
+    "1/059": {
+        "name": "Simon Fraser University",
+        "country": "Canada",
+        "state": "British Columbia",
+        "city": "Burnaby"
+    },
+    "11/770": {
+        "name": "Simula Research Lab",
+        "country": "Norway",
+        "state": "Oslo",
+        "city": "Oslo"
+    },
+    "2/026": {
+        "name": "University of Guam",
+        "country": "Guam",
+        "state": "Mangilao",
+        "city": "Mangilao"
+    },
+    "11/687": {
+        "name": "Schloss Dagstuhl - Leibniz Center for Informatics",
+        "country": "Germany",
+        "state": "Saarland",
+        "city": "Wadern"
+    },
+    "2/659": {
+        "name": "Eastern University",
+        "country": "United States of America",
+        "state": "Pennsylvania",
+        "city": "St. Davids"
+    },
+    "1/082": {
+        "name": "University of Sussex",
+        "country": "United Kingdom",
+        "state": "England",
+        "city": "Falmer"
+    },
+    "2/419": {
+        "name": "Banasthali Vidyapith",
+        "country": "India",
+        "state": "Rajasthan",
+        "city": "Jaipur"
+    },
+    "6/657": {
+        "name": "Nihon Fukushi University",
+        "country": "Japan",
+        "state": "Aichi",
+        "city": "Mihama"
+    },
+    "2/028": {
+        "name": "Virginia State University",
+        "country": "United States of America",
+        "state": "Virginia",
+        "city": "Ettrick"
+    },
+    "12/290": {
+        "name": "University of Kragujevac",
+        "country": "Serbia",
+        "state": "Central Serbia",
+        "city": "Kragujevac"
+    },
+    "11/692": {
+        "name": "Hewlett Packard Enterprise Labs",
+        "country": "United States of America"
+    },
+    "7/384": {
+        "name": "Arab International University",
+        "country": "Syrian Arab Republic",
+        "state": "Daraa",
+        "city": "Ghabāghib"
+    },
+    "1/079": {
+        "name": "University of Arizona",
+        "country": "United States of America",
+        "state": "Arizona",
+        "city": "Tucson"
+    },
+    "1/893": {
+        "name": "University of Beira Interior",
+        "country": "Portugal",
+        "state": "Castelo Branco",
+        "city": "Covilhã"
+    },
+    "1/450": {
+        "name": "Hong Kong Polytechnic University",
+        "country": "Hong Kong",
+        "city": "Hung Hom"
+    },
+    "1/769": {
+        "name": "Freed-Hardeman University",
+        "country": "United States of America",
+        "state": "Tennessee",
+        "city": "Henderson"
+    },
+    "5/416": {
+        "name": "University of Central Asia",
+        "country": "Kyrgyzstan",
+        "state": "Bishkek",
+        "city": "Bishkek"
+    },
+    "7/149": {
+        "name": "National University of Río Cuarto",
+        "country": "Argentina",
+        "state": "Cordoba",
+        "city": "Río Cuarto"
+    },
+    "2/272": {
+        "name": "Vaughn College of Aeronautics and Technology",
+        "country": "United States of America",
+        "state": "New York",
+        "city": "New York"
+    },
+    "11/852": {
+        "name": "International Business Machines",
+        "country": "United States of America",
+        "state": "New York",
+        "city": "Armonk"
+    },
+    "2/292": {
+        "name": "University of Hawaii-West Oahu",
+        "country": "United States of America",
+        "state": "Hawaii",
+        "city": "Kapolei"
+    },
+    "1/086": {
+        "name": "University of New Brunswick",
+        "country": "Canada",
+        "state": "New Brunswick",
+        "city": "Fredericton"
+    },
+    "3/790": {
+        "name": "University of Law",
+        "country": "United Kingdom",
+        "state": "England",
+        "city": "London"
+    },
+    "10/886": {
+        "name": "Regenesys Business School",
+        "country": "South Africa",
+        "state": "Gauteng",
+        "city": "Johannesburg"
+    },
+    "11/776": {
+        "name": "Fachhochschule Nordwestschweiz",
+        "country": "Switzerland",
+        "state": "Aargau",
+        "city": "Windisch"
+    },
+    "6/623": {
+        "name": "Sangmyung University",
+        "country": "South Korea",
+        "state": "Seoul",
+        "city": "Jongno-gu"
+    },
+    "11/518": {
+        "name": "Apsley Business School - London",
+        "country": "United Kingdom",
+        "state": "England",
+        "city": "London"
+    },
+    "1/685": {
+        "name": "University of Massachusetts Dartmouth",
+        "country": "United States of America",
+        "state": "Massachusetts",
+        "city": "Dartmouth"
+    },
+    "2/669": {
+        "name": "Robert Morris University",
+        "country": "United States of America",
+        "state": "Pennsylvania",
+        "city": "Moon Township"
+    },
+    "1/178": {
+        "name": "École centrale de Lyon",
+        "country": "France",
+        "state": "Auvergne-Rhône-Alpes",
+        "city": "Lyon"
+    },
+    "2/122": {
+        "name": "Samford University",
+        "country": "United States of America",
+        "state": "Alabama",
+        "city": "Homewood"
+    },
+    "11/699": {
+        "name": "Microsoft Research",
+        "country": "United States of America"
+    },
+    "1/985": {
+        "name": "State University of New York Maritime College",
+        "country": "United States of America",
+        "state": "New York",
+        "city": "New York"
+    },
+    "11/759": {
+        "name": "Laboratoire d'InfoRmatique en Image et Systèmes d'information, Lyon",
+        "country": "France",
+        "state": "Auvergne-Rhône-Alpes",
+        "city": "Lyon"
+    },
+    "12/607": {
+        "name": "Laboratoire Ampère",
+        "country": "France",
+        "state": "Rhône-Alpes",
+        "city": "Écully"
+    },
+    "2/943": {
+        "name": "Dankook University",
+        "country": "South Korea",
+        "state": "Gyeonggi-do",
+        "city": "Yongin"
+    },
+    "1/705": {
+        "name": "University of Minnesota Twin Cities",
+        "country": "United States of America",
+        "state": "Minnesota",
+        "city": "Minneapolis"
+    },
+    "3/722": {
+        "name": "Babcock University",
+        "country": "Nigeria",
+        "state": "Ogun State",
+        "city": "Ilishan-Remo"
+    },
+    "1/454": {
+        "name": "Hong Kong Baptist University",
+        "country": "Hong Kong",
+        "city": "Kowloon"
+    },
+    "11/016": {
+        "name": "Donbas National Academy of Civil Engineering and Architecture - Kramatorsk",
+        "country": "Ukraine",
+        "state": "Donetsk",
+        "city": "Kramatorsk"
+    },
+    "3/317": {
+        "name": "Windesheim University of Applied Sciences",
+        "country": "Netherlands",
+        "state": "Overijssel",
+        "city": "Zwolle"
+    },
+    "1/421": {
+        "name": "University of Massachusetts Amherst",
+        "country": "United States of America",
+        "state": "Massachusetts",
+        "city": "Amherst"
+    },
+    "3/941": {
+        "name": "La Martiniere College",
+        "country": "India"
+    },
+    "2/047": {
+        "name": "University of Crete",
+        "country": "Greece",
+        "state": "Crete",
+        "city": "Rethymno"
+    },
+    "1/798": {
+        "name": "Southern Methodist University",
+        "country": "United States of America",
+        "state": "Texas",
+        "city": "Dallas"
+    }
+}
