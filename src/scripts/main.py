@@ -35,14 +35,14 @@ args = argparser.parse_args()
 
 
 
-#download_dblp_rdf_data(Path(args.rdf_gz_file), Path(args.rdf_file))
+download_dblp_rdf_data(Path(args.rdf_gz_file), Path(args.rdf_file))
 
-#if os.path.exists(args.store_file):
-#    shutil.rmtree(args.store_file)
+if os.path.exists(args.store_file):
+    shutil.rmtree(args.store_file)
 
-#generate_dblp_store(args.rdf_file, args.store_file)
+generate_dblp_store(args.rdf_file, args.store_file)
 
 store = Store(args.store_file)
 
-#get_and_save_venues_data(store, args.conferences_file, args.journals_file)
+get_and_save_venues_data(store, args.conferences_file, args.journals_file)
 get_and_save_institutions_data(store, args.institutions_file, args.corrected_institution_duplicates_file)
