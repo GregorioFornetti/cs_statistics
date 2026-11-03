@@ -323,5 +323,59 @@
         "country": "United States of America",
         "state": "Texas",
         "city": "Dallas"
+    },
+    "7/692": {
+        "name": "Wuyi University",
+        "country": "People's Republic of China",
+        "state": "Guangdong",
+        "city": "Jiangmen"
+    },
+    "1/198": {
+        "name": "Australian Catholic University",
+        "country": "Australia",
+        "state": "New South Wales",
+        "city": "Sydney"
+    },
+    "2/318": {
+        "name": "Sungkyunkwan University",
+        "country": "South Korea",
+        "state": "Seoul",
+        "city": "Seoul"
+    },
+    "4/620": {
+        "name": "National Institute of Technology Hamirpur",
+        "country": "Bangladesh",
+        "state": "Khulna Division",
+        "city": "Hāmipur"
+    },
+    "1/333": {
+        "name": "University of Kent",
+        "country": "United Kingdom",
+        "state": "England",
+        "city": "Canterbury"
+    },
+    "10/181": {
+        "name": "National University, San Diego",
+        "country": "United States of America",
+        "state": "California",
+        "city": "San Diego"
+    },
+    "2/607": {
+        "name": "Université Sainte-Anne",
+        "country": "Canada",
+        "state": "Nova Scotia",
+        "city": "Church Point"
+    },
+    "11/695": {
+        "name": "GESIS - Leibniz-Institute for the Social Sciences",
+        "country": "Germany",
+        "state": "Baden-Wurttemberg",
+        "city": "Mannheim"
+    },
+    "4/110": {
+        "name": "SIAS International University",
+        "country": "People's Republic of China",
+        "state": "Henan",
+        "city": "Xinzheng"
     }
 }
