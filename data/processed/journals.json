@@ -1,0 +1,5747 @@
+{
+    "apjor": {
+        "name": "Asia-Pacific Journal of Operational Research"
+    },
+    "tvcg": {
+        "name": "IEEE Transactions on Visualization and Computer Graphics (TVCG)"
+    },
+    "ijait": {
+        "name": "International Journal on Artificial Intelligence Tools (IJAIT)"
+    },
+    "ijst": {
+        "name": "International Journal of Speech Technology"
+    },
+    "iee-sej": {
+        "name": "Software Engineering Journal"
+    },
+    "tbc": {
+        "name": "IEEE Transactions on Broadcasting"
+    },
+    "tmbmc": {
+        "name": "IEEE Transactions on Molecular, Biological and Multi-Scale Communications"
+    },
+    "jsiaml": {
+        "name": "JSIAM Letters"
+    },
+    "jpc": {
+        "name": "Journal of Privacy and Confidentiality (JPC)"
+    },
+    "bigdatasociety": {
+        "name": "Big Data & Society"
+    },
+    "cybersecapplications": {
+        "name": "Cyber Security and Applications"
+    },
+    "wicomm": {
+        "name": "Wireless Communications and Mobile Computing"
+    },
+    "f1000research": {
+        "name": "F1000Research"
+    },
+    "tbbis": {
+        "name": "IEEE Transactions on Biometrics, Behavior, and Identity Science"
+    },
+    "ctw": {
+        "name": "Cognition, Technology & Work"
+    },
+    "jihmsp": {
+        "name": "Journal of Information Hiding and Multimedia Signal Processing (JIHMSP)"
+    },
+    "jcm": {
+        "name": "Journal of Communications"
+    },
+    "bigdata": {
+        "name": "Big Data"
+    },
+    "jss": {
+        "name": "Journal of Systems and Software (JSS)"
+    },
+    "lre": {
+        "name": "Language Resources and Evaluation (LRE)"
+    },
+    "iotj": {
+        "name": "IEEE Internet of Things Journal"
+    },
+    "ijrfita": {
+        "name": "International Journal of Radio Frequency Identification Technology and Applications (IJRFITA)"
+    },
+    "mst": {
+        "name": "Theory of Computing Systems"
+    },
+    "pacmpl": {
+        "name": "Proceedings of the ACM on Programming Languages (PACMPL)"
+    },
+    "axioms": {
+        "name": "Axioms"
+    },
+    "imt": {
+        "name": "Information and Media Technologies (IMT)"
+    },
+    "ijipm": {
+        "name": "International Journal of Information Processing and Management (IJIPM)"
+    },
+    "ijsds": {
+        "name": "International Journal of Strategic Decision Sciences (IJSDS)"
+    },
+    "cin": {
+        "name": "Computational Intelligence and Neuroscience"
+    },
+    "mind": {
+        "name": "Mind"
+    },
+    "fss": {
+        "name": "Fuzzy Sets and Systems"
+    },
+    "tcss": {
+        "name": "IEEE Transactions on Computational Social Systems"
+    },
+    "ijamc": {
+        "name": "International Journal of Advanced Media and Communication (IJAMC)"
+    },
+    "health": {
+        "name": "ACM Transactions on Computing for Healthcare (HEALTH)"
+    },
+    "ftrob": {
+        "name": "Foundations and Trends in Robotics"
+    },
+    "dsonline": {
+        "name": "IEEE Distributed Systems Online"
+    },
+    "aiedu": {
+        "name": "International Journal of Artificial Intelligence in Education (IJAIED)"
+    },
+    "ijcaet": {
+        "name": "International Journal of Computer Aided Engineering and Technology (IJCAET)"
+    },
+    "ijapr": {
+        "name": "International Journal of Applied Pattern Recognition (IJAPR)"
+    },
+    "npl": {
+        "name": "Neural Processing Letters"
+    },
+    "neco": {
+        "name": "Neural Computation"
+    },
+    "rfc": {
+        "name": "Request for Comments (RFC)"
+    },
+    "standardview": {
+        "name": "ACM StandardView"
+    },
+    "bmcgenomics": {
+        "name": "BMC Genomics"
+    },
+    "ijprai": {
+        "name": "International Journal of Pattern Recognition and Artificial Intelligence (IJPRAI)"
+    },
+    "spl": {
+        "name": "IEEE Signal Processing Letters"
+    },
+    "ftcgv": {
+        "name": "Foundations and Trends in Computer Graphics and Vision"
+    },
+    "ijauc": {
+        "name": "International Journal of Autonomic Computing (IJAC)"
+    },
+    "ijcssa": {
+        "name": "International Journal of Conceptual Structures and Smart Applications (IJCSSA)"
+    },
+    "isrob": {
+        "name": "Intelligent Service Robotics"
+    },
+    "llc": {
+        "name": "Language and Linguistics Compass"
+    },
+    "aiss": {
+        "name": "Advances in Information Sciences and Service Sciences (AISS)"
+    },
+    "ijse": {
+        "name": "International Journal of Synthetic Emotions (IJSE)"
+    },
+    "elektrik": {
+        "name": "Turkish Journal of Electrical Engineering and Computer Sciences"
+    },
+    "amco": {
+        "name": "Advances in Mathematics of Communications (AMC)"
+    },
+    "pvldb": {
+        "name": "Proceedings of the VLDB Endowment"
+    },
+    "tase": {
+        "name": "IEEE Transactions on Automation Science and Engineering"
+    },
+    "winet": {
+        "name": "Wireless Networks"
+    },
+    "jcin": {
+        "name": "Journal of Communications and Information Networks"
+    },
+    "integration": {
+        "name": "Integration"
+    },
+    "itm": {
+        "name": "Information Technology and Management"
+    },
+    "ojcs": {
+        "name": "IEEE Open Journal of the Communications Society"
+    },
+    "cluster": {
+        "name": "Cluster Computing"
+    },
+    "mma": {
+        "name": "Mathematical Modelling and Analysis"
+    },
+    "mssp": {
+        "name": "Multidimensional Systems and Signal Processing"
+    },
+    "jitsr": {
+        "name": "International Journal of IT Standards and Standardization Research"
+    },
+    "ijfcs": {
+        "name": "International Journal of Foundations of Computer Science (IJFCS)"
+    },
+    "psychnology": {
+        "name": "PsychNology Journal"
+    },
+    "tr": {
+        "name": "IEEE Transactions on Reliability"
+    },
+    "frma": {
+        "name": "Frontiers in Research Metrics and Analytics"
+    },
+    "cmbbeiv": {
+        "name": "Computer Methods in Biomechanics and Biomedical Engineering: Imaging & Visualization"
+    },
+    "ecra": {
+        "name": "Electronic Commerce Research and Applications"
+    },
+    "firai": {
+        "name": "Frontiers in Robotics and AI"
+    },
+    "ijsda": {
+        "name": "International Journal of System Dynamics Applications (IJSDA)"
+    },
+    "ejcon": {
+        "name": "European Journal of Control"
+    },
+    "cejcs": {
+        "name": "Open Computer Science"
+    },
+    "cssp": {
+        "name": "Circuits, Systems, and Signal Processing"
+    },
+    "pbml": {
+        "name": "The Prague Bulletin of Mathematical Linguistics"
+    },
+    "aans": {
+        "name": "Advances in Artificial Neural Systems"
+    },
+    "stp": {
+        "name": "Software - Concepts and Tools"
+    },
+    "urbaninformatics": {
+        "name": "Urban Informatics"
+    },
+    "cc": {
+        "name": "Computational Complexity"
+    },
+    "jim": {
+        "name": "Journal of Intelligent Manufacturing"
+    },
+    "ijghpc": {
+        "name": "International Journal of Grid and High Performance Computing (IJGHPC)"
+    },
+    "ijbis": {
+        "name": "International Journal of Business Information Systems (IJBIS)"
+    },
+    "speech": {
+        "name": "Speech Communication"
+    },
+    "cacm": {
+        "name": "Communications of the ACM"
+    },
+    "ecs": {
+        "name": "Egyptian Computer Science Journal"
+    },
+    "eccc": {
+        "name": "Electronic Colloquium on Computational Complexity (ECCC)"
+    },
+    "ijaac": {
+        "name": "International Journal of Automation and Control (IJAAC)"
+    },
+    "tosn": {
+        "name": "ACM Transactions on Sensor Networks (TOSN)"
+    },
+    "tsas": {
+        "name": "ACM Transactions on Spatial Algorithms and Systems (TSAS)"
+    },
+    "aes": {
+        "name": "Advances in Engineering Software"
+    },
+    "lht": {
+        "name": "Library Hi Tech"
+    },
+    "acr": {
+        "name": "Advances in Computing Research"
+    },
+    "cm": {
+        "name": "IEEE Communications Magazine"
+    },
+    "ijoris": {
+        "name": "International Journal of Operations Research and Information Systems (IJORIS)"
+    },
+    "jcit-igi": {
+        "name": "Journal of Cases on Information Technology (JCIT)"
+    },
+    "jossr": {
+        "name": "Journal of Service Science Research"
+    },
+    "cmam": {
+        "name": "Computational Methods in Applied Mathematics"
+    },
+    "ijris": {
+        "name": "International Journal of Reasoning-based Intelligent Systems (IJRIS)"
+    },
+    "inroads": {
+        "name": "ACM Inroads"
+    },
+    "gandc": {
+        "name": "Computers & Geosciences"
+    },
+    "fttcs": {
+        "name": "Foundations and Trends in Theoretical Computer Science"
+    },
+    "vrih": {
+        "name": "Virtual Reality & Intelligent Hardware (VRIH)"
+    },
+    "bsl": {
+        "name": "The Bulletin of Symbolic Logic"
+    },
+    "tplop": {
+        "name": "Transactions on Pattern Languages of Programming (TPLOP)"
+    },
+    "candie": {
+        "name": "Computers & Industrial Engineering"
+    },
+    "jcscoll": {
+        "name": "Journal of Computing Sciences in Colleges (JCSC)"
+    },
+    "siamcomp": {
+        "name": "SIAM Journal on Computing"
+    },
+    "ijmbl": {
+        "name": "International Journal of Mobile and Blended Learning (IJMBL)"
+    },
+    "irob": {
+        "name": "Industrial Robot"
+    },
+    "sigecom": {
+        "name": "SIGecom Exchanges"
+    },
+    "jlbs": {
+        "name": "Journal of Location Based Services"
+    },
+    "ijiids": {
+        "name": "International Journal of Intelligent Information and Database Systems (IJIIDS)"
+    },
+    "dsj": {
+        "name": "Decision Sciences"
+    },
+    "fdgth": {
+        "name": "Frontiers in Digital Health"
+    },
+    "air": {
+        "name": "Artificial Intelligence Review"
+    },
+    "rcim": {
+        "name": "Robotics and Computer-Integrated Manufacturing"
+    },
+    "zmp": {
+        "name": "Journal of Media Psychology - Theories, Methods, and Applications"
+    },
+    "gcc": {
+        "name": "Groups Complexity Cryptology"
+    },
+    "tdp": {
+        "name": "Transactions on Data Privacy"
+    },
+    "iim": {
+        "name": "Intelligent Information Management"
+    },
+    "vlsi": {
+        "name": "VLSI Design"
+    },
+    "poit": {
+        "name": "Problems of Information Transmission"
+    },
+    "jcls": {
+        "name": "Journal of Computational Literary Studies (JCLS)"
+    },
+    "siammax": {
+        "name": "SIAM Journal on Matrix Analysis and Applications"
+    },
+    "ejasmp": {
+        "name": "EURASIP Journal on Audio, Speech, and Music Processing"
+    },
+    "suscom": {
+        "name": "Sustainable Computing: Informatics and Systems (SUSCOM)"
+    },
+    "cit": {
+        "name": "Journal of Computing and Information Technology"
+    },
+    "cim": {
+        "name": "IEEE Computational Intelligence Magazine"
+    },
+    "technometrics": {
+        "name": "Technometrics"
+    },
+    "ors": {
+        "name": "OR Spectrum"
+    },
+    "cca": {
+        "name": "ACM Communications in Computer Algebra"
+    },
+    "ijrsda": {
+        "name": "International Journal of Rough Sets and Data Analysis (IJRSDA)"
+    },
+    "nct": {
+        "name": "Network and Communication Technologies"
+    },
+    "alr": {
+        "name": "Artificial Life and Robotics"
+    },
+    "jms": {
+        "name": "Journal of Medical Systems"
+    },
+    "ijbra": {
+        "name": "International Journal of Bioinformatics Research and Applications (IJBRA)"
+    },
+    "rita": {
+        "name": "Revista de Informática Teórica e Aplicada - RITA"
+    },
+    "irjocs": {
+        "name": "Iran Journal of Computer Science"
+    },
+    "nar": {
+        "name": "Nucleic Acids Research"
+    },
+    "eswax": {
+        "name": "Expert Systems with Applications: X"
+    },
+    "ijopcd": {
+        "name": "International Journal of Online Pedagogy and Course Design (IJOPCD)"
+    },
+    "acisj": {
+        "name": "ACIS International Journal of Computer & Information Science"
+    },
+    "cphysics": {
+        "name": "Computer Physics Communications"
+    },
+    "wc": {
+        "name": "IEEE Wireless Communications"
+    },
+    "ijcomsys": {
+        "name": "International Journal of Communication Systems"
+    },
+    "infsof": {
+        "name": "Information & Software Technology"
+    },
+    "unpublished": {
+        "name": "Unpublished Works"
+    },
+    "dss": {
+        "name": "Decision Support Systems"
+    },
+    "ijeoe": {
+        "name": "International Journal of Energy Optimization and Engineering (IJEOE)"
+    },
+    "ijt": {
+        "name": "International Journal of Technoethics (IJT)"
+    },
+    "frcmn": {
+        "name": "Frontiers in Communications and Networks"
+    },
+    "jaif": {
+        "name": "Journal of Advances in Information Fusion"
+    },
+    "ijmi": {
+        "name": "International Journal of Medical Informatics"
+    },
+    "tap": {
+        "name": "ACM Transactions on Applied Perception (TAP)"
+    },
+    "ijictrda": {
+        "name": "International Journal of ICT Research and Development in Africa (IJICTRDA)"
+    },
+    "ijpr": {
+        "name": "International Journal of Production Research (IJPR)"
+    },
+    "jstsp": {
+        "name": "IEEE Journal of Selected Topics in Signal Processing"
+    },
+    "tac": {
+        "name": "IEEE Transactions on Automatic Control"
+    },
+    "jos": {
+        "name": "Journal of Simulation"
+    },
+    "tqc": {
+        "name": "ACM Transactions on Quantum Computing (TQC)"
+    },
+    "ijesma": {
+        "name": "International Journal of E-Services and Mobile Applications (IJESMA)"
+    },
+    "jap": {
+        "name": "Journal of Applied Probability"
+    },
+    "twc": {
+        "name": "IEEE Transactions on Wireless Communications"
+    },
+    "ijtd": {
+        "name": "International Journal of Technology Diffusion (IJTD)"
+    },
+    "ci": {
+        "name": "Computational Intelligence"
+    },
+    "cogcom": {
+        "name": "Cognitive Computation"
+    },
+    "acmjcss": {
+        "name": "ACM Journal on Computing and Sustainable Societies (JCSS)"
+    },
+    "ijoci": {
+        "name": "International Journal of Organizational & Collective Intelligence"
+    },
+    "ana": {
+        "name": "Advances in Numerical Analysis"
+    },
+    "smr": {
+        "name": "Journal of Software: Evolution and Process"
+    },
+    "csysl": {
+        "name": "IEEE Control Systems Letters"
+    },
+    "ieiceee": {
+        "name": "IEICE Electronic Express"
+    },
+    "ijbpim": {
+        "name": "International Journal of Business Process Integration and Management (IJBPIM)"
+    },
+    "ijwis": {
+        "name": "International Journal of Web Information Systems"
+    },
+    "adt": {
+        "name": "Annales des Télécommunications"
+    },
+    "advai": {
+        "name": "Advances in Artificial Intelligence"
+    },
+    "libt": {
+        "name": "Library Trends"
+    },
+    "ojis": {
+        "name": "Open Journal of Information Systems"
+    },
+    "joi": {
+        "name": "Journal of Informetrics"
+    },
+    "automatica": {
+        "name": "Automatica"
+    },
+    "ijfipm": {
+        "name": "International Journal of Functional Informatics and Personalised Medicine (IJFIPM)"
+    },
+    "jgtools": {
+        "name": "Journal of Graphics Tools"
+    },
+    "jsce": {
+        "name": "Journal of Systems and Control Engineering"
+    },
+    "oos": {
+        "name": "Object Oriented Systems"
+    },
+    "jnit": {
+        "name": "Journal of Next Generation Information Technology (JNIT)"
+    },
+    "js": {
+        "name": "Journal of Sensors"
+    },
+    "talip": {
+        "name": "ACM Transactions on Asian and Low-Resource Language Information Processing"
+    },
+    "isafm": {
+        "name": "Intelligent Systems in Accounting, Finance and Management"
+    },
+    "ftsec": {
+        "name": "Foundations and Trends in Privacy and Security"
+    },
+    "cg": {
+        "name": "Computers & Graphics"
+    },
+    "sigact": {
+        "name": "SIGACT News"
+    },
+    "sle": {
+        "name": "Smart Learning Environments"
+    },
+    "networks": {
+        "name": "Networks"
+    },
+    "mldm": {
+        "name": "Transactions on Machine Learning and Data Mining"
+    },
+    "ijdmb": {
+        "name": "International Journal of Data Mining and Bioinformatics (IJDMB)"
+    },
+    "glottometrics": {
+        "name": "Glottometrics"
+    },
+    "iet-sen": {
+        "name": "IET Software"
+    },
+    "wcl": {
+        "name": "IEEE Wireless Communications Letters"
+    },
+    "ijwnbt": {
+        "name": "International Journal of Wireless Networks and Broadband Technologies (IJWNBT)"
+    },
+    "engl": {
+        "name": "Engineering Letters"
+    },
+    "lalc": {
+        "name": "Digital Scholarship in the Humanities (DSH)"
+    },
+    "informaticaLT": {
+        "name": "Informatica"
+    },
+    "tmc": {
+        "name": "IEEE Transactions on Mobile Computing (TMC)"
+    },
+    "acta": {
+        "name": "Acta Informatica"
+    },
+    "scirobotics": {
+        "name": "Science Robotics"
+    },
+    "ijcee": {
+        "name": "International Journal of Cyber Ethics in Education (IJCEE)"
+    },
+    "tslp": {
+        "name": "ACM Transactions on Speech and Language Processing (TSLP)"
+    },
+    "jisa": {
+        "name": "Journal of Internet Services and Applications"
+    },
+    "taffco": {
+        "name": "IEEE Transactions on Affective Computing"
+    },
+    "tocs": {
+        "name": "ACM Transactions on Computer Systems (TOCS)"
+    },
+    "ijnmc": {
+        "name": "International Journal of Nanotechnology and Molecular Computation (IJNMC)"
+    },
+    "hisas": {
+        "name": "Health Information Science and Systems"
+    },
+    "ijismd": {
+        "name": "International Journal of Information System Modeling and Design (IJISMD)"
+    },
+    "pami": {
+        "name": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)"
+    },
+    "ijavet": {
+        "name": "International Journal of Adult Education and Technology (IJAET)"
+    },
+    "ijcopi": {
+        "name": "International Journal of Combinatorical Optimization Problems and Informatics (IJCOPI)"
+    },
+    "ijitcc": {
+        "name": "International Journal of Information Technology, Communications and Convergence (IJITCC)"
+    },
+    "cbsn": {
+        "name": "Cyberpsychology, Behavior, and Social Networking"
+    },
+    "ieicetb": {
+        "name": "IEICE Transactions on Communications"
+    },
+    "scl": {
+        "name": "Systems & Control Letters"
+    },
+    "cma": {
+        "name": "Computers & Mathematics with Applications"
+    },
+    "jsea": {
+        "name": "Journal of Software Engineering and Applications (JSEA)"
+    },
+    "tcos": {
+        "name": "Transactions on Computational Science (TCS)"
+    },
+    "heuristics": {
+        "name": "Journal of Heuristics"
+    },
+    "ijitm": {
+        "name": "International Journal of Information Technology and Management (IJITM)"
+    },
+    "scp": {
+        "name": "Science of Computer Programming"
+    },
+    "tomc": {
+        "name": "LNCS Transactions on Modularity and Composition (ToMC)"
+    },
+    "jdmdh": {
+        "name": "Journal of Data Mining & Digital Humanities (JDMDH)"
+    },
+    "dke": {
+        "name": "Data & Knowledge Engineering"
+    },
+    "misq": {
+        "name": "MIS Quarterly"
+    },
+    "jicce": {
+        "name": "Journal of Information and Communication Convergence Engineering"
+    },
+    "jisec": {
+        "name": "Journal of Information Security"
+    },
+    "jea": {
+        "name": "ACM Journal of Experimental Algorithmics (JEA)"
+    },
+    "igtr": {
+        "name": "International Game Theory Review"
+    },
+    "ijeei": {
+        "name": "International Journal of E-Entrepreneurship and Innovation"
+    },
+    "ftopt": {
+        "name": "Foundations and Trends in Optimization"
+    },
+    "aml": {
+        "name": "Archive for Mathematical Logic"
+    },
+    "casa": {
+        "name": "EAI Endorsed Transactions on Context-aware Systems and Applications"
+    },
+    "cnsns": {
+        "name": "Communications in Nonlinear Science and Numerical Simulation"
+    },
+    "jetai": {
+        "name": "Journal of Experimental and Theoretical Artificial Intelligence (JETAI)"
+    },
+    "ftir": {
+        "name": "Foundations and Trends in Information Retrieval"
+    },
+    "interfaces": {
+        "name": "INFORMS Journal of Applied Analytics"
+    },
+    "jlms": {
+        "name": "Journal of the London Mathematical Society"
+    },
+    "mca": {
+        "name": "EAI Endorsed Transactions on Mobile Communications and Applications"
+    },
+    "arist": {
+        "name": "Annual Review of Information Science and Technology (ARIST)"
+    },
+    "ijssci": {
+        "name": "International Journal of Software Science and Computational Intelligence"
+    },
+    "dcg": {
+        "name": "Discrete & Computational Geometry"
+    },
+    "ijcss": {
+        "name": "The International Journal of Computers, Systems and Signals"
+    },
+    "jcrd": {
+        "name": "Journal of Computer Research and Development"
+    },
+    "ijdtis": {
+        "name": "International Journal of Dependable and Trustworthy Information Systems (IJDTIS)"
+    },
+    "jsit": {
+        "name": "Journal of Systems and Information Technology"
+    },
+    "fcsc": {
+        "name": "Frontiers of Computer Science"
+    },
+    "jcta": {
+        "name": "Journal of Combinatorial Theory, Series A (JCTA)"
+    },
+    "diot": {
+        "name": "Discover Internet of Things"
+    },
+    "ijiit": {
+        "name": "International Journal of Intelligent Information Technologies (IJIIT)"
+    },
+    "ieicet": {
+        "name": "IEICE Transactions"
+    },
+    "rhino": {
+        "name": "Rhino Didactics"
+    },
+    "rdcps": {
+        "name": "Research Directions: Cyber-Physical Systems"
+    },
+    "ijeis": {
+        "name": "International Journal of Enterprise Information Systems (IJEIS)"
+    },
+    "fteda": {
+        "name": "Foundations and Trends in Electronic Design Automation"
+    },
+    "ijde": {
+        "name": "International Journal of Digital Evidence"
+    },
+    "ansoft": {
+        "name": "Annals of Software Engineering"
+    },
+    "ipsjtcva": {
+        "name": "IPSJ Transactions on Computer Vision and Applications"
+    },
+    "gpem": {
+        "name": "Genetic Programming and Evolvable Machines"
+    },
+    "ijitbag": {
+        "name": "International Journal of IT/Business Alignment and Governance (IJITBAG)"
+    },
+    "ijmso": {
+        "name": "International Journal of Metadata, Semantics and Ontologies"
+    },
+    "ijwmc": {
+        "name": "International Journal of Wireless and Mobile Computing (IJWMC)"
+    },
+    "candc": {
+        "name": "Computational Biology and Chemistry"
+    },
+    "ijhisi": {
+        "name": "International Journal of Healthcare Information Systems and Informatics (IJHISI)"
+    },
+    "jmis": {
+        "name": "Journal of Management Information Systems"
+    },
+    "nlpj": {
+        "name": "Natural Language Processing Journal"
+    },
+    "sands": {
+        "name": "Security and Safety (S&S)"
+    },
+    "todigra": {
+        "name": "Transactions of the Digital Games Research Association (ToDiGRA)"
+    },
+    "nhm": {
+        "name": "Networks and Heterogeneous Media"
+    },
+    "db": {
+        "name": "ACM SIGMIS Database"
+    },
+    "ijkdb": {
+        "name": "International Journal of Knowledge Discovery in Bioinformatics (IJKDB)"
+    },
+    "compositionality": {
+        "name": "Compositionality"
+    },
+    "ij3dim": {
+        "name": "International Journal of 3-D Information Modeling (IJ3DIM)"
+    },
+    "tcci": {
+        "name": "Transactions on Computational Collective Intelligence (TCCI)"
+    },
+    "que": {
+        "name": "Quality and User Experience"
+    },
+    "ijsmile": {
+        "name": "International Journal of Social Media and Interactive Learning Environments (IJSMILE)"
+    },
+    "ce": {
+        "name": "Computers & Education"
+    },
+    "cms": {
+        "name": "Computational Management Science"
+    },
+    "tcas": {
+        "name": "IEEE Transactions on Circuits and Systems"
+    },
+    "tnse": {
+        "name": "IEEE Transactions on Network Science and Engineering"
+    },
+    "toc": {
+        "name": "Theory of Computing"
+    },
+    "is": {
+        "name": "Information Systems"
+    },
+    "oir": {
+        "name": "Online Information Review"
+    },
+    "ord": {
+        "name": "Operations Research and Decisions"
+    },
+    "apin": {
+        "name": "Applied Intelligence"
+    },
+    "taasm": {
+        "name": "Technology Analysis & Strategic Management"
+    },
+    "phonetica": {
+        "name": "Phonetica"
+    },
+    "jct": {
+        "name": "Journal of Combinatorial Theory"
+    },
+    "ijrat": {
+        "name": "International Journal of Robotics Applications and Technologies (IJRAT)"
+    },
+    "eInformatica": {
+        "name": "e-Informatica Software Engineering Journal"
+    },
+    "ijcla": {
+        "name": "International Journal of Computational Linguistics and Applications (IJCLA)"
+    },
+    "ipl": {
+        "name": "Information Processing Letters"
+    },
+    "rasi": {
+        "name": "Revista Avances en Sistemas e Informática (RASI)"
+    },
+    "aghcs": {
+        "name": "Computer Science"
+    },
+    "gidr": {
+        "name": "Datenbank Rundbrief (GI-FG 2.5.1)"
+    },
+    "tinytocs": {
+        "name": "Tiny Transactions on Computer Science (TinyToCS)"
+    },
+    "ijpcc": {
+        "name": "International Journal of Pervasive Computing and Communications"
+    },
+    "aci": {
+        "name": "Applied Clinical Informatics (ACI)"
+    },
+    "ijea": {
+        "name": "International Journal of E-Adoption (IJEA)"
+    },
+    "rairo": {
+        "name": "RAIRO - Operations Research"
+    },
+    "ijseke": {
+        "name": "International Journal of Software Engineering and Knowledge Engineering (IJSEKE)"
+    },
+    "rbie": {
+        "name": "Revista Brasileira de Informática na Educação"
+    },
+    "phycomm": {
+        "name": "Physical Communication"
+    },
+    "ijicst": {
+        "name": "International Journal of Interactive Communication Systems and Technologies (IJICST)"
+    },
+    "csbs": {
+        "name": "EPJ Research Infrastructures"
+    },
+    "it": {
+        "name": "it - Information Technology (it)"
+    },
+    "ijmno": {
+        "name": "International Journal of Mathematical Modelling and Numerical Optimisation (IJMNO)"
+    },
+    "ijia": {
+        "name": "International Journal of Information Acquisition"
+    },
+    "cea": {
+        "name": "Computers and Electronics in Agriculture"
+    },
+    "jml": {
+        "name": "Journal of Mathematical Logic"
+    },
+    "auinsy": {
+        "name": "Autonomous Intelligent Systems (AIS)"
+    },
+    "jair": {
+        "name": "Journal of Artificial Intelligence Research (JAIR)"
+    },
+    "da": {
+        "name": "Decision Analysis"
+    },
+    "toms": {
+        "name": "ACM Transactions on Mathematical Software (TOMS)"
+    },
+    "icl": {
+        "name": "IEEE Communications Letters"
+    },
+    "tsmc": {
+        "name": "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+    },
+    "ijncr": {
+        "name": "International Journal of Natural Computing Research (IJNCR)"
+    },
+    "rsa": {
+        "name": "Random Structures and Algorithms"
+    },
+    "ijim": {
+        "name": "International Journal of Interactive Mobile Technologies (iJIM)"
+    },
+    "ijthi": {
+        "name": "International Journal of Technology and Human Interaction (IJTHI)"
+    },
+    "iie": {
+        "name": "Informatics in Education"
+    },
+    "sigkdd": {
+        "name": "SIGKDD Explorations"
+    },
+    "eminds": {
+        "name": "e-Minds: International Journal on Human-Computer Interaction"
+    },
+    "jors": {
+        "name": "Journal of the Operational Research Society"
+    },
+    "ajiips": {
+        "name": "Australian Journal of Intelligent Information Processing Systems (AJIIPS)"
+    },
+    "jmihi": {
+        "name": "Journal of Medical Imaging and Health Informatics (JMIHI)"
+    },
+    "epjds": {
+        "name": "EPJ Data Science"
+    },
+    "ijista": {
+        "name": "International Journal of Intelligent Systems Technologies and Applications (IJISTA)"
+    },
+    "astawsa": {
+        "name": "AStA Wirtschafts- und Sozialstatistisches Archiv"
+    },
+    "ijmssc": {
+        "name": "International Journal of Modeling, Simulation, and Scientific Computing (IJMSSC)"
+    },
+    "caaitrit": {
+        "name": "CAAI Transactions on Intelligence Technology"
+    },
+    "itsm": {
+        "name": "IEEE Intelligent Transportation Systems Magazine"
+    },
+    "ijcritis": {
+        "name": "International Journal of Critical Infrastructures (IJCIS)"
+    },
+    "jact": {
+        "name": "Journal of Applied and Computational Topology"
+    },
+    "ijipsi": {
+        "name": "International Journal of Information Privacy, Security and Integrity (IJIPSI)"
+    },
+    "mp": {
+        "name": "Mathematical Programming"
+    },
+    "isu": {
+        "name": "Information Services and Use"
+    },
+    "jsys": {
+        "name": "Journal of Systems Research (JSys)"
+    },
+    "tnn": {
+        "name": "IEEE Transactions on Neural Networks and Learning Systems"
+    },
+    "deds": {
+        "name": "Discrete Event Dynamic Systems"
+    },
+    "jcsci": {
+        "name": "Journal of Computer Science (JCS)"
+    },
+    "coling": {
+        "name": "Computational Linguistics"
+    },
+    "tcdl": {
+        "name": "Bulletin of the IEEE Technical Committee on Digital Libraries (TCDL Bulletin)"
+    },
+    "tkdd": {
+        "name": "ACM Transactions on Knowledge Discovery from Data (TKDD)"
+    },
+    "siamsc": {
+        "name": "SIAM Journal on Scientific Computing"
+    },
+    "ijcgt": {
+        "name": "International Journal of Computer Games Technology"
+    },
+    "qre": {
+        "name": "Quality and Reliability Engineering International"
+    },
+    "ijisscm": {
+        "name": "International Journal of Information Systems and Supply Chain Management (IJISSCM)"
+    },
+    "corr": {
+        "name": "Computing Research Repository (CoRR)"
+    },
+    "ijcpol": {
+        "name": "International Journal of Computer Processing of Oriental Languages"
+    },
+    "cbm": {
+        "name": "Computers in Biology and Medicine"
+    },
+    "tlt": {
+        "name": "IEEE Transactions on Learning Technologies (TLT)"
+    },
+    "ijidss": {
+        "name": "International Journal of Intelligent Defence Support Systems (IJIDSS)"
+    },
+    "ejco": {
+        "name": "EURO Journal on Computational Optimization"
+    },
+    "grammars": {
+        "name": "Grammars"
+    },
+    "caeai": {
+        "name": "Computers & Education: Artificial Intelligence"
+    },
+    "ijhpcn": {
+        "name": "International Journal of High Performance Computing and Networking (IJHPCN)"
+    },
+    "tmis": {
+        "name": "ACM Transactions on Management Information Systems"
+    },
+    "cogsci": {
+        "name": "Cognitive Science"
+    },
+    "ijcim": {
+        "name": "International Journal of Computer Integrated Manufacturing"
+    },
+    "ijet": {
+        "name": "International Journal of Emerging Technologies in Learning (iJET)"
+    },
+    "jws": {
+        "name": "The Journal of Web Science"
+    },
+    "abi": {
+        "name": "Advances in Bioinformatics"
+    },
+    "isecure": {
+        "name": "ISC International Journal of Information Security"
+    },
+    "jcb": {
+        "name": "Journal of Computational Biology (JCB)"
+    },
+    "shonan-reports": {
+        "name": "NII Shonan Meeting Report"
+    },
+    "ijmms": {
+        "name": "International Journal of Human-Computer Studies"
+    },
+    "jcybsec": {
+        "name": "Journal of Cyber Security (JCS)"
+    },
+    "tapos": {
+        "name": "TAPOS - Theory and Practice of Object Systems"
+    },
+    "csl": {
+        "name": "Computer Speech & Language"
+    },
+    "ijon": {
+        "name": "Neurocomputing"
+    },
+    "patterns": {
+        "name": "Patterns"
+    },
+    "jnma": {
+        "name": "Journal of Numerical Mathematics"
+    },
+    "jat": {
+        "name": "Journal of Approximation Theory"
+    },
+    "tiis": {
+        "name": "ACM Transactions on Interactive Intelligent Systems"
+    },
+    "ijssmet": {
+        "name": "International Journal of Service Science, Management, Engineering, and Technology (IJSSMET)"
+    },
+    "tjs": {
+        "name": "The Journal of Supercomputing"
+    },
+    "sigspatial": {
+        "name": "ACM SIGSPATIAL Special"
+    },
+    "jais": {
+        "name": "Journal of the Association for Information Systems (JAIS)"
+    },
+    "synthese": {
+        "name": "Synthese"
+    },
+    "iwc": {
+        "name": "Interacting with Computers (IWC)"
+    },
+    "ijeh": {
+        "name": "International Journal of Electronic Healthcare (IJEH)"
+    },
+    "tsg": {
+        "name": "IEEE Transactions on Smart Grid (TSG)"
+    },
+    "jwscg": {
+        "name": "Journal of WSCG"
+    },
+    "iacr": {
+        "name": "IACR Cryptology ePrint Archive"
+    },
+    "oclc": {
+        "name": "Digital Library Perspectives"
+    },
+    "sac": {
+        "name": "Statistics and Computing"
+    },
+    "csys": {
+        "name": "Computing Systems"
+    },
+    "comsys": {
+        "name": "EAI Endorsed Transactions on Complex Systems"
+    },
+    "wwwj": {
+        "name": "World Wide Web Journal"
+    },
+    "ijmdem": {
+        "name": "International Journal of Multimedia Data Engineering and Management (IJMDEM)"
+    },
+    "evs": {
+        "name": "Evolving Systems"
+    },
+    "ftpl": {
+        "name": "Foundations and Trends in Programming Languages"
+    },
+    "scheduling": {
+        "name": "Journal of Scheduling"
+    },
+    "csm": {
+        "name": "IEEE Communications Standards Magazine"
+    },
+    "ijns": {
+        "name": "International Journal of Neural Systems (IJNS)"
+    },
+    "expert": {
+        "name": "IEEE Intelligent Systems"
+    },
+    "sigweb": {
+        "name": "SIGWEB Newsletter"
+    },
+    "ipm": {
+        "name": "Information Processing and Management"
+    },
+    "sadm": {
+        "name": "Statistical Analysis and Data Mining"
+    },
+    "jvcir": {
+        "name": "Journal of Visual Communication and Image Representation"
+    },
+    "fdata": {
+        "name": "Frontiers in Big Data"
+    },
+    "jbcb": {
+        "name": "Journal of Bioinformatics and Computational Biology"
+    },
+    "sivp": {
+        "name": "Signal, Image and Video Processing"
+    },
+    "iet-bmt": {
+        "name": "IET Biometrics"
+    },
+    "ior": {
+        "name": "Operations Research"
+    },
+    "cbrmd": {
+        "name": "Transactions on Case-Based Reasoning"
+    },
+    "flap": {
+        "name": "IfCoLog Journal of Applied Logics"
+    },
+    "tdhms": {
+        "name": "Transactions on Data Hiding and Multimedia Security"
+    },
+    "ijcci": {
+        "name": "International Journal of Child-Computer Interaction"
+    },
+    "fuin": {
+        "name": "Fundamenta Informaticae"
+    },
+    "aaiml": {
+        "name": "Advances in Artificial Intelligence and Machine Learning (AAIML)"
+    },
+    "ftweb": {
+        "name": "Foundations and Trends in Web Science"
+    },
+    "ma": {
+        "name": "Journal of Multivariate Analysis"
+    },
+    "tos": {
+        "name": "ACM Transactions on Storage"
+    },
+    "ijdc": {
+        "name": "International Journal of Digital Curation (IJDC)"
+    },
+    "ans": {
+        "name": "Applied Network Science"
+    },
+    "intr": {
+        "name": "Internet Research"
+    },
+    "iswa": {
+        "name": "Intelligent Systems with Applications (ISWA)"
+    },
+    "socomp": {
+        "name": "Journal of Social Computing"
+    },
+    "ijgcrsis": {
+        "name": "International Journal of Granular Computing, Rough Sets and Intelligent Systems (IJGCRSIS)"
+    },
+    "iot": {
+        "name": "Internet of Things"
+    },
+    "toh": {
+        "name": "IEEE Transactions on Haptics"
+    },
+    "wsn": {
+        "name": "Wireless Sensor Network"
+    },
+    "ijmlo": {
+        "name": "International Journal of Mobile Learning and Organisation (IJMLO)"
+    },
+    "jgo": {
+        "name": "Journal of Global Optimization"
+    },
+    "lmcs": {
+        "name": "Logical Methods in Computer Science"
+    },
+    "trs": {
+        "name": "Transactions on Rough Sets"
+    },
+    "ijssc": {
+        "name": "International Journal of Space-Based and Situated Computing (IJSSC)"
+    },
+    "ijacdt": {
+        "name": "International Journal of Art, Culture and Design Technologies (IJACDT)"
+    },
+    "afs": {
+        "name": "Advances in Fuzzy Systems"
+    },
+    "bib": {
+        "name": "Briefings in Bioinformatics"
+    },
+    "comintsys": {
+        "name": "Complex and Intelligent Systems"
+    },
+    "ijuc": {
+        "name": "International Journal of Unconventional Computing (IJUC)"
+    },
+    "ijsppc": {
+        "name": "International Journal of Security and Privacy in Pervasive Computing (IJSPPC)"
+    },
+    "sensors": {
+        "name": "Sensors"
+    },
+    "mics": {
+        "name": "Mathematics in Computer Science"
+    },
+    "ijictrame": {
+        "name": "International Journal of ICT Research in Africa and the Middle East (IJICTRAME)"
+    },
+    "tsp": {
+        "name": "IEEE Transactions on Signal Processing"
+    },
+    "anthology": {
+        "name": "ACM SIGMOD Anthology"
+    },
+    "lr": {
+        "name": "Logistics Research"
+    },
+    "puc": {
+        "name": "Personal and Ubiquitous Computing"
+    },
+    "adhoc": {
+        "name": "Ad Hoc Networks"
+    },
+    "jam": {
+        "name": "Journal of Applied Mathematics"
+    },
+    "ijwin": {
+        "name": "International Journal of Wireless Information Networks"
+    },
+    "tsi": {
+        "name": "Technique et Science Informatiques"
+    },
+    "ijitsa": {
+        "name": "International Journal of Information Technologies and Systems Approach (IJITSA)"
+    },
+    "combinatorics": {
+        "name": "The Electronic Journal of Combinatorics"
+    },
+    "evi": {
+        "name": "Evolutionary Intelligence"
+    },
+    "ijitdm": {
+        "name": "International Journal of Information Technology and Decision Making"
+    },
+    "fthci": {
+        "name": "Foundations and Trends in Human-Computer Interaction"
+    },
+    "tgrs": {
+        "name": "IEEE Transactions on Geoscience and Remote Sensing"
+    },
+    "tis": {
+        "name": "The Information Society"
+    },
+    "jitm": {
+        "name": "Journal of Information Technology Management (JITM)"
+    },
+    "jco": {
+        "name": "Journal of Combinatorial Optimization"
+    },
+    "tcsv": {
+        "name": "IEEE Transactions on Circuits and Systems for Video Technology"
+    },
+    "ngc": {
+        "name": "New Generation Computing"
+    },
+    "ccr": {
+        "name": "Computer Communication Review (ACM SIGCOMM)"
+    },
+    "zfbb": {
+        "name": "Zeitschrift für Bibliothekswesen und Bibliographie (ZfBB)"
+    },
+    "tcasI": {
+        "name": "IEEE Transactions on Circuits and Systems I: Regular Papers"
+    },
+    "spe": {
+        "name": "Software - Practice and Experience (SPE)"
+    },
+    "tkde": {
+        "name": "IEEE Transactions on Knowledge and Data Engineering"
+    },
+    "cga": {
+        "name": "IEEE Computer Graphics and Applications"
+    },
+    "aires": {
+        "name": "Artificial Intelligence Research"
+    },
+    "ijaras": {
+        "name": "International Journal of Adaptive, Resilient and Autonomic Systems (IJARAS)"
+    },
+    "vjcs": {
+        "name": "Vietnam Journal of Computer Science"
+    },
+    "displays": {
+        "name": "Displays"
+    },
+    "ijcssport": {
+        "name": "International Journal of Computer Science in Sport"
+    },
+    "tcasai": {
+        "name": "IEEE Transactions on Circuits and Systems for Artificial Intelligence (TCASAI)"
+    },
+    "sofo": {
+        "name": "Software Focus"
+    },
+    "teco": {
+        "name": "ACM Transactions on Economics and Computation"
+    },
+    "joss": {
+        "name": "Journal of Social Structure"
+    },
+    "ijics": {
+        "name": "International Journal of Information and Computer Security (IJICS)"
+    },
+    "compsys": {
+        "name": "Complex Systems"
+    },
+    "jeco": {
+        "name": "Journal of Electronic Commerce in Organizations (JECO)"
+    },
+    "ejis": {
+        "name": "European Journal of Information Systems (EJIS)"
+    },
+    "ida": {
+        "name": "Intelligent Data Analysis"
+    },
+    "ijipt": {
+        "name": "International Journal of Internet Protocol Technology (IJIPT)"
+    },
+    "cgt": {
+        "name": "Computing in Geometry and Topology (CGT)"
+    },
+    "jilsa": {
+        "name": "Journal of Intelligent Learning Systems and Applications (JILSA)"
+    },
+    "iiset": {
+        "name": "IISE Transactions"
+    },
+    "focm": {
+        "name": "Foundations of Computational Mathematics"
+    },
+    "dase": {
+        "name": "Data Science and Engineering"
+    },
+    "scpe": {
+        "name": "Scalable Computing: Practice and Experience (SCPE)"
+    },
+    "ijswis": {
+        "name": "International Journal on Semantic Web and Information Systems"
+    },
+    "nn": {
+        "name": "Neural Networks"
+    },
+    "rigaacs": {
+        "name": "Applied Computer Systems"
+    },
+    "ral": {
+        "name": "IEEE Robotics and Automation Letters"
+    },
+    "peerjpre": {
+        "name": "PeerJ PrePrints"
+    },
+    "ijamc-igi": {
+        "name": "International Journal of Applied Metaheuristic Computing (IJAMC)"
+    },
+    "juq": {
+        "name": "SIAM/ASA Journal on Uncertainty Quantification"
+    },
+    "jaihc": {
+        "name": "Journal of Ambient Intelligence and Humanized Computing"
+    },
+    "ijep": {
+        "name": "International Journal of E-Politics (IJEP)"
+    },
+    "envsoft": {
+        "name": "Environmental Modelling and Software"
+    },
+    "ojcc": {
+        "name": "Open Journal of Cloud Computing"
+    },
+    "japll": {
+        "name": "Journal of Applied Logic"
+    },
+    "nmnc": {
+        "name": "New Mathematics and Natural Computation"
+    },
+    "ijebr": {
+        "name": "International Journal of E-Business Research (IJEBR)"
+    },
+    "ei": {
+        "name": "e+i Elektrotechnik und Informationstechnik"
+    },
+    "jmpt": {
+        "name": "Journal of Multimedia Processing and Technologies"
+    },
+    "jds": {
+        "name": "Journal of Decision Systems"
+    },
+    "computing": {
+        "name": "Computing"
+    },
+    "cmc": {
+        "name": "Computers, Materials and Continua (CMC)"
+    },
+    "efi": {
+        "name": "Education for Information"
+    },
+    "jidm": {
+        "name": "Journal of Information and Data Management (JIDM)"
+    },
+    "aai": {
+        "name": "Applied Artificial Intelligence"
+    },
+    "jiii": {
+        "name": "Journal of Industrial Information Integration"
+    },
+    "ijsysc": {
+        "name": "International Journal of Systems Science"
+    },
+    "appml": {
+        "name": "Applied Mathematics Letters"
+    },
+    "swarm": {
+        "name": "Swarm Intelligence"
+    },
+    "cdm": {
+        "name": "Contributions to Discrete Mathematics"
+    },
+    "ijkedm": {
+        "name": "International Journal of Knowledge Engineering and Data Mining (IJKEDM)"
+    },
+    "ijfs": {
+        "name": "International Journal of Fuzzy Systems (IJFS)"
+    },
+    "arobots": {
+        "name": "Autonomous Robots"
+    },
+    "bspc": {
+        "name": "Biomedical Signal Processing and Control"
+    },
+    "ki": {
+        "name": "Künstliche Intelligenz (KI)"
+    },
+    "fac": {
+        "name": "Formal Aspects of Computing"
+    },
+    "ijguc": {
+        "name": "International Journal of Grid and Utility Computing (IJGUC)"
+    },
+    "ijac": {
+        "name": "International Journal of Algebra and Computation (IJAC)"
+    },
+    "tgis": {
+        "name": "Transactions in GIS"
+    },
+    "ijhr": {
+        "name": "International Journal of Humanoid Robotics"
+    },
+    "simpa": {
+        "name": "Software Impacts"
+    },
+    "mktsci": {
+        "name": "Marketing Science"
+    },
+    "jssc": {
+        "name": "IEEE Journal of Solid-State Circuits"
+    },
+    "ijicot": {
+        "name": "International Journal of Information and Coding Theory (IJICoT)"
+    },
+    "cas": {
+        "name": "Cybernetics and Systems"
+    },
+    "ficn": {
+        "name": "Frontiers in Computational Neuroscience"
+    },
+    "ijaisc": {
+        "name": "International Journal of Artificial Intelligence and Soft Computing (IJAISC)"
+    },
+    "fr": {
+        "name": "Field Robotics"
+    },
+    "ijnm": {
+        "name": "International Journal of Network Management"
+    },
+    "theoretics": {
+        "name": "TheoretiCS"
+    },
+    "cgj": {
+        "name": "The Computer Games Journal"
+    },
+    "adac": {
+        "name": "Advances in Data Analysis and Classification"
+    },
+    "agit": {
+        "name": "AGIT - Journal für Angewandte Geoinformatik"
+    },
+    "tors": {
+        "name": "Transactions on Recommender Systems"
+    },
+    "or": {
+        "name": "Operational Research"
+    },
+    "ijiip": {
+        "name": "International Journal of Intelligent Information Processing (IJIIP)"
+    },
+    "ijesdf": {
+        "name": "International Journal of Electronic Security and Digital Forensics (IJESDF)"
+    },
+    "arscom": {
+        "name": "Ars Combinatoria"
+    },
+    "jhsn": {
+        "name": "Journal of High Speed Networks"
+    },
+    "csda": {
+        "name": "Computational Statistics & Data Analysis"
+    },
+    "ijdmbc": {
+        "name": "International Journal of Digital Multimedia Broadcasting"
+    },
+    "ijcce": {
+        "name": "International Journal of Chemoinformatics and Chemical Engineering (IJCCE)"
+    },
+    "csedu": {
+        "name": "Computer Science Education"
+    },
+    "ijcbdd": {
+        "name": "International Journal of Computational Biology and Drug Design (IJCBDD)"
+    },
+    "jitt": {
+        "name": "Journal of Information Technology & Tourism"
+    },
+    "fbloc": {
+        "name": "Frontiers in Blockchain"
+    },
+    "qss": {
+        "name": "Quantitative Science Studies"
+    },
+    "ijact-aicit": {
+        "name": "International Journal of Advancements in Computing Technology (IJACT)"
+    },
+    "ijbpscm": {
+        "name": "International Journal of Business Performance and Supply Chain Modelling (IJBPSCM)"
+    },
+    "ijesjp": {
+        "name": "International Journal of Engineering, Social Justice and Peace (IJESJP)"
+    },
+    "mvl": {
+        "name": "Journal of Multiple-Valued Logic and Soft Computing"
+    },
+    "ijairr": {
+        "name": "International Journal of Artificial Intelligence and Robotics Research (IJAIRR)"
+    },
+    "jmma": {
+        "name": "Journal of Mathematical Modelling and Algorithms in Operations Research"
+    },
+    "spm": {
+        "name": "IEEE Signal Processing Magazine"
+    },
+    "hmd": {
+        "name": "HMD - Praxis der Wirtschaftsinformatik"
+    },
+    "distribledger": {
+        "name": "Distributed Ledger Technologies: Research and Practice"
+    },
+    "siamco": {
+        "name": "SIAM Journal on Control and Optimization"
+    },
+    "braininf": {
+        "name": "Brain Informatics"
+    },
+    "ijqaete": {
+        "name": "International Journal of Quality Assurance in Engineering and Technology Education (IJQAETE)"
+    },
+    "jgim": {
+        "name": "Journal of Global Information Management (JGIM)"
+    },
+    "cssc": {
+        "name": "Communications in Statistics - Simulation and Computation"
+    },
+    "dud": {
+        "name": "Datenschutz und Datensicherheit (dud)"
+    },
+    "jdfp": {
+        "name": "Journal of Digital Forensic Practice"
+    },
+    "ijar": {
+        "name": "International Journal of Approximate Reasoning"
+    },
+    "dsp": {
+        "name": "Digital Signal Processing"
+    },
+    "ijkbo": {
+        "name": "International Journal of Knowledge-Based Organizations (IJKBO)"
+    },
+    "pubtrans": {
+        "name": "Public Transport"
+    },
+    "jcgs": {
+        "name": "Journal of Computational and Graphical Statistics (JCGS)"
+    },
+    "joc": {
+        "name": "Journal of Cryptology"
+    },
+    "imst": {
+        "name": "International Journal of Imaging Systems and Technology"
+    },
+    "jitta": {
+        "name": "Journal of Information Technology Theory and Application (JITTA)"
+    },
+    "bc": {
+        "name": "Biological Cybernetics"
+    },
+    "isem": {
+        "name": "Information Systems and E-Business Management (ISeB)"
+    },
+    "dse": {
+        "name": "Distributed Systems Engineering"
+    },
+    "npjdm": {
+        "name": "npj Digital Medicine"
+    },
+    "visintelligence": {
+        "name": "Visual Intelligence"
+    },
+    "imds": {
+        "name": "Industrial Management and Data Systems"
+    },
+    "ajict": {
+        "name": "African Journal of Information & Communication Technology"
+    },
+    "jcsc": {
+        "name": "Journal of Circuits, Systems, and Computers"
+    },
+    "jsac": {
+        "name": "IEEE Journal of Selected Areas in Communications"
+    },
+    "itiis": {
+        "name": "KSII Transactions on Internet and Information Systems"
+    },
+    "natmi": {
+        "name": "Nature Machine Intelligence"
+    },
+    "jid": {
+        "name": "Journal of Integrated Design and Process Science"
+    },
+    "taas": {
+        "name": "ACM Transactions on Autonomous and Adaptive Systems (TAAS)"
+    },
+    "tismir": {
+        "name": "Transactions of the International Society for Music Information Retrieval (TISMIR)"
+    },
+    "ejes": {
+        "name": "EURASIP Journal on Embedded Systems"
+    },
+    "transci": {
+        "name": "Transportation Science"
+    },
+    "popets": {
+        "name": "Proceedings on Privacy Enhancing Technologies (PoPETs)"
+    },
+    "cse": {
+        "name": "Computing in Science and Engineering (CiSE)"
+    },
+    "ijitpm": {
+        "name": "International Journal of Information Technology Project Management (IJITPM)"
+    },
+    "cam": {
+        "name": "Computational and Applied Mathematics (CAM)"
+    },
+    "ijws": {
+        "name": "International Journal of Web Science (IJWS)"
+    },
+    "coap": {
+        "name": "Computational Optimization and Applications"
+    },
+    "eetws": {
+        "name": "EAI Endorsed Transactions on Wireless Spectrum"
+    },
+    "cuza": {
+        "name": "Scientific Annals of Computer Science"
+    },
+    "uais": {
+        "name": "Universal Access in the Information Society"
+    },
+    "csse": {
+        "name": "Computer Systems: Science & Engineering (CSSE)"
+    },
+    "cvm": {
+        "name": "Computational Visual Media"
+    },
+    "array": {
+        "name": "Array"
+    },
+    "ife": {
+        "name": "SICS Software-Intensive Cyber-Physical Systems (SICS)"
+    },
+    "jbcs": {
+        "name": "Journal of the Brazilian Computer Society"
+    },
+    "jlm": {
+        "name": "Journal of Language Modelling"
+    },
+    "jides": {
+        "name": "Journal of Innovation in Digital Ecosystems"
+    },
+    "ijai": {
+        "name": "International Journal of Learning Analytics and Artificial Intelligence for Education (iJAI)"
+    },
+    "cl": {
+        "name": "Computer Languages, Systems & Structures"
+    },
+    "epodd": {
+        "name": "Electronic Publishing - Origination, Dissemination and Design (EPodd)"
+    },
+    "jfrea": {
+        "name": "Journal of Formalized Reasoning"
+    },
+    "cee": {
+        "name": "Computers & Electrical Engineering"
+    },
+    "cloudcomp": {
+        "name": "IEEE Cloud Computing"
+    },
+    "jserd": {
+        "name": "Journal of Software Engineering Research and Development (JSERD)"
+    },
+    "ijcip": {
+        "name": "International Journal of Critical Infrastructure Protection"
+    },
+    "jcise": {
+        "name": "Journal of Computing and Information Science in Engineering"
+    },
+    "ijdsa": {
+        "name": "International Journal of Data Science and Analytics"
+    },
+    "mms": {
+        "name": "Multimedia Systems"
+    },
+    "jmc": {
+        "name": "Journal of Mathematical Cryptology"
+    },
+    "asy": {
+        "name": "Asymptotic Analysis"
+    },
+    "jasss": {
+        "name": "The Journal of Artificial Societies and Social Simulation"
+    },
+    "aiethics": {
+        "name": "AI and Ethics"
+    },
+    "thri": {
+        "name": "ACM Transactions on Human-Robot Interaction (THRI)"
+    },
+    "advse": {
+        "name": "Advances in Software Engineering"
+    },
+    "jpl": {
+        "name": "Journal of Programming Languages"
+    },
+    "iks": {
+        "name": "Information, Knowledge, Systems Management"
+    },
+    "biodb": {
+        "name": "Database - The Journal of Biological Databases and Curation"
+    },
+    "dga": {
+        "name": "Dynamic Games and Applications"
+    },
+    "fi": {
+        "name": "Future Internet"
+    },
+    "biosystems": {
+        "name": "Biosystems"
+    },
+    "jda": {
+        "name": "Journal of Discrete Algorithms"
+    },
+    "tpds": {
+        "name": "IEEE Transactions on Parallel and Distributed Systems (TPDS)"
+    },
+    "jaciii": {
+        "name": "Journal of Advanced Computational Intelligence and Intelligent Informatics (JACIII)"
+    },
+    "ijinfoman": {
+        "name": "International Journal of Information Management"
+    },
+    "irmj": {
+        "name": "Information Resources Management Journal (IRMJ)"
+    },
+    "program": {
+        "name": "Data Technologies and Applications"
+    },
+    "arima": {
+        "name": "ARIMA Journal"
+    },
+    "ram": {
+        "name": "IEEE Robotics & Automation Magazine"
+    },
+    "jthtl": {
+        "name": "Journal on Telecommunications and High Technology Law"
+    },
+    "cagd": {
+        "name": "Computer Aided Geometric Design"
+    },
+    "cai": {
+        "name": "Computing and Informatics"
+    },
+    "jcam": {
+        "name": "Journal of Computational and Applied Mathematics"
+    },
+    "ijat": {
+        "name": "International Journal of Automation Technology (IJAT)"
+    },
+    "aam": {
+        "name": "Advances in Applied Mathematics"
+    },
+    "swmicro": {
+        "name": "Software & Microsystems"
+    },
+    "csms": {
+        "name": "Complex System Modeling and Simulation"
+    },
+    "snam": {
+        "name": "Social Network Analysis and Mining"
+    },
+    "tele": {
+        "name": "Telematics and Informatics"
+    },
+    "ijcysa": {
+        "name": "International Journal on Cyber Situational Awareness (IJCSA)"
+    },
+    "insk": {
+        "name": "Informatik Spektrum"
+    },
+    "midm": {
+        "name": "BMC Medical Informatics & Decision Making"
+    },
+    "jr": {
+        "name": "Journal of Robotics"
+    },
+    "ajis": {
+        "name": "Australasian Journal of Information Systems"
+    },
+    "jossw": {
+        "name": "Journal of Open Source Software (JOSS)"
+    },
+    "ia": {
+        "name": "Intelligenza Artificiale"
+    },
+    "ijcbpl": {
+        "name": "International Journal of Cyber Behavior, Psychology and Learning (IJCBPL)"
+    },
+    "frvir": {
+        "name": "Frontiers in Virtual Reality"
+    },
+    "recall": {
+        "name": "ReCALL"
+    },
+    "csur": {
+        "name": "ACM Computing Surveys"
+    },
+    "itc": {
+        "name": "Information Technology and Control"
+    },
+    "orl": {
+        "name": "Operations Research Letters"
+    },
+    "kais": {
+        "name": "Knowledge and Information Systems (KAIS)"
+    },
+    "ijaom": {
+        "name": "International Journal of Advanced Operations Management (IJAOM)"
+    },
+    "adam": {
+        "name": "The Art of Discrete and Applied Mathematics (ADAM)"
+    },
+    "adcm": {
+        "name": "Advances in Computational Mathematics"
+    },
+    "ahci": {
+        "name": "Advances in Human-Computer Interaction"
+    },
+    "ipsj": {
+        "name": "IPSJ Transactions on System LSI Design Methodology"
+    },
+    "sigapl": {
+        "name": "ACM SIGAPL APL Quote Quad"
+    },
+    "ijis": {
+        "name": "International Journal of Intelligent Systems"
+    },
+    "ai": {
+        "name": "Artificial Intelligence"
+    },
+    "jrtip": {
+        "name": "Journal of Real-Time Image Processing"
+    },
+    "wdl": {
+        "name": "World Digital Libraries"
+    },
+    "fbinf": {
+        "name": "Frontiers in Bioinformatics"
+    },
+    "eor": {
+        "name": "European Journal of Operational Research"
+    },
+    "jcd": {
+        "name": "ACM Journal of Computer Documentation (JCD)"
+    },
+    "secinf": {
+        "name": "Security Informatics"
+    },
+    "esi": {
+        "name": "Earth Science Informatics"
+    },
+    "crossroads": {
+        "name": "XRDS"
+    },
+    "neuroimage": {
+        "name": "NeuroImage"
+    },
+    "ftmeco": {
+        "name": "Foundations and Trends in Microeconomics"
+    },
+    "ijskd": {
+        "name": "International Journal of Sociotechnology and Knowledge Development (IJSKD)"
+    },
+    "ijmir": {
+        "name": "International Journal of Multimedia Information Retrieval (IJMIR)"
+    },
+    "ercim": {
+        "name": "ERCIM News"
+    },
+    "ijict": {
+        "name": "International Journal of Information and Communication Technology (IJICT)"
+    },
+    "tcps": {
+        "name": "ACM Transactions on Cyber-Physical Systems (TCPS)"
+    },
+    "hcc": {
+        "name": "High-Confidence Computing"
+    },
+    "eg": {
+        "name": "Electronic Government, an International Journal (EG)"
+    },
+    "questa": {
+        "name": "Queueing Systems - Theory and Applications (QUESTA)"
+    },
+    "ijiem": {
+        "name": "International Journal of Internet and Enterprise Management (IJIEM)"
+    },
+    "interactions": {
+        "name": "Interactions"
+    },
+    "grid": {
+        "name": "Journal of Grid Computing"
+    },
+    "jclinbioinf": {
+        "name": "Journal of Clinical Bioinformatics"
+    },
+    "vlsisp": {
+        "name": "Journal of Signal Processing Systems"
+    },
+    "tie": {
+        "name": "IEEE Transactions on Industrial Electronics"
+    },
+    "ijra": {
+        "name": "International Journal of Robotics and Automation"
+    },
+    "ijuwbcs": {
+        "name": "International Journal of Ultra Wideband Communications and Systems (IJUWBCS)"
+    },
+    "mags": {
+        "name": "Multiagent and Grid Systems"
+    },
+    "jices": {
+        "name": "Journal of Information, Communication and Ethics in Society"
+    },
+    "neuromorphic": {
+        "name": "Neuromorphic Computing and Engineering"
+    },
+    "ieeenl": {
+        "name": "IEEE Networking Letters"
+    },
+    "jolis": {
+        "name": "Journal of Librarianship and Information Science (JOLIS)"
+    },
+    "pai": {
+        "name": "Progress in Artificial Intelligence"
+    },
+    "int": {
+        "name": "Integers"
+    },
+    "cmpb": {
+        "name": "Computer Methods and Programs in Biomedicine"
+    },
+    "dlib": {
+        "name": "D-Lib Magazine"
+    },
+    "ijabim": {
+        "name": "International Journal of Asian Business and Information Management (IJABIM)"
+    },
+    "cgf": {
+        "name": "Computer Graphics Forum (CGF)"
+    },
+    "tit": {
+        "name": "IEEE Transactions on Information Theory"
+    },
+    "mam": {
+        "name": "Microprocessors and Microsystems"
+    },
+    "iet-qtc": {
+        "name": "IET Quantum Communication"
+    },
+    "cejor": {
+        "name": "Central European Journal of Operations Research"
+    },
+    "jcst": {
+        "name": "Journal of Computer Science and Technology (JCST)"
+    },
+    "jalc": {
+        "name": "Journal of Automata, Languages and Combinatorics"
+    },
+    "cs": {
+        "name": "Circuits and Systems"
+    },
+    "virology": {
+        "name": "Journal of Computer Virology and Hacking Techniques"
+    },
+    "accs": {
+        "name": "Automatic Control and Computer Sciences"
+    },
+    "gsta": {
+        "name": "Grey Systems: Theory and Application"
+    },
+    "mdpisoftware": {
+        "name": "Software"
+    },
+    "ijal": {
+        "name": "International Journal of Applied Logistics (IJAL)"
+    },
+    "geb": {
+        "name": "Games and Economic Behavior"
+    },
+    "jbd": {
+        "name": "Journal of Big Data"
+    },
+    "programming": {
+        "name": "The Art, Science, and Engineering of Programming"
+    },
+    "jsait": {
+        "name": "IEEE Journal on Selected Areas in Information Theory"
+    },
+    "wasserwirtschaft": {
+        "name": "Wasserwirtschaft"
+    },
+    "ijaiml": {
+        "name": "International Journal of Artificial Intelligence and Machine Learning (IJAIML)"
+    },
+    "ijshc": {
+        "name": "International Journal of Social and Humanistic Computing (IJSHC)"
+    },
+    "jbi": {
+        "name": "Journal of Biomedical Informatics"
+    },
+    "jsc": {
+        "name": "Journal of Symbolic Computation (JSC)"
+    },
+    "ijcisys": {
+        "name": "International Journal of Computational Intelligence Systems (IJCIS)"
+    },
+    "bioinformatics": {
+        "name": "Bioinformatics"
+    },
+    "cmmm": {
+        "name": "Computational and Mathematical Methods in Medicine"
+    },
+    "fidh": {
+        "name": "Frontiers in Digital Humanities"
+    },
+    "tmlr": {
+        "name": "Transactions on Machine Learning Research (TMLR)"
+    },
+    "ijwmip": {
+        "name": "International Journal of Wavelets, Multiresolution and Information Processing (IJWMIP)"
+    },
+    "ijksr": {
+        "name": "International Journal of Smart Education and Urban Society (IJSEUS)"
+    },
+    "scn": {
+        "name": "Security and Communication Networks"
+    },
+    "ase": {
+        "name": "Automated Software Engineering"
+    },
+    "tosc": {
+        "name": "IACR Transactions on Symmetric Cryptology (ToSC)"
+    },
+    "tib": {
+        "name": "Theory in Biosciences"
+    },
+    "ir": {
+        "name": "Discover Computing"
+    },
+    "jsi": {
+        "name": "Journal of Systems Integration"
+    },
+    "tfss": {
+        "name": "Transactions on Fuzzy Sets and Systems (TFSS)"
+    },
+    "imwut": {
+        "name": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)"
+    },
+    "daach": {
+        "name": "Digital Applications in Archaeology and Cultural Heritage"
+    },
+    "ijtm": {
+        "name": "International Journal of Technology Management (IJTM)"
+    },
+    "dbsk": {
+        "name": "Datenbank-Spektrum"
+    },
+    "jrm": {
+        "name": "Journal of Robotics and Mechatronics (JRM)"
+    },
+    "tinstmc": {
+        "name": "Transactions of the Institute of Measurement and Control"
+    },
+    "iet-wss": {
+        "name": "IET Wireless Sensor Systems"
+    },
+    "bjmc": {
+        "name": "Baltic Journal of Modern Computing (BJMC)"
+    },
+    "re": {
+        "name": "Requirements Engineering"
+    },
+    "jcsandt": {
+        "name": "Journal of Computer Science and Technology (JCS&T)"
+    },
+    "scira": {
+        "name": "Scientia Iranica"
+    },
+    "ijma": {
+        "name": "International Journal of Mechatronics and Automation (IJMA)"
+    },
+    "bjet": {
+        "name": "British Journal of Educational Technology (BJET)"
+    },
+    "ojcands": {
+        "name": "IEEE Open Journal of Circuits and Systems"
+    },
+    "jrnal": {
+        "name": "Journal of Robotics, Networking and Artificial Life (JRNAL)"
+    },
+    "anor": {
+        "name": "Annals of Operations Research"
+    },
+    "ijecommerce": {
+        "name": "International Journal of Electronic Commerce"
+    },
+    "commres": {
+        "name": "Communication Research"
+    },
+    "ijkesdp": {
+        "name": "International Journal of Knowledge Engineering and Soft Data Paradigms (IJKESDP)"
+    },
+    "ew": {
+        "name": "EAI Endorsed Transactions on Energy Web"
+    },
+    "jot": {
+        "name": "Journal of Object Technology"
+    },
+    "jocch": {
+        "name": "ACM Journal on Computing and Cultural Heritage"
+    },
+    "iet-com": {
+        "name": "IET Communications"
+    },
+    "infobis": {
+        "name": "Informatische Bildung in Schulen (IBiS)"
+    },
+    "jus": {
+        "name": "Journal of Uncertain Systems"
+    },
+    "ploscb": {
+        "name": "PLoS Computational Biology"
+    },
+    "ieeemm": {
+        "name": "IEEE MultiMedia"
+    },
+    "monet": {
+        "name": "Mobile Networks and Applications (MONET)"
+    },
+    "bdr": {
+        "name": "Big Data Research"
+    },
+    "tmscs": {
+        "name": "IEEE Transactions on Multi-Scale Computing Systems"
+    },
+    "arc": {
+        "name": "Annual Reviews in Control"
+    },
+    "ijisss": {
+        "name": "International Journal of Information Systems in the Service Sector (IJISSS)"
+    },
+    "isf": {
+        "name": "Information Systems Frontiers"
+    },
+    "elearn": {
+        "name": "eLearn Magazine"
+    },
+    "ijmc": {
+        "name": "International Journal of Mobile Communications (IJMC)"
+    },
+    "geoinformatica": {
+        "name": "GeoInformatica"
+    },
+    "toct": {
+        "name": "ACM Transactions on Computation Theory (ToCT)"
+    },
+    "ijom": {
+        "name": "International Journal of Online Marketing (IJOM)"
+    },
+    "scfbm": {
+        "name": "Source Code for Biology and Medicine"
+    },
+    "jdis": {
+        "name": "Journal of Data and Information Science (JDIS)"
+    },
+    "robotersysteme": {
+        "name": "Robotersysteme"
+    },
+    "neeivgv": {
+        "name": "Neue Einsichten eines Informatikers von geringem Verstande"
+    },
+    "fmsd": {
+        "name": "Formal Methods in System Design"
+    },
+    "jmm": {
+        "name": "Journal of Mobile Multimedia (JMM)"
+    },
+    "jifs": {
+        "name": "Journal of Intelligent and Fuzzy Systems"
+    },
+    "aim": {
+        "name": "AI Magazine"
+    },
+    "umuai": {
+        "name": "User Modeling and User-Adapted Interaction"
+    },
+    "sttt": {
+        "name": "International Journal on Software Tools for Technology Transfer (STTT)"
+    },
+    "rts": {
+        "name": "Real-Time Systems"
+    },
+    "vc": {
+        "name": "The Visual Computer"
+    },
+    "advor": {
+        "name": "Advances in Operations Research"
+    },
+    "tcst": {
+        "name": "IEEE Transactions on Control Systems Technology (TCST)"
+    },
+    "jolpe": {
+        "name": "Journal of Low Power Electronics (JOLPE)"
+    },
+    "acs": {
+        "name": "Applied Categorical Structures"
+    },
+    "itse": {
+        "name": "Interactive Technology and Smart Education"
+    },
+    "sjis": {
+        "name": "Scandinavian Journal of Information Systems (SJIS)"
+    },
+    "ijdmmm": {
+        "name": "International Journal of Data Mining, Modelling and Management"
+    },
+    "mva": {
+        "name": "Machine Vision and Applications"
+    },
+    "ited": {
+        "name": "INFORMS Transactions on Education"
+    },
+    "wet": {
+        "name": "Wireless Engineering and Technology"
+    },
+    "biaa": {
+        "name": "Bulletin d'Informatique Approfondie et Applications (BIAA)"
+    },
+    "tcasII": {
+        "name": "IEEE Transactions on Circuits and Systems II: Express Briefs"
+    },
+    "ojwt": {
+        "name": "Open Journal of Web Technologies"
+    },
+    "fiee": {
+        "name": "EAI Endorsed Transactions on Future Intelligent Educational Environments"
+    },
+    "amcs": {
+        "name": "International Journal of Applied Mathematics and Computer Science"
+    },
+    "sigir": {
+        "name": "SIGIR Forum"
+    },
+    "staeors": {
+        "name": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing"
+    },
+    "siamfm": {
+        "name": "SIAM Journal on Financial Mathematics"
+    },
+    "jsta": {
+        "name": "Journal of Statistical Theory and Applications (JSTA)"
+    },
+    "acj": {
+        "name": "Journal of Research and Practice in Information Technology (JRPIT)"
+    },
+    "siamjo": {
+        "name": "SIAM Journal on Optimization"
+    },
+    "cic": {
+        "name": "IACR Communications in Cryptology (CiC)"
+    },
+    "ijeb": {
+        "name": "International Journal of Electronic Business (IJEB)"
+    },
+    "ndjfl": {
+        "name": "Notre Dame Journal of Formal Logic"
+    },
+    "omics": {
+        "name": "OMICS: A Journal of Integrative Biology"
+    },
+    "jec": {
+        "name": "Journal of Embedded Computing"
+    },
+    "jci": {
+        "name": "The Journal of Community Informatics"
+    },
+    "micromachines": {
+        "name": "Micromachines"
+    },
+    "ets": {
+        "name": "Journal of Educational Technology & Society"
+    },
+    "scirep": {
+        "name": "Scientific Reports"
+    },
+    "ieicetc": {
+        "name": "IEICE Transactions on Electronics"
+    },
+    "ijitn": {
+        "name": "International Journal of Interdisciplinary Telecommunications and Networking (IJITN)"
+    },
+    "ijrr": {
+        "name": "International Journal of Robotics Research (IJRR)"
+    },
+    "jota": {
+        "name": "Journal of Optimization Theory and Applications"
+    },
+    "ijsnet": {
+        "name": "International Journal of Sensor Networks (IJSNet)"
+    },
+    "plq": {
+        "name": "Public Library Quarterly (PLQ)"
+    },
+    "tii": {
+        "name": "IEEE Transactions on Industrial Informatics"
+    },
+    "ijmor": {
+        "name": "International Journal of Mathematics in Operational Research (IJMOR)"
+    },
+    "annals": {
+        "name": "IEEE Annals of the History of Computing"
+    },
+    "information": {
+        "name": "Information"
+    },
+    "jips": {
+        "name": "The Journal of Information Processing Systems"
+    },
+    "jclc": {
+        "name": "International Journal of Asian Language Processing"
+    },
+    "tamd": {
+        "name": "IEEE Transactions on Cognitive and Developmental Systems"
+    },
+    "i-jac": {
+        "name": "International Journal of Advanced Corporate Learning (iJAC)"
+    },
+    "tompecs": {
+        "name": "ACM Transactions on Modeling and Performance Evaluation of Computing Systems (TOMPECS)"
+    },
+    "mcss": {
+        "name": "Mathematics of Control, Signals, and Systems"
+    },
+    "icn": {
+        "name": "Intelligent and Converged Networks"
+    },
+    "tec": {
+        "name": "IEEE Transactions on Evolutionary Computation"
+    },
+    "science": {
+        "name": "Science"
+    },
+    "aada": {
+        "name": "Advances in Data Science and Adaptive Analysis"
+    },
+    "rsl": {
+        "name": "The Review of Symbolic Logic"
+    },
+    "lssc": {
+        "name": "IEEE Solid-State Circuits Letters (L-SSC)"
+    },
+    "bams": {
+        "name": "Bio-Algorithms and Med-Systems"
+    },
+    "mcma": {
+        "name": "Monte Carlo Methods and Applications"
+    },
+    "make": {
+        "name": "Machine Learning and Knowledge Extraction"
+    },
+    "ijsdir": {
+        "name": "International Journal of Spatial Data Infrastructures Research (IJSDIR)"
+    },
+    "ijclclp": {
+        "name": "International Journal of Computational Linguistics & Chinese Language Processing"
+    },
+    "creativity": {
+        "name": "Digital Creativity"
+    },
+    "tlsdkcs": {
+        "name": "Transactions on Large-Scale Data- and Knowledge-Centered Systems"
+    },
+    "superfri": {
+        "name": "Supercomputing Frontiers and Innovations"
+    },
+    "jvlc": {
+        "name": "Journal of Visual Language and Computing (JVLC)"
+    },
+    "sLogica": {
+        "name": "Studia Logica"
+    },
+    "jcamd": {
+        "name": "Journal of Computer-Aided Molecular Design"
+    },
+    "jmui": {
+        "name": "Journal on Multimodal User Interfaces"
+    },
+    "eait": {
+        "name": "Education and Information Technologies"
+    },
+    "jcp": {
+        "name": "Journal of Computers"
+    },
+    "crl": {
+        "name": "College & Research Libraries"
+    },
+    "informsjop": {
+        "name": "INFORMS Journal on Optimization"
+    },
+    "itd": {
+        "name": "Information Technology for Development"
+    },
+    "ijitwe": {
+        "name": "International Journal of Information Technology and Web Engineering (IJITWE)"
+    },
+    "jacic": {
+        "name": "Journal of Aerospace Information Systems"
+    },
+    "dgov": {
+        "name": "Digital Government: Research and Practice (DGOV)"
+    },
+    "jbix": {
+        "name": "Journal of Biomedical Informatics: X"
+    },
+    "tcyb": {
+        "name": "IEEE Transactions on Cybernetics"
+    },
+    "jmrr": {
+        "name": "Journal of Medical Robotics Research"
+    },
+    "tomacs": {
+        "name": "ACM Transactions on Modeling and Computer Simulation (TOMACS)"
+    },
+    "bpmj": {
+        "name": "Business Process Management Journal"
+    },
+    "pap": {
+        "name": "Poiesis & Praxis"
+    },
+    "ijgcms": {
+        "name": "International Journal of Gaming and Computer-Mediated Simulations (IJGCMS)"
+    },
+    "ijossp": {
+        "name": "International Journal of Open Source Software & Processes"
+    },
+    "ijdls": {
+        "name": "International Journal of Digital Library Systems (IJDLS)"
+    },
+    "ett": {
+        "name": "Transactions on Emerging Telecommunications Technologies"
+    },
+    "cis": {
+        "name": "Mechatronic Systems and Control"
+    },
+    "softx": {
+        "name": "SoftwareX"
+    },
+    "ijrft": {
+        "name": "International Journal of RF Technologies: Research and Applications"
+    },
+    "topc": {
+        "name": "ACM Transactions on Parallel Computing"
+    },
+    "sigmetrics": {
+        "name": "SIGMETRICS Performance Evaluation Review"
+    },
+    "constraints": {
+        "name": "Constraints - An International Journal"
+    },
+    "siamdm": {
+        "name": "SIAM Journal on Discrete Mathematics (SIDMA)"
+    },
+    "jodi": {
+        "name": "Journal of Digital Information (JoDI)"
+    },
+    "isys": {
+        "name": "iSys - Journal of Information Systems (iSys)"
+    },
+    "memetic": {
+        "name": "Memetic Computing"
+    },
+    "schedae": {
+        "name": "Schedae Informaticae"
+    },
+    "tches": {
+        "name": "IACR Transactions on Cryptographic Hardware and Embedded Systems (TCHES)"
+    },
+    "ijhac": {
+        "name": "International Journal of Humanities and Arts Computing"
+    },
+    "roia": {
+        "name": "Revue Ouverte d'Intelligence Artificielle (ROIA)"
+    },
+    "jmemcom": {
+        "name": "Journal of Membrane Computing (JMC)"
+    },
+    "jitedc": {
+        "name": "Journal of Information Technology Education: Discussion Cases (JITE:DC)"
+    },
+    "tvlsi": {
+        "name": "IEEE Transactions on Very Large Scale Integration Systems"
+    },
+    "tcad": {
+        "name": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
+    },
+    "inffus": {
+        "name": "Information Fusion"
+    },
+    "comj": {
+        "name": "Computer Music Journal"
+    },
+    "smartcr": {
+        "name": "Smart Computing Review"
+    },
+    "ijcc": {
+        "name": "International Journal of Cloud Computing (IJCC)"
+    },
+    "pma": {
+        "name": "Proceedings of Meetings on Acoustics (POMA)"
+    },
+    "icom": {
+        "name": "i-com - Journal of Interactive Media"
+    },
+    "ail": {
+        "name": "Artificial Intelligence and Law"
+    },
+    "order": {
+        "name": "Order - A Journal on the Theory of Ordered Sets and its Applications"
+    },
+    "ijcmcst": {
+        "name": "International Journal of Computer Mathematics: Computer Systems Theory (IJCM:CST)"
+    },
+    "dmlr": {
+        "name": "Journal of Data-centric Machine Learning Research (DMLR)"
+    },
+    "ijhpca": {
+        "name": "International Journal of High Performance Computing Applications"
+    },
+    "aamas": {
+        "name": "Autonomous Agents and Multi-Agent Systems"
+    },
+    "ijinfomandi": {
+        "name": "International Journal of Information Management Data Insights"
+    },
+    "csr": {
+        "name": "Computer Science Review"
+    },
+    "rda": {
+        "name": "Risk and Decision Analysis"
+    },
+    "ijcsa": {
+        "name": "International Journal of Computer Science & Applications"
+    },
+    "pmh": {
+        "name": "Periodica Mathematica Hungarica"
+    },
+    "jnc": {
+        "name": "Journal of Numerical Cognition"
+    },
+    "ffa": {
+        "name": "Finite Fields and Their Applications"
+    },
+    "simods": {
+        "name": "SIAM Journal on Mathematics of Data Science (SIMODS)"
+    },
+    "ijpop": {
+        "name": "International Journal of People-Oriented Programming (IJPOP)"
+    },
+    "emisa": {
+        "name": "EMISA Forum"
+    },
+    "eeel": {
+        "name": "EAI Endorsed Transactions on e-Learning"
+    },
+    "eatcs": {
+        "name": "Bulletin of the EATCS"
+    },
+    "juspn": {
+        "name": "Journal of Ubiquitous Systems and Pervasive Networks"
+    },
+    "cp": {
+        "name": "Cognitive Processing"
+    },
+    "ijkm": {
+        "name": "International Journal of Knowledge Management (IJKM)"
+    },
+    "jgaa": {
+        "name": "Journal of Graph Algorithms and Applications"
+    },
+    "ijcicg": {
+        "name": "International Journal of Creative Interfaces and Computer Graphics (IJCICG)"
+    },
+    "paladyn": {
+        "name": "Paladyn, Journal of Behavioral Robotics"
+    },
+    "datamine": {
+        "name": "Data Mining and Knowledge Discovery"
+    },
+    "dint": {
+        "name": "Data Intelligence"
+    },
+    "ijhsc": {
+        "name": "International Journal of High Speed Computing"
+    },
+    "sigarch": {
+        "name": "SIGARCH Computer Architecture News"
+    },
+    "lmsjcm": {
+        "name": "LMS Journal of Computation and Mathematics"
+    },
+    "mr": {
+        "name": "Microelectronics Reliability"
+    },
+    "vldb": {
+        "name": "The VLDB Journal"
+    },
+    "jogd": {
+        "name": "Journal of Game Development (JOGD)"
+    },
+    "netmahib": {
+        "name": "Network Modeling Analysis in Health Informatics and Bioinformatics"
+    },
+    "ijssoe": {
+        "name": "International Journal of Systems and Service-Oriented Engineering (IJSSOE)"
+    },
+    "igt": {
+        "name": "Innovations in Graph Theory"
+    },
+    "finr": {
+        "name": "Frontiers in Neurorobotics"
+    },
+    "tcbb": {
+        "name": "IEEE Transactions on Computational Biology and Bioinformatics (TCBB)"
+    },
+    "dn": {
+        "name": "Document Numérique"
+    },
+    "ijaeis": {
+        "name": "International Journal of Agricultural and Environmental Information Systems (IJAEIS)"
+    },
+    "ijfsa": {
+        "name": "International Journal of Fuzzy System Applications (IJFSA)"
+    },
+    "akcej": {
+        "name": "AKCE International Journal of Graphs and Combinatorics"
+    },
+    "topnoc": {
+        "name": "Transactions on Petri Nets and Other Models of Concurrency (ToPNoC)"
+    },
+    "mscs": {
+        "name": "Mathematical Structures in Computer Science (MSCS)"
+    },
+    "iotcps": {
+        "name": "Internet of Things and Cyber-Physical Systems"
+    },
+    "irrj": {
+        "name": "Information Retrieval Research Journal  (IRRJ)"
+    },
+    "frai": {
+        "name": "Frontiers in Artificial Intelligence"
+    },
+    "aiopen": {
+        "name": "AI Open"
+    },
+    "ijcvr": {
+        "name": "International Journal of Computational Vision and Robotics (IJCVR)"
+    },
+    "jcmc": {
+        "name": "Journal of Computer-Mediated Communication"
+    },
+    "bmcsb": {
+        "name": "BMC Systems Biology"
+    },
+    "iajit": {
+        "name": "International Arab Journal of Information Technology (IAJIT)"
+    },
+    "ijcmam": {
+        "name": "International Journal of Computational Models and Algorithms in Medicine (IJCMAM)"
+    },
+    "wipiec": {
+        "name": "Works in Progress in Embedded Computing Journal (WiPiEC)"
+    },
+    "di": {
+        "name": "Forensic Science International: Digital Investigation"
+    },
+    "eetcogcom": {
+        "name": "EAI Endorsed Transactions on Cognitive Communications"
+    },
+    "ijautcomp": {
+        "name": "Machine Intelligence Research"
+    },
+    "usenix-login": {
+        "name": ";login:"
+    },
+    "ijicthd": {
+        "name": "International Journal of Information Communication Technologies and Human Development (IJICTHD)"
+    },
+    "swevo": {
+        "name": "Swarm and Evolutionary Computation"
+    },
+    "jcengi": {
+        "name": "Journal of Computational Engineering"
+    },
+    "taslp": {
+        "name": "IEEE/ACM Transactions on Audio, Speech and Language Processing"
+    },
+    "debu": {
+        "name": "IEEE Data Engineering Bulletin"
+    },
+    "sigops": {
+        "name": "ACM SIGOPS: Operating Systems Review"
+    },
+    "itor": {
+        "name": "International Transactions in Operational Research (ITOR)"
+    },
+    "jmlr": {
+        "name": "Journal of Machine Learning Research (JMLR)"
+    },
+    "jqis": {
+        "name": "Journal of Quantum Information Science"
+    },
+    "ijisp": {
+        "name": "International Journal of Information Security and Privacy (IJISP)"
+    },
+    "aicom": {
+        "name": "AI Communications"
+    },
+    "ivs": {
+        "name": "Information Visualization"
+    },
+    "chbah": {
+        "name": "Computers in Human Behavior: Artificial Humans (CHBAH)"
+    },
+    "siu": {
+        "name": "Studia Informatica Universalis"
+    },
+    "bigdatama": {
+        "name": "Big Data Mining and Analytics"
+    },
+    "ijmtie": {
+        "name": "International Journal on Measurement Technologies and Instrumentation Engineering (IJMTIE)"
+    },
+    "theatlantic": {
+        "name": "The Atlantic"
+    },
+    "jikm": {
+        "name": "Journal of Information & Knowledge Management"
+    },
+    "jal": {
+        "name": "Journal of Algorithms"
+    },
+    "cscl": {
+        "name": "International Journal of Computer-Supported Collaborative Learning"
+    },
+    "actaip": {
+        "name": "Acta Informatica Pragensia"
+    },
+    "jacm": {
+        "name": "Journal of the ACM"
+    },
+    "ijiscram": {
+        "name": "International Journal of Information Systems for Crisis Response and Management (IJISCRAM)"
+    },
+    "ijsi": {
+        "name": "International Journal of Software and Informatics"
+    },
+    "jet": {
+        "name": "Journal of Economic Theory"
+    },
+    "pik": {
+        "name": "PIK - Praxis der Informationsverarbeitung und Kommunikation"
+    },
+    "clsr": {
+        "name": "Computer Law & Security Review (CLSR)"
+    },
+    "dtrap": {
+        "name": "Digital Threats: Research and Practice (DTRAP)"
+    },
+    "rc": {
+        "name": "Reliable Computing"
+    },
+    "eswa": {
+        "name": "Expert Systems with Applications"
+    },
+    "jcc": {
+        "name": "Journal of Computational Chemistry"
+    },
+    "aeog": {
+        "name": "International Journal of Applied Earth Observation and Geoinformation"
+    },
+    "isse": {
+        "name": "Innovations in Systems and Software Engineering"
+    },
+    "qip": {
+        "name": "Quantum Information Processing"
+    },
+    "ppna": {
+        "name": "Peer-to-Peer Networking and Applications"
+    },
+    "ita": {
+        "name": "RAIRO - Theoretical Informatics and Applications"
+    },
+    "robotics": {
+        "name": "Robotics"
+    },
+    "ejbsb": {
+        "name": "EURASIP Journal on Bioinformatics and Systems Biology"
+    },
+    "agis": {
+        "name": "Annals of GIS"
+    },
+    "jcphy": {
+        "name": "Journal of Computational Physics"
+    },
+    "soca": {
+        "name": "Service Oriented Computing and Applications"
+    },
+    "ijcns": {
+        "name": "International Journal of Communications, Network and System Sciences (IJCNS)"
+    },
+    "ijdar": {
+        "name": "International Journal on Document Analysis and Recognition (IJDAR)"
+    },
+    "tpc": {
+        "name": "IEEE Transactions on Professional Communication (TPC)"
+    },
+    "giq": {
+        "name": "Government Information Quarterly"
+    },
+    "jctb": {
+        "name": "Journal of Combinatorial Theory, Series B (JCTB)"
+    },
+    "dc": {
+        "name": "Distributed Computing"
+    },
+    "tsoco": {
+        "name": "ACM Transactions on Social Computing (TSC)"
+    },
+    "titb": {
+        "name": "IEEE Journal of Biomedical and Health Informatics (J-BHI)"
+    },
+    "paapp": {
+        "name": "International Journal of Parallel, Emergent and Distributed Systems"
+    },
+    "bell": {
+        "name": "Bell Labs Technical Journal"
+    },
+    "pe": {
+        "name": "Performance Evaluation"
+    },
+    "jsan": {
+        "name": "Journal of Sensor and Actuator Networks"
+    },
+    "bdcc": {
+        "name": "Big Data and Cognitive Computing (BDCC)"
+    },
+    "ijngc": {
+        "name": "International Journal of Next-Generation Computing (IJNGC)"
+    },
+    "tsipn": {
+        "name": "IEEE Transactions on Signal and Information Processing over Networks"
+    },
+    "tochi": {
+        "name": "ACM Transactions on Computer-Human Interaction (TOCHI)"
+    },
+    "qitj": {
+        "name": "Quantum Information Technologies Journal (QIT-J)"
+    },
+    "gamestudies": {
+        "name": "Game Studies"
+    },
+    "algorithmica": {
+        "name": "Algorithmica"
+    },
+    "gpb": {
+        "name": "Genomics, Proteomics & Bioinformatics"
+    },
+    "mtcl": {
+        "name": "Mechanical Translation and Computational Linguistics"
+    },
+    "ais": {
+        "name": "AI & Society"
+    },
+    "ijvple": {
+        "name": "International Journal of Virtual and Personal Learning Environments (IJVPLE)"
+    },
+    "ijin": {
+        "name": "International Journal of Intelligent Networks"
+    },
+    "ni": {
+        "name": "Neuroinformatics"
+    },
+    "jocss": {
+        "name": "Journal of Computational Social Science (JCSS)"
+    },
+    "siamis": {
+        "name": "SIAM Journal on Imaging Sciences"
+    },
+    "ijcv": {
+        "name": "International Journal of Computer Vision"
+    },
+    "taes": {
+        "name": "IEEE Transactions on Aerospace and Electronic Systems"
+    },
+    "cars": {
+        "name": "International Journal of Computer Assisted Radiology and Surgery"
+    },
+    "ojdb": {
+        "name": "Open Journal of Databases (OJDB)"
+    },
+    "icga": {
+        "name": "ICGA Journal"
+    },
+    "ijccc": {
+        "name": "International Journal of Computers Communications & Control (IJCCC)"
+    },
+    "msom": {
+        "name": "Manufacturing & Service Operations Management"
+    },
+    "jd": {
+        "name": "Journal of Documentation"
+    },
+    "tcs": {
+        "name": "Theoretical Computer Science"
+    },
+    "ijes": {
+        "name": "International Journal of Embedded Systems (IJES)"
+    },
+    "micro": {
+        "name": "IEEE Micro"
+    },
+    "ojsw": {
+        "name": "Open Journal of Semantic Web"
+    },
+    "aarc": {
+        "name": "Automation and Remote Control"
+    },
+    "jrtpm": {
+        "name": "Journal of Rail Transport Planning & Management"
+    },
+    "rcc": {
+        "name": "Revista Colombiana de Computación"
+    },
+    "oms": {
+        "name": "Optimization Methods and Software"
+    },
+    "biomedsem": {
+        "name": "Journal of Biomedical Semantics"
+    },
+    "gis": {
+        "name": "International Journal of Geographical Information Science (IJGIS)"
+    },
+    "dtj": {
+        "name": "Digital Technical Journal"
+    },
+    "imcs": {
+        "name": "Information and Computer Security"
+    },
+    "eetcc": {
+        "name": "EAI Endorsed Transactions on Collaborative Computing"
+    },
+    "ojmo": {
+        "name": "Open Journal of Mathematical Optimization (OJMO)"
+    },
+    "ccfton": {
+        "name": "CCF Transactions on Networking"
+    },
+    "istr": {
+        "name": "Journal of Information Security and Applications"
+    },
+    "ijcistudies": {
+        "name": "International Journal of Computational Intelligence Studies (IJCIStudies)"
+    },
+    "endm": {
+        "name": "Electronic Notes in Discrete Mathematics"
+    },
+    "ledger": {
+        "name": "Ledger"
+    },
+    "lisp": {
+        "name": "Higher-Order and Symbolic Computation"
+    },
+    "kognitionswissenschaft": {
+        "name": "Kognitionswissenschaft"
+    },
+    "wm": {
+        "name": "Wirtschaftsinformatik & Management"
+    },
+    "complexity": {
+        "name": "Complexity"
+    },
+    "pnc": {
+        "name": "Photonic Network Communications"
+    },
+    "ker": {
+        "name": "The Knowledge Engineering Review (KER)"
+    },
+    "ipol": {
+        "name": "Image Processing On Line"
+    },
+    "toplas": {
+        "name": "ACM Transactions on Programming Languages and Systems (TOPLAS)"
+    },
+    "ijdsst": {
+        "name": "International Journal of Decision Support System Technology (IJDSST)"
+    },
+    "jise": {
+        "name": "Journal of Information Science and Engineering"
+    },
+    "ijvcsn": {
+        "name": "International Journal of Virtual Communities and Social Networking (IJVCSN)"
+    },
+    "jancl": {
+        "name": "Journal of Applied Non-Classical Logics"
+    },
+    "tcc": {
+        "name": "IEEE Transactions on Cloud Computing"
+    },
+    "rti": {
+        "name": "Real-Time Imaging"
+    },
+    "ijmmsc": {
+        "name": "International Journal of Mathematics and Mathematical Sciences"
+    },
+    "ccs": {
+        "name": "Cognitive Computation and Systems"
+    },
+    "jlap": {
+        "name": "Journal of Logical and Algebraic Methods in Programming"
+    },
+    "soco": {
+        "name": "Soft Computing"
+    },
+    "cominfsys": {
+        "name": "Communications in Information and Systems"
+    },
+    "i-jep": {
+        "name": "International Journal of Engineering Pedagogy (iJEP)"
+    },
+    "jlp": {
+        "name": "Journal of Logic Programming"
+    },
+    "pcs": {
+        "name": "Programming and Computer Software"
+    },
+    "ijcrowdsci": {
+        "name": "International Journal of Crowd Science (IJCS)"
+    },
+    "todaes": {
+        "name": "ACM Transactions on Design Automation of Electronic Systems (TODAES)"
+    },
+    "iet-cds": {
+        "name": "IET Circuits, Devices & Systems"
+    },
+    "jmiv": {
+        "name": "Journal of Mathematical Imaging and Vision"
+    },
+    "www": {
+        "name": "World Wide Web (WWW)"
+    },
+    "pnas": {
+        "name": "Proceedings of the National Academy of Sciences of the USA (PNAS)"
+    },
+    "jaise": {
+        "name": "Journal of Ambient Intelligence and Smart Environments"
+    },
+    "ibmsj": {
+        "name": "IBM Systems Journal"
+    },
+    "ijart": {
+        "name": "International Journal of Arts and Technology (IJART)"
+    },
+    "chinaf": {
+        "name": "Science China Information Sciences"
+    },
+    "mlst": {
+        "name": "Machine Learning: Science and Technology"
+    },
+    "ijbc": {
+        "name": "International Journal of Bifurcation and Chaos"
+    },
+    "ijaci": {
+        "name": "International Journal of Ambient Computing and Intelligence (IJACI)"
+    },
+    "hc": {
+        "name": "Human Computation"
+    },
+    "simeuro": {
+        "name": "Simulation Notes Europe (SNE)"
+    },
+    "knac": {
+        "name": "Knowledge Acquisition"
+    },
+    "tce": {
+        "name": "IEEE Transactions on Consumer Electronics"
+    },
+    "keds": {
+        "name": "Knowledge Engineering and Data Science (KEDS)"
+    },
+    "ires": {
+        "name": "Information Research"
+    },
+    "ijscn": {
+        "name": "International Journal of Satellite Communications and Networking"
+    },
+    "comnet": {
+        "name": "Communications and Network"
+    },
+    "ejasp": {
+        "name": "EURASIP Journal on Advances in Signal Processing"
+    },
+    "pacmse": {
+        "name": "Proceedings of the ACM on Software Engineering (PACMSE)"
+    },
+    "ijebm": {
+        "name": "International Journal of Electronic Business Management (IJEBM)"
+    },
+    "rjour": {
+        "name": "The R Journal"
+    },
+    "ieee-rita": {
+        "name": "Revista Iberoamericana de Tecnologías del Aprendizaje"
+    },
+    "jcloudc": {
+        "name": "Journal of Cloud Computing"
+    },
+    "sp": {
+        "name": "Scientific Programming"
+    },
+    "dmgt": {
+        "name": "Discussiones Mathematicae Graph Theory"
+    },
+    "ijwltt": {
+        "name": "International Journal of Web-Based Learning and Teaching Technologies (IJWLTT)"
+    },
+    "tfs": {
+        "name": "IEEE Transactions on Fuzzy Systems"
+    },
+    "jece": {
+        "name": "Journal of Electrical and Computer Engineering"
+    },
+    "apal": {
+        "name": "Annals of Pure and Applied Logic"
+    },
+    "jaiscr": {
+        "name": "Journal of Artificial Intelligence and Soft Computing Research (JAISCR)"
+    },
+    "mlcs": {
+        "name": "Methods of Logic in Computer Science"
+    },
+    "cad": {
+        "name": "Computer-Aided Design (CAD)"
+    },
+    "ibis": {
+        "name": "International Journal of Interoperability in Business Information Systems (IBIS)"
+    },
+    "jocsap": {
+        "name": "Journal of Cybersecurity and Privacy (JCP)"
+    },
+    "sosym": {
+        "name": "Software and Systems Modeling"
+    },
+    "ijiscm": {
+        "name": "International Journal of Information Systems and Change Management (IJISCM)"
+    },
+    "ress": {
+        "name": "Reliability Engineering & System Safety"
+    },
+    "hcis": {
+        "name": "Human-centric Computing and Information Sciences (HCIS)"
+    },
+    "sigmobile": {
+        "name": "GetMobile: Mobile Computing and Communications"
+    },
+    "cem": {
+        "name": "IEEE Consumer Electronics Magazine"
+    },
+    "gamesrp": {
+        "name": "Games: Research and Practice"
+    },
+    "jcde": {
+        "name": "Journal of Computational Design and Engineering"
+    },
+    "jcmse": {
+        "name": "Journal of Computational Methods in Science and Engineering"
+    },
+    "eik": {
+        "name": "Journal of Information Processing and Cybernetics"
+    },
+    "simpra": {
+        "name": "Simulation Modelling Practice and Theory"
+    },
+    "maple": {
+        "name": "Maple Transactions"
+    },
+    "itl": {
+        "name": "Internet Technology Letters"
+    },
+    "ns": {
+        "name": "Network Security"
+    },
+    "rlj": {
+        "name": "Reinforcement Learning Journal"
+    },
+    "nm": {
+        "name": "Numerische Mathematik"
+    },
+    "cib": {
+        "name": "IEEE Intelligent Informatics Bulletin"
+    },
+    "iet-cps": {
+        "name": "IET Cyber-Physical Systems: Theory & Applications"
+    },
+    "ijhis": {
+        "name": "International Journal of Hybrid Intelligent Systems"
+    },
+    "ijcrc": {
+        "name": "International Journal of Creative Computing (IJCrC)"
+    },
+    "ncs": {
+        "name": "Nature Computational Science"
+    },
+    "qic": {
+        "name": "Quantum Information & Computation"
+    },
+    "ieicetd": {
+        "name": "IEICE Transactions on Information & Systems"
+    },
+    "polibits": {
+        "name": "POLIBITS"
+    },
+    "proclms": {
+        "name": "Proceedings of the London Mathematical Society"
+    },
+    "ijbidm": {
+        "name": "International Journal of Business Intelligence and Data Mining"
+    },
+    "fm": {
+        "name": "Formalized Mathematics"
+    },
+    "et": {
+        "name": "Journal of Electronic Testing"
+    },
+    "urban": {
+        "name": "Computers, Environment and Urban Systems"
+    },
+    "ori": {
+        "name": "OR Insight"
+    },
+    "iam": {
+        "name": "Information & Management"
+    },
+    "ijdsms": {
+        "name": "International Journal of Data Science in the Mathematical Sciences (IJDSMS)"
+    },
+    "sigbed": {
+        "name": "SIGBED Review"
+    },
+    "ijcse": {
+        "name": "International Journal of Computational Science and Engineering (IJCSE)"
+    },
+    "socnet": {
+        "name": "Social Networks"
+    },
+    "sigart": {
+        "name": "Intelligence"
+    },
+    "ejivp": {
+        "name": "Journal on Image and Video Processing"
+    },
+    "es": {
+        "name": "Expert Systems - The Journal of Knowledge Engineering"
+    },
+    "jhir": {
+        "name": "Journal of Healthcare Informatics Research"
+    },
+    "jphonetics": {
+        "name": "Journal of Phonetics"
+    },
+    "modulad": {
+        "name": "Le Monde des Utilisateurs de L'Analyse de Données (Modulad)"
+    },
+    "tsusc": {
+        "name": "IEEE Transactions on Sustainable Computing"
+    },
+    "isci": {
+        "name": "Information Sciences"
+    },
+    "el": {
+        "name": "The Electronic Library"
+    },
+    "login": {
+        "name": "LOG IN"
+    },
+    "jaec": {
+        "name": "Journal of Advanced Engineering and Computation (JAEC)"
+    },
+    "gc": {
+        "name": "Graphs and Combinatorics"
+    },
+    "ijsose": {
+        "name": "International Journal of System of Systems Engineering (IJSSE)"
+    },
+    "cie": {
+        "name": "Computers in Entertainment"
+    },
+    "aor": {
+        "name": "Algorithmic Operations Research"
+    },
+    "jdcta": {
+        "name": "Journal of Digital Content Technology and its Applications"
+    },
+    "peng": {
+        "name": "Production Engineering"
+    },
+    "jdfsl": {
+        "name": "Journal of Digital Forensics, Security and Law"
+    },
+    "jmm2": {
+        "name": "Journal of Multimedia"
+    },
+    "hcisys": {
+        "name": "Human-Centric Intelligent Systems"
+    },
+    "procsci": {
+        "name": "Process Science"
+    },
+    "entropy": {
+        "name": "Entropy"
+    },
+    "advcs": {
+        "name": "Advances in Complex Systems"
+    },
+    "jtaer": {
+        "name": "Journal of Theoretical and Applied Electronic Commerce Research (JTAER)"
+    },
+    "sigchi": {
+        "name": "ACM SIGCHI Bulletin"
+    },
+    "ict-express": {
+        "name": "ICT Express"
+    },
+    "jns": {
+        "name": "Journal of Nonlinear Science"
+    },
+    "ijcwt": {
+        "name": "International Journal of Cyber Warfare and Terrorism (IJCWT)"
+    },
+    "jpi": {
+        "name": "Journal of Perceptual Imaging (JPI)"
+    },
+    "ijsita": {
+        "name": "International Journal of Strategic Information Technology and Applications (IJSITA)"
+    },
+    "jvrb": {
+        "name": "Journal of Virtual Reality and Broadcasting"
+    },
+    "siamads": {
+        "name": "SIAM Journal on Applied Dynamical Systems"
+    },
+    "systems": {
+        "name": "Systems"
+    },
+    "iai": {
+        "name": "Industrial Artificial Intelligence"
+    },
+    "misqe": {
+        "name": "MIS Quarterly Executive"
+    },
+    "remotesensing": {
+        "name": "Remote Sensing"
+    },
+    "tecs": {
+        "name": "ACM Transactions on Embedded Computing Systems"
+    },
+    "cscw": {
+        "name": "Computer Supported Cooperative Work (CSCW)"
+    },
+    "ijisec": {
+        "name": "International Journal of Information Security"
+    },
+    "jcse": {
+        "name": "Journal of Computing Science and Engineering (JCSE)"
+    },
+    "ijcomputing": {
+        "name": "International Journal of Computing"
+    },
+    "mmi": {
+        "name": "MMI Interaktiv"
+    },
+    "jaic": {
+        "name": "Journal of Artificial Intelligence and Consciousness"
+    },
+    "tdasci": {
+        "name": "ACM/IMS Transactions on Data Science (TDS)"
+    },
+    "impact": {
+        "name": "IMPACT of Computing in Science and Engineering"
+    },
+    "se": {
+        "name": "Systems Engineering"
+    },
+    "ijmheur": {
+        "name": "International Journal of Metaheuristics (IJMHeur)"
+    },
+    "tacl": {
+        "name": "Transactions of the Association for Computational Linguistics"
+    },
+    "vr": {
+        "name": "Virtual Reality"
+    },
+    "ftnet": {
+        "name": "Foundations and Trends in Networking"
+    },
+    "comvis": {
+        "name": "Computing and Visualization in Science"
+    },
+    "mda": {
+        "name": "Transactions on Mass-Data Analysis of Images and Signals"
+    },
+    "tetci": {
+        "name": "IEEE Transactions on Emerging Topics in Computational Intelligence"
+    },
+    "escri": {
+        "name": "Encyclopedia with Semantic Computing and Robotic Intelligence"
+    },
+    "ijimai": {
+        "name": "International Journal of Interactive Multimedia and Artificial Intelligence"
+    },
+    "tciaig": {
+        "name": "IEEE Transactions on Games (ToG)"
+    },
+    "pomacs": {
+        "name": "Proceedings of the ACM on Measurement and Analysis of Computing Systems (POMACS)"
+    },
+    "mfc": {
+        "name": "Mathematical Foundations of Computing (MFC)"
+    },
+    "jstatsoft": {
+        "name": "Journal of Statistical Software"
+    },
+    "ppl": {
+        "name": "Parallel Processing Letters"
+    },
+    "joop": {
+        "name": "Journal of Object-Oriented Programming (JOOP)"
+    },
+    "ijsssp": {
+        "name": "International Journal of Systems and Software Security and Protection (IJSSSP)"
+    },
+    "tifs": {
+        "name": "IEEE Transactions on Information Forensics and Security"
+    },
+    "sigaccess": {
+        "name": "ACM SIGACCESS Accessibility and Computing"
+    },
+    "jeim": {
+        "name": "Journal of Enterprise Information Management"
+    },
+    "ijhcr": {
+        "name": "International Journal of Handheld Computing Research (IJHCR)"
+    },
+    "sncs": {
+        "name": "SN Computer Science"
+    },
+    "tplp": {
+        "name": "Theory and Practice of Logic Programming (TPLP)"
+    },
+    "digitalsociety": {
+        "name": "Digital Society, Ethics, Socio-Legal and Governance of Digital Technology"
+    },
+    "jip": {
+        "name": "Journal of Information Processing"
+    },
+    "jamia": {
+        "name": "Journal of the American Medical Informatics Association (JAMIA)"
+    },
+    "roars": {
+        "name": "Roars Transactions, a Journal on Research Policy and Evaluation"
+    },
+    "telo": {
+        "name": "ACM Transactions on Evolutionary Learning and Optimization"
+    },
+    "jucs": {
+        "name": "The Journal of Universal Computer Science"
+    },
+    "nle": {
+        "name": "Natural Language Engineering"
+    },
+    "ijbi": {
+        "name": "International Journal of Biomedical Imaging"
+    },
+    "tetc": {
+        "name": "IEEE Transactions on Emerging Topics in Computing"
+    },
+    "ile": {
+        "name": "Interactive Learning Environments"
+    },
+    "cr": {
+        "name": "Computer und Recht"
+    },
+    "ria": {
+        "name": "Revue d'Intelligence Artificielle"
+    },
+    "kybernetes": {
+        "name": "Kybernetes"
+    },
+    "sg": {
+        "name": "EAI Endorsed Transactions on Serious Games"
+    },
+    "iet-cdt": {
+        "name": "IET Computers & Digital Techniques"
+    },
+    "games": {
+        "name": "Games"
+    },
+    "jgt": {
+        "name": "Journal of Graph Theory"
+    },
+    "isi": {
+        "name": "Ingénierie des Systèmes d'Information"
+    },
+    "aisthci": {
+        "name": "AIS Transactions on Human-Computer Interaction (AIS THCI)"
+    },
+    "toit": {
+        "name": "ACM Transactions on Internet Technology (TOIT)"
+    },
+    "tosem": {
+        "name": "ACM Transactions on Software Engineering and Methodology (TOSEM)"
+    },
+    "ijmis": {
+        "name": "International Journal of Multimedia Intelligence and Security (IJMIS)"
+    },
+    "itp": {
+        "name": "Information Technology & People"
+    },
+    "jasis": {
+        "name": "Journal of the Association for Information Science and Technology (JASIST)"
+    },
+    "jiis": {
+        "name": "Journal of Intelligent Information Systems (JIIS)"
+    },
+    "nrhm": {
+        "name": "New Review of Hypermedia and Multimedia (NRHM)"
+    },
+    "ijegr": {
+        "name": "International Journal of Electronic Government Research (IJEGR)"
+    },
+    "cybersecurity": {
+        "name": "Journal of Cybersecurity"
+    },
+    "computation": {
+        "name": "Computation"
+    },
+    "cmot": {
+        "name": "Computational & Mathematical Organization Theory"
+    },
+    "bcds": {
+        "name": "Bulletin of Computer and Data Sciences"
+    },
+    "iee": {
+        "name": "IEE Proceedings - Software"
+    },
+    "adb": {
+        "name": "Adaptive Behaviour"
+    },
+    "pieee": {
+        "name": "Proceedings of the IEEE"
+    },
+    "4or": {
+        "name": "4OR: Quarterly Journal of Operations Research"
+    },
+    "moc": {
+        "name": "Mathematics of Computation"
+    },
+    "sma": {
+        "name": "Statistical Methods and Applications"
+    },
+    "jfr": {
+        "name": "Journal of Field Robotics"
+    },
+    "ecoi": {
+        "name": "Ecological Informatics"
+    },
+    "npa": {
+        "name": "Network Protocols and Algorithms"
+    },
+    "iotm": {
+        "name": "IEEE Internet of Things Magazine"
+    },
+    "ijec": {
+        "name": "International Journal of e-Collaboration (IJeC)"
+    },
+    "jcns": {
+        "name": "Journal of Computational Neuroscience"
+    },
+    "csimq": {
+        "name": "Complex Systems Informatics and Modeling Quarterly"
+    },
+    "netsci": {
+        "name": "Network Science"
+    },
+    "siamrev": {
+        "name": "SIAM Review"
+    },
+    "cys": {
+        "name": "Computación y Sistemas (CyS)"
+    },
+    "vlc": {
+        "name": "Journal of Computer Languages (COLA)"
+    },
+    "jilt": {
+        "name": "Journal of Information, Law and Technology (JILT)"
+    },
+    "access": {
+        "name": "IEEE Access"
+    },
+    "dagstuhl-reports": {
+        "name": "Dagstuhl Reports"
+    },
+    "jvca": {
+        "name": "Computer Animation and Virtual Worlds"
+    },
+    "scjapan": {
+        "name": "Systems and Computers in Japan"
+    },
+    "ijwp": {
+        "name": "International Journal of Web Portals (IJWP)"
+    },
+    "jamds": {
+        "name": "Advances in Decision Sciences"
+    },
+    "tomccap": {
+        "name": "ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)"
+    },
+    "ijicc": {
+        "name": "International Journal of Intelligent Computing and Cybernetics"
+    },
+    "computers": {
+        "name": "Computers"
+    },
+    "tog": {
+        "name": "ACM Transactions on Graphics (TOG)"
+    },
+    "ijcs": {
+        "name": "International Journal in Computer Simulation (IJCS)"
+    },
+    "cvgip": {
+        "name": "Graphical Models"
+    },
+    "ijbir": {
+        "name": "International Journal of Business Intelligence Research (IJBIR)"
+    },
+    "ijsse": {
+        "name": "International Journal of Secure Software Engineering (IJSSE)"
+    },
+    "ejwcn": {
+        "name": "EURASIP Journal on Wireless Communications and Networking"
+    },
+    "ejc": {
+        "name": "European Journal of Combinatorics"
+    },
+    "jcs": {
+        "name": "Journal of Computer Security"
+    },
+    "eis": {
+        "name": "Enterprise Information Systems"
+    },
+    "ijdet": {
+        "name": "International Journal of Distance Education Technologies (IJDET)"
+    },
+    "iet-ifs": {
+        "name": "IET Information Security"
+    },
+    "kbs": {
+        "name": "Knowledge-Based Systems"
+    },
+    "tbe": {
+        "name": "IEEE Transactions on Biomedical Engineering"
+    },
+    "eetcs": {
+        "name": "EAI Endorsed Transactions on Cloud Systems"
+    },
+    "didactica": {
+        "name": "Informatica Didactica"
+    },
+    "taccess": {
+        "name": "ACM Transactions on Accessible Computing (TACCESS)"
+    },
+    "jscic": {
+        "name": "Journal of Scientific Computing"
+    },
+    "jamris": {
+        "name": "Journal of Automation, Mobile Robotics and Intelligent Systems (JAMRIS)"
+    },
+    "combinatorica": {
+        "name": "Combinatorica"
+    },
+    "caee": {
+        "name": "Computer Applications in Engineering Education"
+    },
+    "sigpro": {
+        "name": "Signal Processing"
+    },
+    "prl": {
+        "name": "Pattern Recognition Letters"
+    },
+    "jictdar": {
+        "name": "Journal of ICT Development, Applications and Research"
+    },
+    "nms": {
+        "name": "New Media & Society"
+    },
+    "ijsn": {
+        "name": "International Journal of Security and Networks (IJSN)"
+    },
+    "wi": {
+        "name": "Wirtschaftsinformatik (WI)"
+    },
+    "queue": {
+        "name": "ACM Queue"
+    },
+    "ixda": {
+        "name": "Interaction Design & Architecture(s) (IxD&A)"
+    },
+    "tgdk": {
+        "name": "Transactions on Graph Data and Knowledge (TGDK)"
+    },
+    "jocec": {
+        "name": "Journal of Organizational Computing and Electronic Commerce"
+    },
+    "itcon": {
+        "name": "Journal of Information Technology in Construction"
+    },
+    "sqj": {
+        "name": "Software Quality Journal"
+    },
+    "ol": {
+        "name": "Optimization Letters"
+    },
+    "ijids": {
+        "name": "International Journal of Information and Decision Sciences (IJIDS)"
+    },
+    "ejisdc": {
+        "name": "Electronic Journal of Information Systems in Developing Countries (EJISDC)"
+    },
+    "pacmcgit": {
+        "name": "Proceedings of the ACM on Computer Graphics and Interactive Techniques (PACMCGIT)"
+    },
+    "phat": {
+        "name": "EAI Endorsed Transactions on Pervasive Health and Technology"
+    },
+    "tnsm": {
+        "name": "IEEE Transactions on Network and Service Management"
+    },
+    "ijnvo": {
+        "name": "International Journal of Networking and Virtual Organisations (IJNVO)"
+    },
+    "tgcn": {
+        "name": "IEEE Transactions on Green Communications and Networking"
+    },
+    "electronicmarkets": {
+        "name": "Electronic Markets"
+    },
+    "tiv": {
+        "name": "IEEE Transactions on Intelligent Vehicles"
+    },
+    "aaecc": {
+        "name": "Applicable Algebra in Engineering, Communication and Computing"
+    },
+    "cexr": {
+        "name": "Computers & Education: X Reality"
+    },
+    "osn": {
+        "name": "Optical Switching and Networking"
+    },
+    "ijsss": {
+        "name": "International Journal of Signs and Semiotic Systems (IJSSS)"
+    },
+    "rss": {
+        "name": "The Review of Socionetwork Strategies"
+    },
+    "data": {
+        "name": "Data"
+    },
+    "trets": {
+        "name": "ACM Transactions on Reconfigurable Technology and Systems"
+    },
+    "tkl": {
+        "name": "Technology, Knowledge and Learning"
+    },
+    "sj": {
+        "name": "IEEE Systems Journal"
+    },
+    "ijmic": {
+        "name": "International Journal of Modelling, Identification and Control (IJMIC)"
+    },
+    "informs": {
+        "name": "INFORMS Journal on Computing"
+    },
+    "ijmtm": {
+        "name": "International Journal of Manufacturing Technology and Management (IJMTM)"
+    },
+    "jscires": {
+        "name": "Journal of Scientometric Research (JSCIRES)"
+    },
+    "cor": {
+        "name": "Computers & Operations Research"
+    },
+    "jwe": {
+        "name": "Journal of Web Engineering"
+    },
+    "nc": {
+        "name": "Natural Computing"
+    },
+    "pacmnet": {
+        "name": "Proceedings of the ACM on Networking (PACMNET)"
+    },
+    "ijats": {
+        "name": "International Journal of Agent Technologies and Systems (IJATS)"
+    },
+    "informatics": {
+        "name": "Informatics"
+    },
+    "hm": {
+        "name": "Hypermedia"
+    },
+    "symmetry": {
+        "name": "Symmetry"
+    },
+    "tasm": {
+        "name": "IEEE Technology and Society Magazine"
+    },
+    "mcs": {
+        "name": "Mathematics and Computers in Simulation"
+    },
+    "ecr": {
+        "name": "Electronic Commerce Research"
+    },
+    "jcit": {
+        "name": "Journal of Convergence Information Technology"
+    },
+    "trob": {
+        "name": "IEEE Transactions on Robotics"
+    },
+    "dcan": {
+        "name": "Digital Communications and Networks"
+    },
+    "jccee": {
+        "name": "Journal of Computing in Civil Engineering"
+    },
+    "tits": {
+        "name": "IEEE Transactions on Intelligent Transportation Systems"
+    },
+    "jcheminf": {
+        "name": "Journal of Cheminformatics"
+    },
+    "mt": {
+        "name": "Machine Translation"
+    },
+    "ijertcs": {
+        "name": "International Journal of Embedded and Real-Time Communication Systems (IJERTCS)"
+    },
+    "jsjkx": {
+        "name": "计算机科学"
+    },
+    "jgis": {
+        "name": "Journal of Geographic Information System"
+    },
+    "fgcs": {
+        "name": "Future Generation Computer Systems"
+    },
+    "jois": {
+        "name": "Journal of Intelligent Systems"
+    },
+    "jetc": {
+        "name": "ACM Journal on Emerging Technologies in Computing Systems"
+    },
+    "brain": {
+        "name": "Brain Connectivity"
+    },
+    "cii": {
+        "name": "Computers in Industry"
+    },
+    "joscas": {
+        "name": "Journal of Smart Cities and Society"
+    },
+    "jib": {
+        "name": "Journal of Integrative Bioinformatics"
+    },
+    "njc": {
+        "name": "Nordic Journal of Computing (NJC)"
+    },
+    "jzusc": {
+        "name": "Frontiers of Information Technology & Electronic Engineering"
+    },
+    "talg": {
+        "name": "ACM Transactions on Algorithms (TALG)"
+    },
+    "jilp": {
+        "name": "Journal of Instruction-Level Parallelism"
+    },
+    "alife": {
+        "name": "Artificial Life"
+    },
+    "nfd": {
+        "name": "Information - Wissenschaft und Praxis"
+    },
+    "inis": {
+        "name": "EAI Endorsed Transactions on Industrial Networks and Intelligent Systems"
+    },
+    "taco": {
+        "name": "ACM Transactions on Architecture and Code Optimization (TACO)"
+    },
+    "virtualworlds": {
+        "name": "Virtual Worlds"
+    },
+    "ijtem": {
+        "name": "International Journal of Technology and Educational Marketing (IJTEM)"
+    },
+    "ijmei": {
+        "name": "International Journal of Medical Engineering and Informatics (IJMEI)"
+    },
+    "topics": {
+        "name": "Topics in Cognitive Science"
+    },
+    "bcra": {
+        "name": "Blockchain: Research and Applications"
+    },
+    "ijhcitp": {
+        "name": "International Journal of Human Capital and Information Technology Professionals (IJHCITP)"
+    },
+    "ijalr": {
+        "name": "International Journal of Artificial Life Research (IJALR)"
+    },
+    "igpl": {
+        "name": "Logic Journal of the IGPL"
+    },
+    "scw": {
+        "name": "Social Choice and Welfare"
+    },
+    "jisys": {
+        "name": "Journal of Information Systems"
+    },
+    "tccn": {
+        "name": "IEEE Transactions on Cognitive Communications and Networking (TCCN)"
+    },
+    "sis": {
+        "name": "EAI Endorsed Transactions on Scalable Information Systems"
+    },
+    "ejisec": {
+        "name": "Journal on Information Security"
+    },
+    "stvr": {
+        "name": "Software Testing, Verification & Reliability (STVR)"
+    },
+    "tweb": {
+        "name": "ACM Transactions on the Web"
+    },
+    "em": {
+        "name": "Experimental Mathematics"
+    },
+    "tbd": {
+        "name": "IEEE Transactions on Big Data"
+    },
+    "tiot": {
+        "name": "ACM Transactions on Internet of Things (TIOT)"
+    },
+    "scientometrics": {
+        "name": "Scientometrics"
+    },
+    "jcondec": {
+        "name": "Journal of Control and Decision"
+    },
+    "jla": {
+        "name": "Journal of Logic and Analysis"
+    },
+    "emisaij": {
+        "name": "Enterprise Modelling and Information Systems Architectures (EMISAJ)"
+    },
+    "ieeejas": {
+        "name": "IEEE/CAA Journal of Automatica Sinica"
+    },
+    "sigmod": {
+        "name": "SIGMOD Record"
+    },
+    "tim": {
+        "name": "IEEE Transactions on Instrumentation and Measurement"
+    },
+    "tsc": {
+        "name": "IEEE Transactions on Services Computing"
+    },
+    "mlc": {
+        "name": "International Journal of Machine Learning and Cybernetics"
+    },
+    "at": {
+        "name": "Automatisierungstechnik"
+    },
+    "comsur": {
+        "name": "IEEE Communications Surveys and Tutorials"
+    },
+    "ijsinnov": {
+        "name": "International Journal of Software Innovation (IJSI)"
+    },
+    "jnsm": {
+        "name": "Journal of Network and Systems Management"
+    },
+    "ijmstr": {
+        "name": "International Journal of Monitoring and Surveillance Technologies Research (IJMSTR)"
+    },
+    "jitech": {
+        "name": "Journal of Information Technology"
+    },
+    "sigcse": {
+        "name": "ACM SIGCSE Bulletin"
+    },
+    "hac": {
+        "name": "History and Computing"
+    },
+    "spacecomm": {
+        "name": "Space Communications"
+    },
+    "dpd": {
+        "name": "Distributed and Parallel Databases"
+    },
+    "amses": {
+        "name": "Advanced Modeling and Simulation in Engineering Sciences"
+    },
+    "ijlit": {
+        "name": "International Journal of Law and Information Technology"
+    },
+    "ijpp": {
+        "name": "International Journal of Parallel Programming"
+    },
+    "ijufks": {
+        "name": "International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems"
+    },
+    "comsis": {
+        "name": "Computer Science and Information Systems"
+    },
+    "disopt": {
+        "name": "Discrete Optimization"
+    },
+    "ijcnis": {
+        "name": "International Journal of Communication Networks and Information Security (IJCNIS)"
+    },
+    "mmas": {
+        "name": "Multiscale Modeling & Simulation"
+    },
+    "gtelab": {
+        "name": "GTE Laboratories Incorporated Technical Reports"
+    },
+    "ue": {
+        "name": "EAI Endorsed Transactions on Ubiquitous Environments"
+    },
+    "ijgt": {
+        "name": "International Journal of Game Theory"
+    },
+    "acisc": {
+        "name": "Applied Computational Intelligence and Soft Computing"
+    },
+    "tois": {
+        "name": "ACM Transactions on Information Systems (TOIS)"
+    },
+    "pc": {
+        "name": "Parallel Computing"
+    },
+    "ldvf": {
+        "name": "Journal for Language Technology and Computational Linguistics (JLCL)"
+    },
+    "digma": {
+        "name": "digma - Zeitschrift für Datenrecht und Informationssicherheit (digma)"
+    },
+    "bapmam": {
+        "name": "Bulletin L'Académie Polonaise des Science, Série des Sciences Mathématiques, Astronomiques et Physiques (BAPMAM)"
+    },
+    "entcom": {
+        "name": "Entertainment Computing"
+    },
+    "semweb": {
+        "name": "Semantic Web"
+    },
+    "jisedu": {
+        "name": "Journal of Information Systems Education"
+    },
+    "combtheory": {
+        "name": "Combinatorial Theory"
+    },
+    "disc": {
+        "name": "ACM SIGMOD Digital Symposium Collection"
+    },
+    "ijcis": {
+        "name": "International Journal of Cooperative Information Systems (IJCIS)"
+    },
+    "solarjla": {
+        "name": "Journal of Learning Analytic (JLA)"
+    },
+    "cstat": {
+        "name": "Computational Statistics"
+    },
+    "ijahuc": {
+        "name": "International Journal of Ad Hoc and Ubiquitous Computing (IJAHUC)"
+    },
+    "informingscij": {
+        "name": "Informing Science: The International Journal of an Emerging Transdiscipline (InformingSciJ)"
+    },
+    "icae": {
+        "name": "Integrated Computer-Aided Engineering"
+    },
+    "eetct": {
+        "name": "EAI Endorsed Transactions on Creative Technologies"
+    },
+    "ascom": {
+        "name": "Astronomy and Computing"
+    },
+    "ijcga": {
+        "name": "International Journal of Computational Geometry and Applications"
+    },
+    "nca": {
+        "name": "Neural Computing and Applications"
+    },
+    "ijact": {
+        "name": "International Journal of Applied Cryptography (IJACT)"
+    },
+    "darts": {
+        "name": "Dagstuhl Artifacts Series (DARTS)"
+    },
+    "actaC": {
+        "name": "Acta Cybernetica"
+    },
+    "jdssv": {
+        "name": "Journal of Data Science, Statistics, and Visualisation (JDSSV)"
+    },
+    "mathm": {
+        "name": "Mathematical Morphology - Theory and Applications (MMTA)"
+    },
+    "ijsr": {
+        "name": "International Journal of Social Robotics"
+    },
+    "jdim": {
+        "name": "Journal of Digital Information Management"
+    },
+    "siamam": {
+        "name": "SIAM Journal on Applied Mathematics"
+    },
+    "jsis": {
+        "name": "The Journal of Strategic Information Systems"
+    },
+    "ijtmcc": {
+        "name": "International Journal of Trust Management in Computing and Communications (IJTMCC)"
+    },
+    "ijcallt": {
+        "name": "International Journal of Computer-Assisted Language Learning and Teaching (IJCALLT)"
+    },
+    "ijcps": {
+        "name": "International Journal of Cyber-Physical Systems (IJCPS)"
+    },
+    "ijirr": {
+        "name": "International Journal of Information Retrieval Research (IJIRR)"
+    },
+    "cgx": {
+        "name": "Graphics and Visual Computing"
+    },
+    "ftsys": {
+        "name": "Foundations and Trends in Systems and Control"
+    },
+    "jocg": {
+        "name": "Journal of Computational Geometry (JoCG)"
+    },
+    "ijimr": {
+        "name": "International Journal of Intelligent Mechatronics and Robotics (IJIMR)"
+    },
+    "ijaacs": {
+        "name": "International Journal of Autonomous and Adaptive Communications Systems (IJAACS)"
+    },
+    "taosd": {
+        "name": "LNCS Transactions on Aspect-Oriented Software Development (ToMC)"
+    },
+    "ibmrd": {
+        "name": "IBM Journal of Research and Development"
+    },
+    "ijcat": {
+        "name": "International Journal of Computer Applications in Technology (IJCAT)"
+    },
+    "jche": {
+        "name": "Journal of Computing in Higher Education"
+    },
+    "sbcjis": {
+        "name": "Journal on Interactive Systems (JIS)"
+    },
+    "ijaec": {
+        "name": "International Journal of Applied Evolutionary Computation (IJAEC)"
+    },
+    "mta": {
+        "name": "Multimedia Tools and Applications"
+    },
+    "see": {
+        "name": "Science and Engineering Ethics"
+    },
+    "tc": {
+        "name": "IEEE Transactions on Computers"
+    },
+    "scholarpedia": {
+        "name": "Scholarpedia"
+    },
+    "jocsae": {
+        "name": "Journal of Control Science and Engineering"
+    },
+    "icomputing": {
+        "name": "Intelligent Computing"
+    },
+    "webology": {
+        "name": "Webology"
+    },
+    "tds": {
+        "name": "Traitement du Signal"
+    },
+    "fodm": {
+        "name": "Fuzzy Optimization and Decision Making"
+    },
+    "dim": {
+        "name": "Data and Information Management (DIM)"
+    },
+    "siglog": {
+        "name": "ACM SIGLOG News"
+    },
+    "ieeesp": {
+        "name": "IEEE Security & Privacy"
+    },
+    "sighit": {
+        "name": "SIGHIT Record"
+    },
+    "algorithms": {
+        "name": "Algorithms"
+    },
+    "isj": {
+        "name": "Information Systems Journal"
+    },
+    "ijsir": {
+        "name": "International Journal of Swarm Intelligence Research (IJSIR)"
+    },
+    "datasci": {
+        "name": "Data Science"
+    },
+    "ajcm": {
+        "name": "American Journal of Computational Mathematics"
+    },
+    "jsw": {
+        "name": "Journal of Software"
+    },
+    "orf": {
+        "name": "Operations Research Forum"
+    },
+    "rdlj": {
+        "name": "Russian Digital Libraries Journal"
+    },
+    "isb": {
+        "name": "In Silico Biology"
+    },
+    "thipeac": {
+        "name": "Transactions on High-Performance Embedded Architectures and Compilers"
+    },
+    "jagi": {
+        "name": "Journal of Artificial General Intelligence"
+    },
+    "dmtcs": {
+        "name": "Discrete Mathematics & Theoretical Computer Science (DMTCS)"
+    },
+    "jmmis": {
+        "name": "Journal of Multimedia Information System (JMIS)"
+    },
+    "ijwbc": {
+        "name": "International Journal of Web Based Communities (IJWBC)"
+    },
+    "ijhpsa": {
+        "name": "International Journal of High Performance Systems Architecture (IJHPSA)"
+    },
+    "mlq": {
+        "name": "Mathematical Logic Quarterly"
+    },
+    "iandc": {
+        "name": "Information and Computation"
+    },
+    "ijsm": {
+        "name": "International Journal of Shape Modeling (IJSM)"
+    },
+    "ijnc": {
+        "name": "International Journal of Networking and Computing (IJNC)"
+    },
+    "jicts": {
+        "name": "Journal of ICT Standardization"
+    },
+    "iepol": {
+        "name": "Information Economics and Policy"
+    },
+    "cviu": {
+        "name": "Computer Vision and Image Understanding"
+    },
+    "percom": {
+        "name": "Pervasive and Mobile Computing"
+    },
+    "tse": {
+        "name": "IEEE Transactions on Software Engineering (TSE)"
+    },
+    "compnet": {
+        "name": "Journal of Complex Networks"
+    },
+    "dr": {
+        "name": "ACM SIGMOD Digital Review"
+    },
+    "jdm": {
+        "name": "Journal of Database Management"
+    },
+    "ethicsit": {
+        "name": "Ethics and Information Technology"
+    },
+    "aimatters": {
+        "name": "AI Matters"
+    },
+    "asc": {
+        "name": "Applied Soft Computing"
+    },
+    "ijigs": {
+        "name": "International Journal of Intelligent Games & Simulation"
+    },
+    "jpdc": {
+        "name": "Journal of Parallel and Distributed Computing"
+    },
+    "ec": {
+        "name": "Evolutionary Computation"
+    },
+    "Lobjet": {
+        "name": "L'OBJET: Logiciel, Base de données, Réseaux (L'OBJET)"
+    },
+    "jphil": {
+        "name": "Journal of Philosophical Logic"
+    },
+    "jfi": {
+        "name": "Journal of the Franklin Institute"
+    },
+    "lp": {
+        "name": "Learned Publishing"
+    },
+    "jbft": {
+        "name": "Journal of Banking and Financial Technology"
+    },
+    "hf": {
+        "name": "Human Factors"
+    },
+    "ijcm": {
+        "name": "International Journal of Computer Mathematics (IJCM)"
+    },
+    "cera": {
+        "name": "Concurrent Engineering: Research and Applications"
+    },
+    "lites": {
+        "name": "Leibniz Transactions on Embedded Systems (LITES)"
+    },
+    "jni": {
+        "name": "Journal of Network Intelligence (JNI)"
+    },
+    "mpc": {
+        "name": "Mathematical Programming Computation"
+    },
+    "jfp": {
+        "name": "Journal of Functional Programming"
+    },
+    "sas": {
+        "name": "EAI Endorsed Transactions on Self-Adaptive Systems"
+    },
+    "mti": {
+        "name": "Multimodal Technologies and Interaction (MTI)"
+    },
+    "firstmonday": {
+        "name": "First Monday"
+    },
+    "wsarai": {
+        "name": "World Scientific Annual Review of Artificial Intelligence"
+    },
+    "ijces": {
+        "name": "International Journal of Computational Engineering Science (IJCES)"
+    },
+    "jodsn": {
+        "name": "Journal on Data Semantics (JoDS)"
+    },
+    "jsyml": {
+        "name": "The Journal of Symbolic Logic"
+    },
+    "jcsm": {
+        "name": "Journal of Cyber Security and Mobility"
+    },
+    "esticas": {
+        "name": "IEEE Journal of Emerging and Selected Topics in Circuits and Systems"
+    },
+    "cjtcs": {
+        "name": "Chicago Journal of Theoretical Computer Science"
+    },
+    "ijantti": {
+        "name": "International Journal of Actor-Network Theory and Technological Innovation (IJANTTI)"
+    },
+    "jca": {
+        "name": "Journal of Cellular Automata"
+    },
+    "jcnc": {
+        "name": "Journal of Computer Networks and Communications"
+    },
+    "ijwgs": {
+        "name": "International Journal of Web and Grid Services (IJWGS)"
+    },
+    "saj": {
+        "name": "South African Computer Journal (SACJ)"
+    },
+    "ijccbs": {
+        "name": "International Journal of Critical Computer-Based Systems"
+    },
+    "informaticaSI": {
+        "name": "Informatica (Slovenia)"
+    },
+    "itssa": {
+        "name": "International Transactions on Systems Science and Applications"
+    },
+    "thms": {
+        "name": "IEEE Transactions on Human-Machine Systems"
+    },
+    "ijdats": {
+        "name": "International Journal of Data Analysis Techniques and Strategies (IJDATS)"
+    },
+    "i-jes": {
+        "name": "International Journal of Recent Contributions from Engineering, Science & IT (iJES)"
+    },
+    "ijsnm": {
+        "name": "International Journal of Social Network Mining (IJSNM)"
+    },
+    "intpolrev": {
+        "name": "Internet Policy Review"
+    },
+    "ijcac": {
+        "name": "International Journal of Cloud Applications and Computing (IJCAC)"
+    },
+    "kybernetika": {
+        "name": "Kybernetika"
+    },
+    "ftdb": {
+        "name": "Foundations and Trends in Databases"
+    },
+    "ijdcf": {
+        "name": "International Journal of Digital Crime and Forensics (IJDCF)"
+    },
+    "ijnsec": {
+        "name": "International Journal of Network Security"
+    },
+    "tmm": {
+        "name": "IEEE Transactions on Multimedia (TMM)"
+    },
+    "argcom": {
+        "name": "Argument & Computation"
+    },
+    "jps": {
+        "name": "Journal of Problem Solving (JPS)"
+    },
+    "jgs": {
+        "name": "Journal of Geographical Systems"
+    },
+    "tdsc": {
+        "name": "IEEE Transactions on Dependable and Secure Computing"
+    },
+    "jcphyx": {
+        "name": "Journal of Computational Physics: X"
+    },
+    "jintseq": {
+        "name": "Journal of Integer Sequences (JIS)"
+    },
+    "jcss": {
+        "name": "Journal of Computer and System Sciences (JCSS)"
+    },
+    "rpjdi": {
+        "name": "Journal of Data Intelligence"
+    },
+    "afm": {
+        "name": "Annals of Formalized Mathematics"
+    },
+    "control": {
+        "name": "Control and Cybernetics"
+    },
+    "behaviourIT": {
+        "name": "Behaviour & Information Technology"
+    },
+    "cj": {
+        "name": "The Computer Journal"
+    },
+    "jocs": {
+        "name": "Journal of Computational Science"
+    },
+    "jflp": {
+        "name": "Journal of Functional and Logic Programming"
+    },
+    "cce": {
+        "name": "Computers & Chemical Engineering"
+    },
+    "tal": {
+        "name": "Traitement Automatique des Langues"
+    },
+    "jodl": {
+        "name": "International Journal on Digital Libraries (JODL)"
+    },
+    "jsip": {
+        "name": "Journal of Signal and Information Processing"
+    },
+    "arsmc": {
+        "name": "Ars Mathematica Contemporanea"
+    },
+    "ieiceta": {
+        "name": "IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences"
+    },
+    "josis": {
+        "name": "Journal of Spatial Information Science (JOSIS)"
+    },
+    "jkm": {
+        "name": "Journal of Knowledge Management"
+    },
+    "datascience": {
+        "name": "Data Science Journal"
+    },
+    "ijcih": {
+        "name": "International Journal of Computers in Healthcare (IJCIH)"
+    },
+    "lgrs": {
+        "name": "IEEE Geoscience and Remote Sensing Letters"
+    },
+    "tamm": {
+        "name": "The American Mathematical Monthly"
+    },
+    "comcom": {
+        "name": "Computer Communications"
+    },
+    "ojiot": {
+        "name": "Open Journal of Internet of Things"
+    },
+    "cleiej": {
+        "name": "CLEI electronic journal"
+    },
+    "bmcbi": {
+        "name": "BMC Bioinformatics"
+    },
+    "dcc": {
+        "name": "Designs, Codes and Cryptography"
+    },
+    "ijss": {
+        "name": "International Journal of Services and Standards"
+    },
+    "digearth": {
+        "name": "International Journal of Digital Earth"
+    },
+    "ras": {
+        "name": "Robotics and Autonomous Systems"
+    },
+    "dt": {
+        "name": "IEEE Design & Test (D&T)"
+    },
+    "csi": {
+        "name": "Computer Standards & Interfaces"
+    },
+    "chk": {
+        "name": "Cybernetics and Human Knowing"
+    },
+    "ncn": {
+        "name": "Nano Communication Networks"
+    },
+    "quanbio": {
+        "name": "Quantitative Biology"
+    },
+    "ivc": {
+        "name": "Image and Vision Computing"
+    },
+    "vciba": {
+        "name": "Visual Computing for Industry, Biomedicine, and Art"
+    },
+    "tip": {
+        "name": "IEEE Transactions on Image Processing"
+    },
+    "ahswn": {
+        "name": "Ad Hoc & Sensor Wireless Networks"
+    },
+    "toce": {
+        "name": "ACM Transactions on Computing Education (TOCE)"
+    },
+    "osid": {
+        "name": "Open Systems & Information Dynamics"
+    },
+    "amm": {
+        "name": "Advances in Multimedia"
+    },
+    "fomac": {
+        "name": "LNCS Transactions on Foundations for Mastering Change (FoMaC)"
+    },
+    "tocl": {
+        "name": "ACM Transactions on Computational Logic (TOCL)"
+    },
+    "sesa": {
+        "name": "EAI Endorsed Transactions on Security and Safety"
+    },
+    "ism": {
+        "name": "Information Systems Management"
+    },
+    "actanum": {
+        "name": "Acta Numerica"
+    },
+    "mansci": {
+        "name": "Management Science"
+    },
+    "itsr": {
+        "name": "International Journal of Intelligent Transportation Systems Research"
+    },
+    "sopr": {
+        "name": "Software Process: Improvement and Practice"
+    },
+    "jhss": {
+        "name": "Journal of Hardware and Systems Security"
+    },
+    "jirs": {
+        "name": "Journal of Intelligent and Robotic Systems"
+    },
+    "ijwet": {
+        "name": "International Journal of Web Engineering and Technology"
+    },
+    "ijcvip": {
+        "name": "International Journal of Computer Vision and Image Processing (IJCVIP)"
+    },
+    "ijsg": {
+        "name": "International Journal of Serious Games"
+    },
+    "us": {
+        "name": "Unmanned Systems"
+    },
+    "ijcta": {
+        "name": "International Journal of Circuit Theory and Applications"
+    },
+    "itpro": {
+        "name": "IT Professional"
+    },
+    "jnca": {
+        "name": "Journal of Network and Computer Applications"
+    },
+    "ijkl": {
+        "name": "International Journal of Knowledge and Learning"
+    },
+    "tci": {
+        "name": "IEEE Transactions on Computational Imaging"
+    },
+    "loplas": {
+        "name": "ACM Letters on Programming Languages and Systems (LOPLAS)"
+    },
+    "ccsecis": {
+        "name": "Computer and Information Science"
+    },
+    "sigplan": {
+        "name": "ACM SIGPLAN Notices"
+    },
+    "iahe": {
+        "name": "The Internet and Higher Education"
+    },
+    "mcm": {
+        "name": "Mathematical and Computer Modelling"
+    },
+    "network": {
+        "name": "IEEE Network"
+    },
+    "cogsr": {
+        "name": "Cognitive Systems Research"
+    },
+    "tem": {
+        "name": "IEEE Transactions on Engineering Management"
+    },
+    "ijcnds": {
+        "name": "International Journal of Communication Networks and Distributed Systems (IJCNDS)"
+    },
+    "ijfogcomp": {
+        "name": "International Journal of Fog Computing (IJFC)"
+    },
+    "bullica": {
+        "name": "Bulletin of the ICA"
+    },
+    "ijsc": {
+        "name": "International Journal of Semantic Computing"
+    },
+    "jisis": {
+        "name": "Journal of Internet Services and Information Security (JISIS)"
+    },
+    "pr": {
+        "name": "Pattern Recognition"
+    },
+    "cmig": {
+        "name": "Computerized Medical Imaging and Graphics"
+    },
+    "mbec": {
+        "name": "Medical and Biological Engineering and Computing"
+    },
+    "ftsto": {
+        "name": "Foundations and Trends in Stochastic Systems"
+    },
+    "ijcini": {
+        "name": "International Journal of Cognitive Informatics and Natural Intelligence (IJCINI)"
+    },
+    "mcfns": {
+        "name": "Mathematical and Computational Forestry & Natural-Resource Sciences (MCFNS)"
+    },
+    "cal": {
+        "name": "IEEE Computer Architecture Letters"
+    },
+    "arcras": {
+        "name": "Annual Review of Control, Robotics, and Autonomous Systems"
+    },
+    "infor": {
+        "name": "INFOR: Information Systems and Operational Research"
+    },
+    "bmcmi": {
+        "name": "BMC Medical Imaging"
+    },
+    "npsc": {
+        "name": "Neural, Parallel & Scientific Computations"
+    },
+    "jar": {
+        "name": "Journal of Automated Reasoning"
+    },
+    "ijais": {
+        "name": "International Journal of Accounting Information Systems"
+    },
+    "jiteiip": {
+        "name": "Journal of Information Technology Education: Innovations in Practice (JITE:IIP)"
+    },
+    "jcisd": {
+        "name": "Journal of Chemical Information and Modeling"
+    },
+    "paa": {
+        "name": "Pattern Analysis and Applications"
+    },
+    "ijira": {
+        "name": "International Journal of Intelligent Robotics and Applications"
+    },
+    "mmor": {
+        "name": "Mathematical Methods of Operations Research"
+    },
+    "plosone": {
+        "name": "PLOS One"
+    },
+    "riga": {
+        "name": "Scientific Journal of Riga Technical University, Series Computer Sciences"
+    },
+    "ftml": {
+        "name": "Foundations and Trends in Machine Learning"
+    },
+    "aisy": {
+        "name": "Advanced Intelligent Systems"
+    },
+    "ijcsm": {
+        "name": "International Journal of Computing Science and Mathematics (IJCSM)"
+    },
+    "ar": {
+        "name": "Advanced Robotics"
+    },
+    "siaga": {
+        "name": "SIAM Journal on Applied Algebra and Geometry"
+    },
+    "ijstm": {
+        "name": "International Journal of Services Technology and Management (IJSTM)"
+    },
+    "nis": {
+        "name": "Networking and Information Systems Journal (NIS)"
+    },
+    "scidata": {
+        "name": "Scientific Data"
+    },
+    "gsis": {
+        "name": "Geo-spatial Information Science"
+    },
+    "pervasive": {
+        "name": "IEEE Pervasive Computing"
+    },
+    "jei": {
+        "name": "Journal of Electronic Imaging"
+    },
+    "oopsm": {
+        "name": "ACM SIGPLAN OOPS Messenger"
+    },
+    "ml": {
+        "name": "Machine Learning"
+    },
+    "jitr": {
+        "name": "Journal of Information Technology Research (JITR)"
+    },
+    "amsys": {
+        "name": "EAI Endorsed Transactions on Ambient Systems"
+    },
+    "ijcon": {
+        "name": "International Journal of Control"
+    },
+    "eecs": {
+        "name": "Periodica Polytechnica Electrical Engineering and Computer Science"
+    },
+    "rptel": {
+        "name": "Research and Practice in Technology Enhanced Learning"
+    },
+    "digital": {
+        "name": "Digital"
+    },
+    "ijehmc": {
+        "name": "International Journal of E-Health and Medical Communications (IJEHMC)"
+    },
+    "ijig": {
+        "name": "International Journal of Image and Graphics"
+    },
+    "compsec": {
+        "name": "Computers & Security"
+    },
+    "jsemantics": {
+        "name": "Journal of Semantics"
+    },
+    "ijbm": {
+        "name": "International Journal of Biometrics (IJBM)"
+    },
+    "jiat": {
+        "name": "Journal of Information and Telecommunication (JIT)"
+    },
+    "dafes": {
+        "name": "Design Automation for Embedded Systems"
+    },
+    "casm": {
+        "name": "Complex Adaptive Systems Modeling (CASM)"
+    },
+    "aiedam": {
+        "name": "Artificial Intelligence for Engineering Design, Analysis and Manufacturing (AI EDAM)"
+    },
+    "comgeo": {
+        "name": "Computational Geometry"
+    },
+    "fcomp": {
+        "name": "Frontiers in Computer Science"
+    },
+    "dm": {
+        "name": "Discrete Mathematics"
+    },
+    "lu": {
+        "name": "Logica Universalis"
+    },
+    "ijaose": {
+        "name": "International Journal of Agent-Oriented Software Engineering (IJAOSE)"
+    },
+    "dam": {
+        "name": "Discrete Applied Mathematics"
+    },
+    "ijiq": {
+        "name": "International Journal of Information Quality (IJIQ)"
+    },
+    "ijoe": {
+        "name": "International Journal of Online and Biomedical Engineering (iJOE)"
+    },
+    "isjgp": {
+        "name": "Information Security Journal: A Global Perspective"
+    },
+    "dq": {
+        "name": "Data Quality (DQ)"
+    },
+    "vtm": {
+        "name": "IEEE Vehicular Technology Magazine"
+    },
+    "dhq": {
+        "name": "Digital Humanities Quarterly"
+    },
+    "csjm": {
+        "name": "The Computer Science Journal of Moldova"
+    },
+    "dai": {
+        "name": "Discover Artificial Intelligence"
+    },
+    "ijisc": {
+        "name": "International Journal of Intelligence Science"
+    },
+    "ijflis": {
+        "name": "International Journal of Fuzzy Logic and Intelligent Systems"
+    },
+    "ijpe": {
+        "name": "International Journal of Performability Engineering"
+    },
+    "kes": {
+        "name": "International Journal of Knowledge-Based and Intelligent Engineering Systems"
+    },
+    "ejgta": {
+        "name": "Electronic Journal of Graph Theory and Applications"
+    },
+    "ijgi": {
+        "name": "ISPRS International Journal of Geo-Information"
+    },
+    "amc": {
+        "name": "Applied Mathematics and Computation"
+    },
+    "ccftpci": {
+        "name": "CCF Transactions on Pervasive Computing and Interaction"
+    },
+    "jksucis": {
+        "name": "Journal of King Saud University - Computer and Information Sciences"
+    },
+    "ijndc": {
+        "name": "International Journal of Networked and Distributed Computing (IJNDC)"
+    },
+    "isa": {
+        "name": "Rundbrief der GI-Fachgruppe 5.10 Informationssystem-Architekturen"
+    },
+    "jwsr": {
+        "name": "International Journal of Web Services Research"
+    },
+    "ijmmme": {
+        "name": "International Journal of Manufacturing, Materials, and Mechanical Engineering (IJMMME)"
+    },
+    "rig": {
+        "name": "Revue Internationale de Géomatique"
+    },
+    "idt": {
+        "name": "Intelligent Decision Technologies"
+    },
+    "hhci": {
+        "name": "Human-Computer Interaction"
+    },
+    "stt": {
+        "name": "Softwaretechnik-Trends"
+    },
+    "ewc": {
+        "name": "Engineering with Computers"
+    },
+    "rml": {
+        "name": "Reports on Mathematical Logic"
+    },
+    "cmm": {
+        "name": "Computational and Mathematical Methods"
+    },
+    "vcomm": {
+        "name": "Vehicular Communications"
+    },
+    "pacmhci": {
+        "name": "Proceedings of the ACM on Human-Computer Interaction (PACMHCI)"
+    },
+    "ajc": {
+        "name": "Australasian Journal of Combinatorics"
+    },
+    "computability": {
+        "name": "Computability"
+    },
+    "ijbdcn": {
+        "name": "International Journal of Business Data Communications and Networking (IJBDCN)"
+    },
+    "ijagr": {
+        "name": "International Journal of Applied Geospatial Research (IJAGR)"
+    },
+    "robotica": {
+        "name": "Robotica"
+    },
+    "internet": {
+        "name": "IEEE Internet Computing"
+    },
+    "sigcas": {
+        "name": "SIGCAS  Computers and Society"
+    },
+    "ojbd": {
+        "name": "Open Journal of Big Data"
+    },
+    "iando": {
+        "name": "Information and Organization"
+    },
+    "iet-blc": {
+        "name": "IET Blockchain"
+    },
+    "tbcas": {
+        "name": "IEEE Transactions on Biomedical Circuits and Systems"
+    },
+    "join": {
+        "name": "Journal of Interconnection Networks"
+    },
+    "tcsb": {
+        "name": "Transactions on Computational Systems Biology (TCSB)"
+    },
+    "jcn": {
+        "name": "Journal of Communications and Networks"
+    },
+    "jdi": {
+        "name": "Journal of Imaging Informatics in Medicine"
+    },
+    "af": {
+        "name": "Algorithmic Finance"
+    },
+    "ac": {
+        "name": "Advances in Computers"
+    },
+    "aei": {
+        "name": "Advanced Engineering Informatics"
+    },
+    "tist": {
+        "name": "ACM Transactions on Intelligent Systems and Technology (TIST)"
+    },
+    "ijsodit": {
+        "name": "International Journal of Social and Organizational Dynamics in IT (IJSODIT)"
+    },
+    "na": {
+        "name": "Numerical Algorithms"
+    },
+    "ijiei": {
+        "name": "International Journal of Intelligent Engineering Informatics (IJIEI)"
+    },
+    "mj": {
+        "name": "Microelectronics Journal"
+    },
+    "ese": {
+        "name": "Empirical Software Engineering"
+    },
+    "tods": {
+        "name": "ACM Transactions on Database Systems (TODS)"
+    },
+    "ijmr": {
+        "name": "International Journal of Manufacturing Research (IJMR)"
+    },
+    "isca": {
+        "name": "International Journal of Computers and Their Applications"
+    },
+    "fini": {
+        "name": "Frontiers in Neuroinformatics"
+    },
+    "ijkwi": {
+        "name": "International Journal of Knowledge and Web Intelligence (IJKWI)"
+    },
+    "artmed": {
+        "name": "Artificial Intelligence in Medicine"
+    },
+    "aistrr": {
+        "name": "AIS Transactions on Replication Research (AIS TRR)"
+    },
+    "jis": {
+        "name": "Journal of Information Science"
+    },
+    "jdiq": {
+        "name": "Journal of Data and Information Quality"
+    },
+    "concurrency": {
+        "name": "Concurrency and Computation: Practice and Experience"
+    },
+    "ijatem": {
+        "name": "International Journal of Aviation Technology, Engineering and Management (IJATEM)"
+    },
+    "dagstuhl-manifestos": {
+        "name": "Dagstuhl Manifestos"
+    },
+    "bstj": {
+        "name": "AT&T Technical Journal"
+    },
+    "ijicte": {
+        "name": "International Journal of Information and Communication Technology Education (IJICTE)"
+    },
+    "linguamatica": {
+        "name": "Linguamática"
+    },
+    "ton": {
+        "name": "IEEE Transactions on Networking (TON)"
+    },
+    "jcal": {
+        "name": "Journal of Computer Assisted Learning"
+    },
+    "scc": {
+        "name": "Spatial Cognition & Computation"
+    },
+    "polity": {
+        "name": "Information Polity"
+    },
+    "tedu": {
+        "name": "Transactions on Edutainment"
+    },
+    "fttiom": {
+        "name": "Foundations and Trends in Technology, Information and Operations Management"
+    },
+    "eceasst": {
+        "name": "Electronic Communication of the EASST"
+    },
+    "qmi": {
+        "name": "Quantum Machine Intelligence"
+    },
+    "ijrc": {
+        "name": "International Journal of Reconfigurable Computing"
+    },
+    "ijsccps": {
+        "name": "International Journal of Social Computing and Cyber-Physical Systems (IJSCCPS)"
+    },
+    "tvt": {
+        "name": "IEEE Transactions on Vehicular Technology"
+    },
+    "ijhci": {
+        "name": "International Journal of Human-Computer Interaction"
+    },
+    "etai": {
+        "name": "Electronic Transactions on Artificial Intelligence (ETAI)"
+    },
+    "jocnet": {
+        "name": "Journal of Optical Communications and Networking (JOCN)"
+    },
+    "cartographica": {
+        "name": "Cartographica: The International Journal for Geographic Information and Geovisualization"
+    },
+    "siamnum": {
+        "name": "SIAM Journal on Numerical Analysis"
+    },
+    "masa": {
+        "name": "Model Assisted Statistics and Applications"
+    },
+    "ijspm": {
+        "name": "International Journal of Simulation and Process Modelling (IJSPM)"
+    },
+    "jst": {
+        "name": "Journal of Sensor Technology"
+    },
+    "ijdsn": {
+        "name": "International Journal of Distributed Sensor Networks"
+    },
+    "aslib": {
+        "name": "Aslib Journal of Information Management"
+    },
+    "jedgecomp": {
+        "name": "Journal of Edge Computing (JEC)"
+    },
+    "pdln": {
+        "name": "Procesamiento del Lenguaje Natural"
+    },
+    "cryptologia": {
+        "name": "Cryptologia"
+    },
+    "chb": {
+        "name": "Computers in Human Behavior"
+    },
+    "mia": {
+        "name": "Medical Image Analysis"
+    },
+    "sap": {
+        "name": "Security and Privacy"
+    },
+    "mima": {
+        "name": "Minds and Machines"
+    },
+    "ijgbl": {
+        "name": "International Journal of Game-Based Learning (IJGBL)"
+    },
+    "logcom": {
+        "name": "Journal of Logic and Computation"
+    },
+    "connection": {
+        "name": "Connection Science"
+    },
+    "ijkss": {
+        "name": "International Journal of Knowledge and Systems Science (IJKSS)"
+    },
+    "simulation": {
+        "name": "Simulation"
+    },
+    "cpc": {
+        "name": "Combinatorics, Probability & Computing"
+    },
+    "ijmhci": {
+        "name": "International Journal of Mobile Human Computer Interaction (IJMHCI)"
+    },
+    "tmi": {
+        "name": "IEEE Transactions on Medical Imaging"
+    },
+    "cryptography": {
+        "name": "Cryptography"
+    },
+    "jdwm": {
+        "name": "International Journal of Data Warehousing and Mining"
+    },
+    "ieeecc": {
+        "name": "IEEE Concurrency"
+    },
+    "pacmmod": {
+        "name": "Proceedings of the ACM on Management of Data (PACMMOD)"
+    },
+    "jc": {
+        "name": "Journal of Complexity"
+    },
+    "peerj-cs": {
+        "name": "PeerJ Computer Science"
+    },
+    "ijwa": {
+        "name": "International Journal of Web Applications (IJWA)"
+    },
+    "ijaip": {
+        "name": "International Journal of Advanced Intelligence Paradigms (IJAIP)"
+    },
+    "eaai": {
+        "name": "Engineering Applications of Artificial Intelligence"
+    },
+    "jolli": {
+        "name": "Journal of Logic, Language and Information (JoLLI)"
+    },
+    "jits": {
+        "name": "Journal of Intelligent Transportation Systems"
+    },
+    "decan": {
+        "name": "Decision Analytics"
+    },
+    "jite": {
+        "name": "Journal of Information Technology Education: Research (JITE:Research)"
+    },
+    "amai": {
+        "name": "Annals of Mathematics and Artificial Intelligence"
+    },
+    "mor": {
+        "name": "Mathematics of Operations Research"
+    },
+    "ifacjsc": {
+        "name": "IFAC Journal of Systems and Control"
+    },
+    "mdpinetwork": {
+        "name": "Network"
+    },
+    "te": {
+        "name": "IEEE Transactions on Education"
+    },
+    "iasc": {
+        "name": "Intelligent Automation & Soft Computing"
+    },
+    "fams": {
+        "name": "Frontiers in Applied Mathematics and Statistics"
+    },
+    "tai": {
+        "name": "IEEE Transactions on Artificial Intelligence"
+    },
+    "spic": {
+        "name": "Signal Processing: Image Communication"
+    },
+    "iet-ipr": {
+        "name": "IET Image Processing"
+    },
+    "bise": {
+        "name": "Business & Information Systems Engineering (BISE)"
+    },
+    "im": {
+        "name": "Internet Mathematics"
+    },
+    "cmgt": {
+        "name": "Computer Measurement Group Transactions"
+    },
+    "wias": {
+        "name": "Web Intelligence"
+    },
+    "umcs": {
+        "name": "Annales UMCS, Informatica"
+    },
+    "rcs": {
+        "name": "Research in Computing Science"
+    },
+    "pajais": {
+        "name": "Pacific Asia Journal of the Association for Information Systems (PAJAIS)"
+    },
+    "ijdst": {
+        "name": "International Journal of Distributed Systems and Technologies (IJDST)"
+    },
+    "imamci": {
+        "name": "IMA Journal of Mathematical Control and Information"
+    },
+    "joeuc": {
+        "name": "Journal of Organizational and End User Computing (JOEUC)"
+    },
+    "ubiquity": {
+        "name": "Ubiquity"
+    },
+    "cowo": {
+        "name": "Computerworld"
+    },
+    "imm": {
+        "name": "IEEE Instrumentation & Measurement Magazine"
+    },
+    "quantum": {
+        "name": "Quantum"
+    },
+    "jecr": {
+        "name": "Journal of Electronic Commerce Research"
+    },
+    "ebusiness": {
+        "name": "EAI Endorsed Transactions on e-Business"
+    },
+    "ftis": {
+        "name": "Foundations and Trends in Information Systems"
+    },
+    "wpc": {
+        "name": "Wireless Personal Communications"
+    },
+    "vi": {
+        "name": "Visual Informatics"
+    },
+    "ijbic": {
+        "name": "International Journal of Bio-Inspired Computation (IJBIC)"
+    },
+    "esl": {
+        "name": "IEEE Embedded Systems Letters"
+    },
+    "ijmcmc": {
+        "name": "International Journal of Mobile Computing and Multimedia Communications"
+    },
+    "software": {
+        "name": "IEEE Software"
+    },
+    "mss": {
+        "name": "Mathematical Social Sciences"
+    },
+    "ijcses": {
+        "name": "International Journal of Computer Science Education in Schools (IJCSES)"
+    },
+    "jsa": {
+        "name": "Journal of Systems Architecture (JSA)"
+    },
+    "eninf": {
+        "name": "Energy Informatics"
+    },
+    "jrie": {
+        "name": "Journal on Reliable Intelligent Environments"
+    },
+    "ijvr": {
+        "name": "International Journal of Virtual Reality"
+    },
+    "ait": {
+        "name": "Advances in Internet of Things"
+    },
+    "auasjlog": {
+        "name": "The Australasian Journal of Logic"
+    },
+    "cacie": {
+        "name": "Computer-Aided Civil and Infrastructure Engineering"
+    },
+    "ijiatm": {
+        "name": "International Journal of Innovation and Technology Management"
+    },
+    "aepia": {
+        "name": "Inteligencia Artificial"
+    },
+    "cn": {
+        "name": "Computer Networks"
+    },
+    "tssc": {
+        "name": "IEEE Transactions on Systems Science and Cybernetics"
+    },
+    "ejlt": {
+        "name": "European Journal of Law and Technology (EJLT)"
+    },
+    "jimaging": {
+        "name": "Journal of Imaging"
+    },
+    "fs": {
+        "name": "Finance and Stochastics"
+    },
+    "iet-net": {
+        "name": "IET Networks"
+    },
+    "ejtl": {
+        "name": "EURO Journal on Transportation and Logistics"
+    },
+    "mala": {
+        "name": "Markup Languages"
+    },
+    "tcom": {
+        "name": "IEEE Transactions on Communications"
+    },
+    "jvis": {
+        "name": "Journal of Visualization"
+    },
+    "ijbdia": {
+        "name": "International Journal of Big Data Intelligence and Applications (IJBDIA)"
+    },
+    "ijcia": {
+        "name": "International Journal of Computational Intelligence and Applications"
+    },
+    "siamma": {
+        "name": "SIAM Journal on Mathematical Analysis"
+    },
+    "computer": {
+        "name": "IEEE Computer"
+    },
+    "ao": {
+        "name": "Applied Ontology"
+    },
+    "classification": {
+        "name": "Journal of Classification"
+    },
+    "ftcit": {
+        "name": "Foundations and Trends in Communications and Information Theory"
+    },
+    "ami": {
+        "name": "Archives and Museum Informatics"
+    },
+    "saem": {
+        "name": "International Journal of System Assurance Engineering and Management"
+    },
+    "iet-spr": {
+        "name": "IET Signal Processing"
+    },
+    "ijide": {
+        "name": "International Journal of Innovation in the Digital Economy (IJIDE)"
+    },
+    "dmaa": {
+        "name": "Discrete Mathematics, Algorithms and Applications"
+    },
+    "widm": {
+        "name": "WIREs Data Mining and Knowledge Discovery"
+    },
+    "ijdldc": {
+        "name": "International Journal of Digital Literacy and Digital Competence (IJDLDC)"
+    },
+    "ccfthpc": {
+        "name": "CCF Transactions on High Performance Computing"
+    },
+    "jsat": {
+        "name": "Journal on Satisfiability, Boolean Modeling and Computation (JSAT)"
+    },
+    "nla": {
+        "name": "Numerical Linear Algebra with Applications"
+    },
+    "cybersec": {
+        "name": "Cybersecurity"
+    },
+    "ijgs": {
+        "name": "International Journal of General Systems"
+    },
+    "ijgc": {
+        "name": "International Journal of Green Computing (IJGC)"
+    },
+    "tissec": {
+        "name": "ACM Transactions on Privacy and Security (TOPS)"
+    },
+    "ojcomps": {
+        "name": "IEEE Open Journal of the Computer Society"
+    },
+    "ijapuc": {
+        "name": "International Journal of Advanced Pervasive and Ubiquitous Computing (IJAPUC)"
+    },
+    "ep": {
+        "name": "Journal of Electronic Publishing (JEP)"
+    },
+    "biodatamining": {
+        "name": "BioData Mining"
+    },
+    "ijissc": {
+        "name": "International Journal of Information Systems and Social Change (IJISSC)"
+    },
+    "afp": {
+        "name": "Archive of Formal Proofs"
+    },
+    "jossac": {
+        "name": "Journal of Systems Science and Complexity"
+    },
+    "publications": {
+        "name": "Publications"
+    },
+    "fiict": {
+        "name": "Frontiers in ICT"
+    },
+    "presence": {
+        "name": "Presence: Teleoperators and Virtual Environments"
+    },
+    "cais": {
+        "name": "Communications of the Association for Information Systems (CAIS)"
+    },
+    "jce": {
+        "name": "Journal of Cryptographic Engineering"
+    },
+    "orgsci": {
+        "name": "Organization Science"
+    },
+    "iet-cvi": {
+        "name": "IET Computer Vision"
+    },
+    "ijads": {
+        "name": "International Journal of Applied Decision Sciences (IJADS)"
+    },
+    "jcis": {
+        "name": "Journal of Computer Information Systems (JCIS)"
+    },
+    "qe": {
+        "name": "Quantum Engineering"
+    },
+    "isr": {
+        "name": "Information Systems Research"
+    },
+    "jnlp": {
+        "name": "Journal of Natural Language Processing"
+    },
+    "gac": {
+        "name": "Games and Culture"
+    },
+    "jocn": {
+        "name": "Journal of Cognitive Neuroscience"
+    },
+    "hij": {
+        "name": "Health Informatics Journal"
+    },
+    "ijwoc": {
+        "name": "International Journal on Wireless & Optical Communications"
+    },
+    "jowua": {
+        "name": "Journal of Wireless Mobile Networks, Ubiquitous Computing, and Dependable Applications (JoWUA)"
+    },
+    "ftsig": {
+        "name": "Foundations and Trends in Signal Processing"
+    },
+    "jnw": {
+        "name": "Journal of Networks"
+    },
+    "almob": {
+        "name": "Algorithms for Molecular Biology"
+    },
+    "ijlt": {
+        "name": "International Journal of Learning Technology (IJLT)"
+    },
+    "dad": {
+        "name": "Dialogue and Discourse (D&D)"
+    },
+    "ccds": {
+        "name": "Cryptography and Communications"
+    },
+    "ijbdi": {
+        "name": "International Journal of Big Data Intelligence (IJBDI)"
+    },
+    "jamc": {
+        "name": "Journal of Applied Mathematics and Computing (JAMC)"
+    },
+    "nature": {
+        "name": "Nature"
+    },
+    "sigsoft": {
+        "name": "ACM SIGSOFT Software Engineering Notes"
+    },
+    "ws": {
+        "name": "Journal of Web Semantics"
+    },
+    "telsys": {
+        "name": "Telecommunication Systems"
+    },
+    "jql": {
+        "name": "Journal of Quantitative Linguistics"
+    },
+    "mis": {
+        "name": "Mobile Information Systems"
+    },
+    "bit": {
+        "name": "BIT - A Nordic Computer Related Journal"
+    },
+    "osnm": {
+        "name": "Online Social Networks and Media (OSNEM)"
+    },
+    "iajet": {
+        "name": "International Arab Journal of e-Technology"
+    },
+    "jods": {
+        "name": "LNCS Journal on Data Semantics"
+    },
+    "tcns": {
+        "name": "IEEE Transactions on Control of Network Systems"
+    }
+}
