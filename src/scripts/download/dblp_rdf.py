@@ -7,7 +7,7 @@ from src.scripts.constants import DBLP_RDF_FILE, DBLP_RDF_GZ_FILE
 
 
 
-from utils import download_file, extract_gzip
+from src.scripts.download.utils import download_file, extract_gzip
 import sys
 from pathlib import Path
 import argparse
@@ -26,7 +26,7 @@ def download_dblp_rdf_data(compressed_file_path: Path, extracted_file_path: Path
 
         extract_gzip(compressed_file_path, extracted_file_path)
 
-        print("\nDBLP download and extraction completed!")
+        print("DBLP download and extraction completed!")
 
     except Exception as error:
         print(f"\nError: {error}", file=sys.stderr)

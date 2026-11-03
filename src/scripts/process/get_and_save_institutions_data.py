@@ -16,7 +16,7 @@ from pyoxigraph import Store
 
 
 
-def get_and_save_institutions_data(store, institutions_file_path: str, corrected_institution_duplicates: str):
+def get_and_save_institutions_data(store, institutions_file_path: str, corrected_institution_duplicates_path: str):
     query = """
     PREFIX dblp: <https://dblp.org/rdf/schema#>
     PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -50,6 +50,9 @@ def get_and_save_institutions_data(store, institutions_file_path: str, corrected
         }
     }
     """
+    with open(corrected_institution_duplicates_path, 'r') as f:
+        corrected_institution_duplicates = json.load(f)
+
     institutions_data = corrected_institution_duplicates.copy()
     results = store.query(query)
 
@@ -73,8 +76,8 @@ def get_and_save_institutions_data(store, institutions_file_path: str, corrected
             if len(data) > len(institutions_data[institution_id]):
                 institutions_data[institution_id] = data
 
-            if len(data) == len(institutions_data[institution_id]) and institution_id not in corrected_institution_duplicates:
-                raise ValueError(f"Duplicate institution found: {institution_id} with data: {data} and {institutions_data[institution_id]}. Run src/scripts/utils/get_institutions_duplicates.py to get the list of duplicates and correct them.")
+            if len(data) == len(institutions_data[institution_id]) and  data != institutions_data[institution_id] and institution_id not in corrected_institution_duplicates:
+                raise ValueError(f"Duplicate institution found: ID {institution_id} with data: {data} and {institutions_data[institution_id]}. Run src/scripts/utils/get_institutions_duplicates.py to get the list of duplicates and correct them.")
 
     with open(institutions_file_path, 'w') as f:
         json.dump(institutions_data, f, indent=4, ensure_ascii=False)
@@ -110,7 +113,4 @@ if __name__ == "__main__":
 
     store = Store(args.dblp_store_path)
 
-    with open(args.corrected_institution_duplicates_path, 'r') as f:
-        corrected_institution_duplicates = json.load(f)
-
-    get_and_save_institutions_data(store, args.institutions_file_path, corrected_institution_duplicates)
+    get_and_save_institutions_data(store, args.institutions_file_path, args.corrected_institution_duplicates_path)

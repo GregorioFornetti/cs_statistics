@@ -13,12 +13,14 @@ def generate_dblp_store(dblp_rdf_file_path: str, dblp_store_path: str) -> None:
     """
     Generate the DBLP store from the RDF file.
     """
+    print(f"Generating DBLP store...")
     os.makedirs(os.path.dirname(dblp_store_path), exist_ok=True)
     store = Store(dblp_store_path)
     store.bulk_load(
         path=dblp_rdf_file_path,
         format=RdfFormat.TURTLE,
     )
+    print(f"DBLP store generated.")
 
 
 

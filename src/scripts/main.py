@@ -5,6 +5,9 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
 
 
 import argparse
+from pathlib import Path
+import shutil
+
 from pyoxigraph import Store
 
 from src.scripts.constants import DBLP_RDF_GZ_FILE, DBLP_RDF_FILE, DBLP_STORE_FILE, CONFERENCES_FILE, JOURNALS_FILE, INSTITUTIONS_FILE, CORRECTED_INSTITUTION_DUPLICATES_FILE
@@ -32,13 +35,14 @@ args = argparser.parse_args()
 
 
 
-download_dblp_rdf_data(args.rdf_gz_file, args.rdf_file)
+#download_dblp_rdf_data(Path(args.rdf_gz_file), Path(args.rdf_file))
 
-if os.path.exists(args.store_file):
-    os.remove(args.store_file)
-generate_dblp_store(args.rdf_file, args.store_file)
+#if os.path.exists(args.store_file):
+#    shutil.rmtree(args.store_file)
+
+#generate_dblp_store(args.rdf_file, args.store_file)
 
 store = Store(args.store_file)
 
-get_and_save_venues_data(store, args.conferences_file, args.journals_file)
+#get_and_save_venues_data(store, args.conferences_file, args.journals_file)
 get_and_save_institutions_data(store, args.institutions_file, args.corrected_institution_duplicates_file)
