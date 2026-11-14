@@ -11,6 +11,7 @@ UTILS_DATA_PATH = os.path.join(DATA_PATH, 'utils')
 DBLP_RDF_FILE = os.path.join(RAW_DATA_PATH, 'dblp.ttl')
 DBLP_RDF_GZ_FILE = os.path.join(RAW_DATA_PATH, 'dblp.ttl.gz')
 DBLP_STORE_FILE = os.path.join(RAW_DATA_PATH, 'dblp_store')
+DBLP_RAW_METADATA_FILE = os.path.join(RAW_DATA_PATH, 'dblp_metadata.txt')
 
 # Utils files
 CORRECTED_INSTITUTION_DUPLICATES_FILE = os.path.join(UTILS_DATA_PATH, 'corrected_institution_duplicates.json')
@@ -23,3 +24,4 @@ DUPLICATE_INSTITUTIONS_NOT_CORRECTED_FILE = os.path.join(TEMP_DATA_PATH, 'duplic
 CONFERENCES_FILE = os.path.join(PROCESSED_DATA_PATH, 'conferences.json')
 JOURNALS_FILE = os.path.join(PROCESSED_DATA_PATH, 'journals.json')
 INSTITUTIONS_FILE = os.path.join(PROCESSED_DATA_PATH, 'institutions.json')
+METADATA_FILE = os.path.join(PROCESSED_DATA_PATH, 'metadata.json')
