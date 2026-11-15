@@ -1,7 +1,7 @@
 import os
 import sys
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
-from src.scripts.constants import DBLP_STORE_FILE, CORRECTED_INSTITUTION_DUPLICATES_FILE, DUPLICATE_INSTITUTIONS_FILE, DUPLICATE_INSTITUTIONS_NOT_CORRECTED_FILE
+from src.scripts.constants import DBLP_STORE_FILE, CORRECTED_INSTITUTION_DUPLICATES_FILE, DUPLICATE_INSTITUTIONS_FILE, DUPLICATE_INSTITUTIONS_NOT_CORRECTED_FILE, METADATA_FILE
 
 
 import json
@@ -36,6 +36,12 @@ parser.add_argument(
     type=str,
     default=DUPLICATE_INSTITUTIONS_NOT_CORRECTED_FILE,
     help="Path to the duplicate institutions not corrected JSON file.",
+)
+parser.add_argument(
+    '--metadata_path',
+    type=str,
+    default=METADATA_FILE,
+    help='Path to the metadata JSON file.',
 )
 args = parser.parse_args()
 
@@ -84,10 +90,17 @@ WHERE {
 with open(corrected_institution_duplicates_path, 'r') as f:
     corrected_institution_duplicates = json.load(f)
 
+with open(args.metadata_path, 'r') as f:
+    metadata = json.load(f)
+
+institutions_total = metadata['institutions']
+
 institutions_data = {}
 results = store.query(query)
 
-for row in tqdm(results):
+pbar = tqdm(results, total=institutions_total, desc="Processing institutions")
+
+for row in results:
 
     institution_id = row['institution'].value.replace("https://dblp.org/inst/", "")
     data = {
@@ -103,11 +116,14 @@ for row in tqdm(results):
 
     if not institution_id in institutions_data:
         institutions_data[institution_id] = [data]
+        pbar.update(1)
     else:
         if len(data) > len(institutions_data[institution_id][0]):
             institutions_data[institution_id][0] = data
         elif len(data) == len(institutions_data[institution_id][0]) and data != institutions_data[institution_id][0]:
             institutions_data[institution_id].append(data)
+
+pbar.close()
 
 duplicate_institutions = {k: v for k, v in institutions_data.items() if len(v) > 1}
 

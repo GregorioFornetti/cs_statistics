@@ -12549,7 +12549,7 @@
         "name": "Computers and Advanced Technology in Education (CATE)"
     },
     "cars": {
-        "name": "Computer Assisted Radiology and Surgery - International Congress and Exhibition (CARS)"
+        "name": "International Congress and Exhibition on Computer Assisted Radiology and Surgery (CARS)"
     },
     "iccv": {
         "name": "IEEE/CVF International Conference on Computer Vision (ICCV)"
@@ -12783,7 +12783,7 @@
         "name": "International Design and Test Workshop/Symposium (IDT)"
     },
     "gamesem": {
-        "name": "IEEE Games Entertainment Media Conference (GEM)"
+        "name": "IEEE Gaming, Entertainment, and Media Conference (GEM)"
     },
     "cui": {
         "name": "International Conference on Conversational User Interfaces (CUI)"
@@ -18004,6 +18004,9 @@
     },
     "cacml": {
         "name": "Asia Conference on Algorithms, Computing and Machine Learning (CACML)"
+    },
+    "gp": {
+        "name": "Annual Conference on Genetic Programming (Genetic Programming)"
     },
     "mass": {
         "name": "IEEE International Conference on Mobile Adhoc and Sensor Systems (MASS)"

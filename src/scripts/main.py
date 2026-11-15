@@ -12,7 +12,7 @@ from pyoxigraph import Store
 
 from src.scripts.constants import DBLP_RDF_GZ_FILE, DBLP_RDF_FILE, DBLP_STORE_FILE, CONFERENCES_FILE, JOURNALS_FILE, INSTITUTIONS_FILE, CORRECTED_INSTITUTION_DUPLICATES_FILE, METADATA_FILE, DBLP_RAW_METADATA_FILE
 
-from src.scripts.download.dblp_rdf import download_dblp_rdf_data
+from src.scripts.download.dblp_rdf import download_dblp_rdf_data, download_dblp_rdf_metadata
 
 from src.scripts.pre_process.generate_dblp_store import generate_dblp_store
 
@@ -40,12 +40,23 @@ argparser.add_argument('--skip_process_venues', action='store_true', help='Skip 
 argparser.add_argument('--skip_process_institutions', action='store_true', help='Skip processing and saving institutions data.')
 args = argparser.parse_args()
 
+os.makedirs(os.path.dirname(args.rdf_gz_file), exist_ok=True)
+os.makedirs(os.path.dirname(args.rdf_file), exist_ok=True)
+os.makedirs(os.path.dirname(args.store_file), exist_ok=True)
+os.makedirs(os.path.dirname(args.conferences_file), exist_ok=True)
+os.makedirs(os.path.dirname(args.journals_file), exist_ok=True)
+os.makedirs(os.path.dirname(args.institutions_file), exist_ok=True)
+os.makedirs(os.path.dirname(args.corrected_institution_duplicates_file), exist_ok=True)
+os.makedirs(os.path.dirname(args.metadata_file), exist_ok=True)
+os.makedirs(os.path.dirname(args.raw_metadata_file), exist_ok=True)
 
 if not args.skip_download:
     download_dblp_rdf_data(Path(args.rdf_gz_file), Path(args.rdf_file))
+    download_dblp_rdf_metadata(Path(args.raw_metadata_file))
 
+metadata = None
 if not args.skip_process_metadata:
-    process_dblp_metadata(Path(args.raw_metadata_file), Path(args.metadata_file))
+    metadata = process_dblp_metadata(Path(args.raw_metadata_file), Path(args.metadata_file))
 
 if not args.skip_generate_store:
     if os.path.exists(args.store_file):
@@ -55,7 +66,7 @@ if not args.skip_generate_store:
 store = Store(args.store_file)
 
 if not args.skip_process_venues:
-    get_and_save_venues_data(store, args.conferences_file, args.journals_file)
+    get_and_save_venues_data(store, args.conferences_file, args.journals_file, metadata=metadata)
 
 if not args.skip_process_institutions:
-    get_and_save_institutions_data(store, args.institutions_file, args.corrected_institution_duplicates_file)
+    get_and_save_institutions_data(store, args.institutions_file, args.corrected_institution_duplicates_file, metadata=metadata)

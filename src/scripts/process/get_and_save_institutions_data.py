@@ -16,7 +16,7 @@ from pyoxigraph import Store
 
 
 
-def get_and_save_institutions_data(store, institutions_file_path: str, corrected_institution_duplicates_path: str):
+def get_and_save_institutions_data(store, institutions_file_path: str, corrected_institution_duplicates_path: str, metadata: dict = None, raise_on_duplicate: bool = False):
     query = """
     PREFIX dblp: <https://dblp.org/rdf/schema#>
     PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -56,7 +56,15 @@ def get_and_save_institutions_data(store, institutions_file_path: str, corrected
     institutions_data = corrected_institution_duplicates.copy()
     results = store.query(query)
 
-    for row in tqdm(results):
+    total = None
+    if metadata and 'institutions' in metadata:
+        print(f"Total number of institutions from metadata: {metadata['institutions']}. It may not match the actual number of institutions in the DBLP store.")
+        total = metadata['institutions']
+
+    pbar = tqdm(results, total=total, desc="Processing institutions")
+    errors_count = 0
+
+    for row in results:
 
         institution_id = row['institution'].value.replace("https://dblp.org/inst/", "")
         data = {
@@ -72,12 +80,19 @@ def get_and_save_institutions_data(store, institutions_file_path: str, corrected
 
         if not institution_id in institutions_data:
             institutions_data[institution_id] = data
+            pbar.update(1)
         else:
             if len(data) > len(institutions_data[institution_id]):
                 institutions_data[institution_id] = data
 
             if len(data) == len(institutions_data[institution_id]) and  data != institutions_data[institution_id] and institution_id not in corrected_institution_duplicates:
-                raise ValueError(f"Duplicate institution found: ID {institution_id} with data: {data} and {institutions_data[institution_id]}. Run src/scripts/utils/get_institutions_duplicates.py to get the list of duplicates and correct them.")
+                if raise_on_duplicate:
+                    raise ValueError(f"Duplicate institution found: ID {institution_id} with data: {data} and {institutions_data[institution_id]}. Run src/scripts/utils/get_institutions_duplicates.py to get the list of duplicates and correct them.")
+                errors_count += 1
+
+    pbar.close()
+    if errors_count > 0:
+        print(f"\n\nWarning: {errors_count} duplicate institutions found. Run src/scripts/utils/get_institutions_duplicates.py to get the list of duplicates and correct them. After correcting the duplicates, run src/scripts/process/get_and_save_institutions_data.py again to update the institutions data.")
 
     with open(institutions_file_path, 'w') as f:
         json.dump(institutions_data, f, indent=4, ensure_ascii=False)

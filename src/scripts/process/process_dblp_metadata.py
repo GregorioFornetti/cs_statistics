@@ -44,6 +44,8 @@ def process_dblp_metadata(metadata_raw_file_path: Path, metadata_processed_file_
 
         print("DBLP metadata processing completed!")
 
+        return processed_json
+
     except Exception as error:
         print(f"\nError: {error}", file=sys.stderr)
         sys.exit(1)

@@ -377,5 +377,11 @@
         "country": "People's Republic of China",
         "state": "Henan",
         "city": "Xinzheng"
+    },
+    "5/775": {
+        "name": "University of Nova Gorica",
+        "country": "Slovenia",
+        "state": "Nova Gorica",
+        "city": "Nova Gorica"
     }
 }

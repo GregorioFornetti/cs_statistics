@@ -14,7 +14,7 @@ from pyoxigraph import Store
 
 
 
-def get_and_save_venues_data(store, conferences_file_path: str, journals_file_path: str):
+def get_and_save_venues_data(store, conferences_file_path: str, journals_file_path: str, metadata: dict = None):
     query = """
     PREFIX dblp: <https://dblp.org/rdf/schema#>
     PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -37,7 +37,12 @@ def get_and_save_venues_data(store, conferences_file_path: str, journals_file_pa
     conferences_data = {}
     journal_data = {}
 
-    for row in tqdm(results):
+    total = None
+    if metadata and 'streams' in metadata:
+        print(f"Total number of streams from metadata: {metadata['streams']}. It may not match the actual number of streams in the DBLP store.")
+        total = metadata['streams']
+
+    for row in tqdm(results, total=total, desc="Processing venues"):
         data = {
             "name": row['name'].value
         }
