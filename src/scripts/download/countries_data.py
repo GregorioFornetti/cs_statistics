@@ -39,7 +39,10 @@ def get_and_save_countries_by_continent(country_to_continent_file_path: Path, co
         country_iso_code = entry["cca2"]
         country_continent = entry["region"]
 
-        countries_by_continent[country_continent].append(country_iso_code)
+        countries_by_continent[country_continent].append({
+            "name": country_common_name,
+            "iso_code": country_iso_code
+        })
         countries_to_iso_codes[country_common_name] = country_iso_code
         countries_to_iso_codes[country_official_name] = country_iso_code
 
