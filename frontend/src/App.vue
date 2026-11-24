@@ -1,8 +1,23 @@
+<script setup lang="ts">
+import { onMounted } from 'vue'
+import { appStatus, appLoadErrors, loadAppData } from '@/stores/appData'
+
+import Loading from '@/views/Loading.vue'
+import ErrorPage from '@/views/Error.vue'
+
+onMounted(() => {
+  void loadAppData()
+})
+</script>
 
 <template>
-  <RouterView />
-</template>
+  <Loading v-if="appStatus === 'idle' || appStatus === 'loading'" />
 
-<script setup lang="ts">
-import { RouterView } from 'vue-router'
-</script>
+  <ErrorPage
+    v-else-if="appStatus === 'error'"
+    :errors="appLoadErrors"
+    @retry="loadAppData"
+  />
+
+  <RouterView v-else-if="appStatus === 'ready'" />
+</template>

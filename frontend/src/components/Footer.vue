@@ -1,55 +1,7 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
-
-const repositoryUrl =
-  'https://github.com/GregorioFornetti/cs_statistics'
-
-const metadataUrl =
-  'https://raw.githubusercontent.com/GregorioFornetti/cs_statistics/main/data/processed/metadata.json'
-
-const lastUpdated = ref<string | null>(null)
-const loading = ref(true)
-
-const dateFields = [
-  'last_updated',
-  'last_update',
-  'updated_at',
-  'last_modified',
-  'generated_at',
-  'date',
-]
-
-function findDate(data: unknown): string | null {
-  if (!data || typeof data !== 'object') return null
-
-  const object = data as Record<string, unknown>
-
-  for (const field of dateFields) {
-    const value = object[field]
-
-    if (
-      typeof value === 'string' ||
-      typeof value === 'number'
-    ) {
-      const date = new Date(value)
-
-      if (!Number.isNaN(date.getTime())) {
-        return date.toISOString()
-      }
-    }
-  }
-
-  // Check nested metadata objects.
-  for (const value of Object.values(object)) {
-    if (value && typeof value === 'object') {
-      const result = findDate(value)
-      if (result) return result
-    }
-  }
-
-  return null
-}
+import { appData } from '@/stores/appData'
 
 function formatDate(date: string): string {
   return new Intl.DateTimeFormat('en', {
@@ -59,25 +11,6 @@ function formatDate(date: string): string {
     timeZone: 'UTC',
   }).format(new Date(date))
 }
-
-onMounted(async () => {
-  try {
-    const response = await fetch(metadataUrl, {
-      headers: { Accept: 'application/json' },
-    })
-
-    if (!response.ok) {
-      throw new Error(`Metadata request failed: ${response.status}`)
-    }
-
-    const metadata: unknown = await response.json()
-    lastUpdated.value = findDate(metadata)
-  } catch (error) {
-    console.error('Could not load dataset metadata:', error)
-  } finally {
-    loading.value = false
-  }
-})
 </script>
 
 <template>
@@ -93,7 +26,7 @@ onMounted(async () => {
       <p>
         Source code available on
         <a
-          :href="repositoryUrl"
+          href="https://github.com/GregorioFornetti/cs_statistics"
           target="_blank"
           rel="noopener noreferrer"
           class="font-medium text-blue-600 hover:underline
@@ -107,11 +40,7 @@ onMounted(async () => {
         Data last updated:
         <span class="font-medium text-gray-700 dark:text-gray-200">
           {{
-            loading
-              ? 'Loading...'
-              : lastUpdated
-                ? formatDate(lastUpdated)
-                : 'Date unavailable'
+            formatDate(appData!.metadata!.download_date)
           }}
         </span>
       </p>
