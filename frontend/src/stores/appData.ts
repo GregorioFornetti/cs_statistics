@@ -94,7 +94,7 @@ export async function loadAppData(): Promise<void> {
     results.forEach((result, index) => {
       if (result.status === 'rejected') {
         errors.push({
-          file: resources[index].file,
+          file: resources[index]!.file,
           message:
             result.reason instanceof Error
               ? result.reason.message
@@ -119,7 +119,7 @@ export async function loadAppData(): Promise<void> {
       conferences: values[0],
       countriesByContinent: values[1],
       journals: values[2],
-      metadata: values[3],
+      metadata: values[3] as Metadata,
     }
 
     appStatus.value = 'ready'
