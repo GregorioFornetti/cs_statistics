@@ -29,3 +29,4 @@ CONF_COUNT_BY_UNI_FOLDER = os.path.join(PROCESSED_DATA_PATH, 'conf_count_by_uni'
 JOURNAL_COUNT_BY_UNI_FOLDER = os.path.join(PROCESSED_DATA_PATH, 'journal_count_by_uni')
 COUNTRIES_BY_CONTINENT_FILE = os.path.join(PROCESSED_DATA_PATH, 'countries_by_continent.json')
 COUNTRIES_TO_ISO_CODES_FILE = os.path.join(PROCESSED_DATA_PATH, 'countries_to_iso_codes.json')
+INSTITUTIONS_BY_COUNTRY_ISO_CODES_FILE = os.path.join(PROCESSED_DATA_PATH, 'institutions_by_country_iso_codes.json')
