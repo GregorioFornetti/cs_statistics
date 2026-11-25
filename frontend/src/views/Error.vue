@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { LoadError } from '@/stores/appData'
+import type { LoadError } from '@/data_loading/appData'
 
 defineProps<{
   errors: LoadError[]

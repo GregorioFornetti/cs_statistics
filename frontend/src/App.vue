@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
-import { appStatus, appLoadErrors, loadAppData } from '@/stores/appData'
+import { appStatus, appLoadErrors, loadAppData } from '@/data_loading/appData'
 
 import Loading from '@/views/Loading.vue'
 import ErrorPage from '@/views/Error.vue'

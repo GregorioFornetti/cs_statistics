@@ -1,7 +1,7 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
-import { appData } from '@/stores/appData'
+import { appData } from '@/data_loading/appData'
 
 function formatDate(date: string): string {
   return new Intl.DateTimeFormat('en', {

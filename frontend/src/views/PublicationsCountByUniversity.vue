@@ -8,7 +8,7 @@ import CountryMultiSelect from '@/components/input/CountryMultiSelect.vue'
 import YearRangeInput from '@/components/input/YearRangeInput.vue'
 import VenueSelector from '@/components/input/VenueSelector.vue'
 
-import { appData } from '@/stores/appData'
+import { appData } from '@/data_loading/appData'
 import type { VenueSelection } from '@/types/data'
 
 const countriesByContinent = computed(

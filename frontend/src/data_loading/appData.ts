@@ -1,19 +1,8 @@
 
 import { ref, shallowRef } from 'vue'
-import type { AppData, Conferences, CountriesByContinent, Journals, Metadata } from '@/types/data'
+import type { AppData, Conferences, CountriesByContinent, Journals, Metadata, LoadError, AppStatus } from '@/types/data'
+import { BASE_URL } from '@/types/constants'
 
-
-export type AppStatus = 'idle' | 'loading' | 'ready' | 'error'
-
-export interface LoadError {
-  file: string
-  message: string
-}
-
-
-
-const BASE_URL =
-  'https://raw.githubusercontent.com/GregorioFornetti/cs_statistics/main/data/processed'
 
 const resources = [
   {

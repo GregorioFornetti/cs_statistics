@@ -47,3 +47,30 @@ export interface AppData {
   journals: Journals
   metadata: Metadata
 }
+
+
+
+export interface LoadError {
+  file: string
+  message: string
+}
+
+export type AppStatus = 'idle' | 'loading' | 'ready' | 'error'
+
+export interface YearRange {
+  start: number
+  end: number
+}
+
+export interface Venue {
+  id: string
+  name: string
+  type: VenueType
+}
+
+export interface UniversityPublicationsCount {
+  publicationsCount: number
+  name: string
+  country: string
+  countryIsoCode: string
+}
