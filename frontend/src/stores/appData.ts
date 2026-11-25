@@ -18,10 +18,29 @@ export interface Metadata {
   download_date: string
 }
 
+export interface Conferences {
+  [id: string]: {
+    name: string
+  }
+}
+
+export interface Journals {
+  [id: string]: {
+    name: string
+  }
+}
+
+export interface CountriesByContinent {
+  [continent: string]: {
+      name: string,
+      iso_code: string,
+  }[]
+}
+
 export interface AppData {
-  conferences: unknown
-  countriesByContinent: unknown
-  journals: unknown
+  conferences: Conferences
+  countriesByContinent: CountriesByContinent
+  journals: Journals
   metadata: Metadata
 }
 
@@ -116,9 +135,9 @@ export async function loadAppData(): Promise<void> {
     )
 
     appData.value = {
-      conferences: values[0],
-      countriesByContinent: values[1],
-      journals: values[2],
+      conferences: values[0] as Conferences,
+      countriesByContinent: values[1] as CountriesByContinent,
+      journals: values[2] as Journals,
       metadata: values[3] as Metadata,
     }
 
