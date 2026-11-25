@@ -1,5 +1,6 @@
+
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, ref, watch } from 'vue'
 import type {
   Conferences,
   Journals,
@@ -7,11 +8,19 @@ import type {
   VenueType,
 } from '@/types/data'
 
-const props = defineProps<{
-  modelValue: VenueSelection[]
-  conferences: Conferences
-  journals: Journals
-}>()
+const props = withDefaults(
+  defineProps<{
+    modelValue: VenueSelection[]
+    conferences: Conferences
+    journals: Journals
+    initialLimit?: number
+    loadMoreCount?: number
+  }>(),
+  {
+    initialLimit: 100,
+    loadMoreCount: 100,
+  },
+)
 
 const emit = defineEmits<{
   'update:modelValue': [value: VenueSelection[]]
@@ -20,6 +29,9 @@ const emit = defineEmits<{
 const search = ref('')
 const showConferences = ref(true)
 const showJournals = ref(true)
+
+const visibleAvailableCount = ref(props.initialLimit)
+const visibleSelectedCount = ref(props.initialLimit)
 
 const allVenues = computed<VenueSelection[]>(() => [
   ...Object.entries(props.conferences).map(([id, value]) => ({
@@ -49,23 +61,74 @@ function isTypeEnabled(type: VenueType) {
 }
 
 function matchesSearch(venue: VenueSelection) {
-  return venue.name.toLowerCase().includes(search.value.trim().toLowerCase())
+  return venue.name
+    .toLowerCase()
+    .includes(search.value.trim().toLowerCase())
 }
 
 const availableVenues = computed(() =>
-  allVenues.value.filter(venue =>
-    !selectedKeys.value.has(venueKey(venue)) &&
-    isTypeEnabled(venue.type) &&
-    matchesSearch(venue),
-  ).sort((a, b) => a.name.localeCompare(b.name)),
+  allVenues.value
+    .filter(venue =>
+      !selectedKeys.value.has(venueKey(venue)) &&
+      isTypeEnabled(venue.type) &&
+      matchesSearch(venue),
+    )
+    .sort((a, b) => a.name.localeCompare(b.name)),
 )
 
 const selectedVenues = computed(() =>
-  props.modelValue.filter(venue =>
-    isTypeEnabled(venue.type) &&
-    matchesSearch(venue),
-  ).sort((a, b) => a.name.localeCompare(b.name)),
+  props.modelValue
+    .filter(venue =>
+      isTypeEnabled(venue.type) &&
+      matchesSearch(venue),
+    )
+    .sort((a, b) => a.name.localeCompare(b.name)),
 )
+
+const visibleAvailableVenues = computed(() =>
+  availableVenues.value.slice(0, visibleAvailableCount.value),
+)
+
+const visibleSelectedVenues = computed(() =>
+  selectedVenues.value.slice(0, visibleSelectedCount.value),
+)
+
+// Reset pagination whenever the search or filters change.
+watch(
+  [search, showConferences, showJournals],
+  () => {
+    visibleAvailableCount.value = props.initialLimit
+    visibleSelectedCount.value = props.initialLimit
+  },
+)
+
+function loadMoreAvailable(event: Event) {
+  const element = event.target as HTMLElement
+
+  if (
+    element.scrollTop + element.clientHeight >=
+    element.scrollHeight - 80
+  ) {
+    visibleAvailableCount.value = Math.min(
+      visibleAvailableCount.value + props.loadMoreCount,
+      availableVenues.value.length,
+    )
+  }
+}
+
+function loadMoreSelected(event: Event) {
+  const element = event.target as HTMLElement
+
+  if (
+    element.scrollTop + element.clientHeight >=
+    element.scrollHeight - 80
+  ) {
+    visibleSelectedCount.value = Math.min(
+      visibleSelectedCount.value + props.loadMoreCount,
+      selectedVenues.value.length,
+    )
+  }
+}
 
 function addVenue(venue: VenueSelection) {
   if (selectedKeys.value.has(venueKey(venue))) return
@@ -141,9 +204,12 @@ function removeVenue(venue: VenueSelection) {
           </h3>
         </div>
 
-        <div class="h-72 space-y-1 overflow-y-auto p-2">
+        <div
+          class="h-72 space-y-1 overflow-y-auto p-2"
+          @scroll.passive="loadMoreAvailable"
+        >
           <button
-            v-for="venue in availableVenues"
+            v-for="venue in visibleAvailableVenues"
             :key="venueKey(venue)"
             type="button"
             @click="addVenue(venue)"
@@ -159,13 +225,21 @@ function removeVenue(venue: VenueSelection) {
               <span v-else class="text-xs font-bold">J</span>
             </span>
 
-            <span class="min-w-0 flex-1">
-              <span class="block truncate text-sm">
-                {{ venue.name }}
-              </span>
-              <span class="text-xs text-gray-400">
-                {{ venue.type === 'conference' ? 'Conference' : 'Journal' }}
-              </span>
+            <span
+                class="min-w-0 flex-1"
+                :title="venue.name"
+            >
+                <span class="block truncate text-sm font-semibold text-gray-900 dark:text-gray-100">
+                    {{ venue.id }}
+                </span>
+
+                <span class="block truncate text-xs text-gray-500 dark:text-gray-400">
+                    {{ venue.name }}
+                </span>
+
+                <span class="text-xs text-gray-400">
+                    {{ venue.type === 'conference' ? 'Conference' : 'Journal' }}
+                </span>
             </span>
 
             <span class="text-lg text-gray-400 transition group-hover:text-blue-600">
@@ -178,6 +252,13 @@ function removeVenue(venue: VenueSelection) {
             class="px-3 py-8 text-center text-sm text-gray-400"
           >
             No available items found.
+          </p>
+
+          <p
+            v-else-if="visibleAvailableCount < availableVenues.length"
+            class="px-3 py-3 text-center text-xs text-gray-400"
+          >
+            Scroll down to load more
           </p>
         </div>
       </div>
@@ -193,9 +274,12 @@ function removeVenue(venue: VenueSelection) {
           </h3>
         </div>
 
-        <div class="h-72 space-y-1 overflow-y-auto p-2">
+        <div
+          class="h-72 space-y-1 overflow-y-auto p-2"
+          @scroll.passive="loadMoreSelected"
+        >
           <button
-            v-for="venue in selectedVenues"
+            v-for="venue in visibleSelectedVenues"
             :key="venueKey(venue)"
             type="button"
             @click="removeVenue(venue)"
@@ -211,13 +295,21 @@ function removeVenue(venue: VenueSelection) {
               <span v-else class="text-xs font-bold">J</span>
             </span>
 
-            <span class="min-w-0 flex-1">
-              <span class="block truncate text-sm">
-                {{ venue.name }}
-              </span>
-              <span class="text-xs text-gray-400">
-                {{ venue.type === 'conference' ? 'Conference' : 'Journal' }}
-              </span>
+            <span
+                class="min-w-0 flex-1"
+                :title="venue.name"
+            >
+                <span class="block truncate text-sm font-semibold text-gray-900 dark:text-gray-100">
+                    {{ venue.id }}
+                </span>
+
+                <span class="block truncate text-xs text-gray-500 dark:text-gray-400">
+                    {{ venue.name }}
+                </span>
+
+                <span class="text-xs text-gray-400">
+                    {{ venue.type === 'conference' ? 'Conference' : 'Journal' }}
+                </span>
             </span>
 
             <span class="text-lg text-gray-400 transition group-hover:text-red-600">
@@ -230,6 +322,13 @@ function removeVenue(venue: VenueSelection) {
             class="px-3 py-8 text-center text-sm text-gray-400"
           >
             No selected items.
+          </p>
+
+          <p
+            v-else-if="visibleSelectedCount < selectedVenues.length"
+            class="px-3 py-3 text-center text-xs text-gray-400"
+          >
+            Scroll down to load more
           </p>
         </div>
       </div>

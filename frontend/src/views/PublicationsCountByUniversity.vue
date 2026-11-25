@@ -34,6 +34,23 @@ const selectedYears = ref<[number, number]>([
 ])
 
 const selectedVenues = ref<VenueSelection[]>([])
+
+function generateStatistics() {
+  const selection = {
+    countries: selectedCountries.value,
+    yearRange: {
+      start: selectedYears.value[0],
+      end: selectedYears.value[1],
+    },
+    venues: selectedVenues.value.map(venue => ({
+      id: venue.id,
+      name: venue.name,
+      type: venue.type,
+    })),
+  }
+
+  console.log('Generating publications statistics with:', selection)
+}
 </script>
 
 <template>
@@ -56,7 +73,7 @@ const selectedVenues = ref<VenueSelection[]>([])
         </p>
       </div>
 
-      <form class="space-y-10" @submit.prevent>
+      <form class="space-y-10" @submit.prevent="generateStatistics">
         <!-- Countries -->
         <CountryMultiSelect
           v-model="selectedCountries"
@@ -114,6 +131,33 @@ const selectedVenues = ref<VenueSelection[]>([])
               </p>
             </div>
           </div>
+        </div>
+        <div class="flex justify-end">
+          <button
+            type="submit"
+            class="inline-flex items-center gap-2 rounded-lg bg-blue-600
+                  px-6 py-3 text-sm font-semibold text-white shadow-sm
+                  transition hover:bg-blue-700 active:scale-[0.98]
+                  focus-visible:outline-2 focus-visible:outline-offset-2
+                  focus-visible:outline-blue-600"
+          >
+            Generate statistics
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13 7l5 5m0 0l-5 5m5-5H6"
+              />
+            </svg>
+          </button>
         </div>
       </form>
     </main>
