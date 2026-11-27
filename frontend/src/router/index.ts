@@ -8,12 +8,12 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
-      path: '/',
+      path: '/cs_statistics',
       name: 'home',
       component: Home,
     },
     {
-      path: '/publications-count-by-university',
+      path: '/cs_statistics/publications-count-by-university',
       name: 'publications-count-by-university',
       component: PublicationsCountByUniversity,
     },
