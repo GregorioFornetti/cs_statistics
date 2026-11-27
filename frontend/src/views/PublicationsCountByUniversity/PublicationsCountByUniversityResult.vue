@@ -1,15 +1,23 @@
 
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, ref, watch } from 'vue'
 import type { UniversityPublicationsCount } from '@/types/data'
 
 const props = defineProps<{
   data: UniversityPublicationsCount[]
 }>()
 
+const INITIAL_LIMIT = 50
+const LOAD_MORE_COUNT = 50
+const SCROLL_THRESHOLD = 100
+
 const search = ref('')
+const hideZeroPublications = ref(false)
+
 const sortBy = ref<'publicationsCount' | 'name'>('publicationsCount')
 const sortDirection = ref<'asc' | 'desc'>('desc')
+
+const visibleCount = ref(INITIAL_LIMIT)
 
 const totalPublications = computed(() =>
   props.data.reduce((total, item) => total + item.publicationsCount, 0)
@@ -25,13 +33,19 @@ const filteredData = computed(() => {
   const query = search.value.trim().toLowerCase()
 
   return props.data
-    .filter(item =>
-      !query ||
-      item.name.toLowerCase().includes(query) ||
-      item.institutionId.toLowerCase().includes(query) ||
-      item.country?.toLowerCase().includes(query) ||
-      item.countryIsoCode?.toLowerCase().includes(query)
-    )
+    .filter(item => {
+      if (hideZeroPublications.value && item.publicationsCount === 0) {
+        return false
+      }
+
+      return (
+        !query ||
+        item.name.toLowerCase().includes(query) ||
+        item.institutionId.toLowerCase().includes(query) ||
+        item.country?.toLowerCase().includes(query) ||
+        item.countryIsoCode?.toLowerCase().includes(query)
+      )
+    })
     .sort((a, b) => {
       const comparison =
         sortBy.value === 'name'
@@ -44,9 +58,41 @@ const filteredData = computed(() => {
     })
 })
 
+const visibleData = computed(() =>
+  filteredData.value.slice(0, visibleCount.value)
+)
+
+const hasMore = computed(() =>
+  visibleCount.value < filteredData.value.length
+)
+
 const maxPublications = computed(() =>
   Math.max(...props.data.map(item => item.publicationsCount), 1)
 )
+
+watch([search, hideZeroPublications, sortBy, sortDirection], () => {
+  visibleCount.value = INITIAL_LIMIT
+})
+
+function loadMore() {
+  if (hasMore.value) {
+    visibleCount.value = Math.min(
+      visibleCount.value + LOAD_MORE_COUNT,
+      filteredData.value.length
+    )
+  }
+}
+
+function handleScroll(event: Event) {
+  const element = event.target as HTMLElement
+
+  const distanceToBottom =
+    element.scrollHeight - element.scrollTop - element.clientHeight
+
+  if (distanceToBottom <= SCROLL_THRESHOLD) {
+    loadMore()
+  }
+}
 
 function toggleSort(field: 'publicationsCount' | 'name') {
   if (sortBy.value === field) {
@@ -118,23 +164,39 @@ function formatNumber(value: number) {
           <h2 class="text-lg font-semibold text-gray-900 dark:text-white">
             Institutions
           </h2>
+
           <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
-            Showing {{ formatNumber(filteredData.length) }} of
-            {{ formatNumber(data.length) }} institutions
+            Showing {{ formatNumber(visibleData.length) }} of
+            {{ formatNumber(filteredData.length) }} institutions
           </p>
         </div>
 
-        <input
-          v-model="search"
-          type="search"
-          placeholder="Search institutions..."
-          class="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm text-gray-900 outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 dark:border-gray-600 dark:bg-gray-900 dark:text-white sm:max-w-xs"
-        />
+        <div class="flex flex-col gap-3 sm:items-end">
+          <input
+            v-model="search"
+            type="search"
+            placeholder="Search institutions..."
+            class="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm text-gray-900 outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 dark:border-gray-600 dark:bg-gray-900 dark:text-white sm:max-w-xs"
+          />
+
+          <label class="flex cursor-pointer items-center gap-2 text-sm text-gray-600 dark:text-gray-300">
+            <input
+              v-model="hideZeroPublications"
+              type="checkbox"
+              class="h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-900"
+            />
+            Hide universities with 0 publications
+          </label>
+        </div>
       </div>
 
-      <div class="overflow-x-auto">
+      <!-- Scrollable table -->
+      <div
+        class="max-h-[650px] overflow-auto"
+        @scroll.passive="handleScroll"
+      >
         <table class="w-full text-left text-sm">
-          <thead class="bg-gray-50 text-xs uppercase text-gray-500 dark:bg-gray-900/50 dark:text-gray-400">
+          <thead class="sticky top-0 z-10 bg-gray-50 text-xs uppercase text-gray-500 dark:bg-gray-900 dark:text-gray-400">
             <tr>
               <th class="px-4 py-3">#</th>
 
@@ -172,7 +234,7 @@ function formatNumber(value: number) {
 
           <tbody class="divide-y divide-gray-100 dark:divide-gray-700">
             <tr
-              v-for="(institution, index) in filteredData"
+              v-for="(institution, index) in visibleData"
               :key="institution.institutionId"
               class="transition-colors hover:bg-gray-50 dark:hover:bg-gray-700/40"
             >
@@ -227,6 +289,20 @@ function formatNumber(value: number) {
             </tr>
           </tbody>
         </table>
+
+        <div
+          v-if="hasMore"
+          class="p-4 text-center text-sm text-gray-500 dark:text-gray-400"
+        >
+          Scroll down to load more institutions...
+        </div>
+
+        <div
+          v-else-if="filteredData.length > 0"
+          class="p-4 text-center text-sm text-gray-400"
+        >
+          All institutions loaded
+        </div>
       </div>
     </section>
   </main>
