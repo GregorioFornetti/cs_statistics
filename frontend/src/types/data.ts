@@ -68,9 +68,34 @@ export interface Venue {
   type: VenueType
 }
 
+
+
+
+export interface Institution {
+  [institutionId: string]: {
+    name: string,
+    country?: string,
+    countryIsoCode?: string
+    state?: string
+    city?: string
+  }
+}
+
+export interface InstitutionsByCountryIsoCode {
+  [countryIsoCode: string]: string[]
+}
+
+export interface VenuePublicationsCountByYearAndInstitution {
+  [year: string]: {
+    [institutionId: string]: number
+  }
+}
+
+
 export interface UniversityPublicationsCount {
+  institutionId: string
   publicationsCount: number
   name: string
-  country: string
-  countryIsoCode: string
+  country?: string
+  countryIsoCode?: string
 }

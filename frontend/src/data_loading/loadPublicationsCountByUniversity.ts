@@ -1,6 +1,5 @@
 
-import { ref, shallowRef } from 'vue'
-import type { Conferences, CountriesByContinent, Journals, Metadata, LoadError, Venue, YearRange, UniversityPublicationsCount } from '@/types/data'
+import type { LoadError, Venue, YearRange, UniversityPublicationsCount, Institution, InstitutionsByCountryIsoCode, VenuePublicationsCountByYearAndInstitution } from '@/types/data'
 import { fetchJson } from '@/data_loading/general'
 import { BASE_URL } from '@/types/constants'
 
@@ -45,7 +44,55 @@ export async function loadPublicationsCountByUniversity(countries: string[], yea
         (result as PromiseFulfilledResult<unknown>).value,
     )
 
-    // TODO PROCESS THE DATA
+    const institutionsByCountryIsoCode = values[0] as InstitutionsByCountryIsoCode
+    const institutions = values[1] as Institution
+    const venuePublicationsCountByYearAndInstitutionList = values.slice(2) as VenuePublicationsCountByYearAndInstitution[]
 
-    return { data: values as UniversityPublicationsCount[] }
+    // Create a set of institution IDs to process based on the provided countries
+    const institutionsIdsToProcess = new Set<string>()
+    countries.forEach((countryIsoCode) => {
+      const institutionsInCountry = institutionsByCountryIsoCode[countryIsoCode]
+      if (institutionsInCountry) {
+        institutionsInCountry.forEach((institutionId) => {
+          institutionsIdsToProcess.add(institutionId)
+        })
+      }
+    })
+
+    // Create a map to hold the aggregated publication counts
+    const aggregatedCounts: Record<string, number> = {}
+    for (const venuePublicationsCountByYearAndInstitution of venuePublicationsCountByYearAndInstitutionList) {
+      for (const yearStr in venuePublicationsCountByYearAndInstitution) {
+        const year = parseInt(yearStr, 10)
+        if (year >= yearRange.start && year <= yearRange.end) {
+          for (const institutionId in venuePublicationsCountByYearAndInstitution[yearStr]) {
+            if (institutionsIdsToProcess.has(institutionId)) {
+              const count = venuePublicationsCountByYearAndInstitution[yearStr][institutionId]
+              if (!aggregatedCounts[institutionId]) {
+                aggregatedCounts[institutionId] = 0
+              }
+              aggregatedCounts[institutionId] += count || 0
+            }
+          }
+        }
+      }
+    }
+
+    // Create the final result array
+    const result: UniversityPublicationsCount[] = []
+    institutionsIdsToProcess.forEach((institutionId) => {
+      const institution = institutions[institutionId]
+      if (institution) {
+        result.push({
+          institutionId,
+          name: institution.name,
+          publicationsCount: aggregatedCounts[institutionId] || 0,
+          country: institution.country,
+          countryIsoCode: institution.countryIsoCode,
+        })
+      }
+    })
+    result.sort((a, b) => b.publicationsCount - a.publicationsCount)
+
+    return { data: result }
 }
