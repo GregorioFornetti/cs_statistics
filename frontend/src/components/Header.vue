@@ -17,7 +17,7 @@ const { theme, toggleTheme } = useTheme()
              justify-between px-6"
     >
       <RouterLink
-        to="/"
+        to="/cs_statistics"
         class="flex items-center gap-2 rounded-lg px-3 py-2
                text-sm font-semibold transition-colors
                hover:bg-gray-100 hover:text-blue-600
