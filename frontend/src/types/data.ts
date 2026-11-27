@@ -99,3 +99,9 @@ export interface UniversityPublicationsCount {
   country?: string
   countryIsoCode?: string
 }
+
+export interface PublicationsCountByUniversityInput {
+  countries: string[]
+  yearRange: YearRange
+  venues: Venue[]
+}

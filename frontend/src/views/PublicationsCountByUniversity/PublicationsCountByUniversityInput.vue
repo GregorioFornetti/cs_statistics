@@ -9,7 +9,7 @@ import YearRangeInput from '@/components/input/YearRangeInput.vue'
 import VenueSelector from '@/components/input/VenueSelector.vue'
 
 import { appData } from '@/data_loading/appData'
-import type { VenueSelection } from '@/types/data'
+import type { PublicationsCountByUniversityInput, VenueSelection } from '@/types/data'
 
 const countriesByContinent = computed(
   () => appData.value?.countriesByContinent ?? {},
@@ -35,28 +35,24 @@ const selectedYears = ref<[number, number]>([
 
 const selectedVenues = ref<VenueSelection[]>([])
 
-function generateStatistics() {
-  const selection = {
+const emit = defineEmits<{
+  submit: [input: PublicationsCountByUniversityInput]
+}>()
+
+function submit() {
+  emit('submit', {
     countries: selectedCountries.value,
     yearRange: {
       start: selectedYears.value[0],
       end: selectedYears.value[1],
     },
-    venues: selectedVenues.value.map(venue => ({
-      id: venue.id,
-      name: venue.name,
-      type: venue.type,
-    })),
-  }
-
-  console.log('Generating publications statistics with:', selection)
+    venues: selectedVenues.value,
+  })
 }
 </script>
 
 <template>
   <div class="flex min-h-screen flex-col bg-white dark:bg-gray-950">
-    <Header />
-
     <main class="mx-auto w-full max-w-5xl flex-1 px-6 py-12">
       <div class="mb-10">
         <p class="text-sm font-semibold uppercase tracking-wider text-blue-600 dark:text-blue-400">
@@ -73,7 +69,7 @@ function generateStatistics() {
         </p>
       </div>
 
-      <form class="space-y-10" @submit.prevent="generateStatistics">
+      <form class="space-y-10" @submit.prevent="submit">
         <!-- Countries -->
         <CountryMultiSelect
           v-model="selectedCountries"
@@ -161,7 +157,5 @@ function generateStatistics() {
         </div>
       </form>
     </main>
-
-    <Footer />
   </div>
 </template>

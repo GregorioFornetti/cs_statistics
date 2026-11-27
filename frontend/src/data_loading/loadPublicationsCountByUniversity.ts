@@ -1,5 +1,5 @@
 
-import type { LoadError, Venue, YearRange, UniversityPublicationsCount, Institution, InstitutionsByCountryIsoCode, VenuePublicationsCountByYearAndInstitution } from '@/types/data'
+import type { LoadError, Venue, YearRange, UniversityPublicationsCount, Institution, InstitutionsByCountryIsoCode, VenuePublicationsCountByYearAndInstitution, PublicationsCountByUniversityInput } from '@/types/data'
 import { fetchJson } from '@/data_loading/general'
 import { BASE_URL } from '@/types/constants'
 
@@ -9,8 +9,13 @@ const venueTypeToFolderMap: Record<string, string> = {
     'journal': 'journals_count_by_uni',
 }
 
-export async function loadPublicationsCountByUniversity(countries: string[], yearRange: YearRange, venues: Venue[]): Promise<{ errors?: LoadError[], data?: UniversityPublicationsCount[] }> {
+export async function loadPublicationsCountByUniversity(input: PublicationsCountByUniversityInput): Promise<
+  | { data: UniversityPublicationsCount[]; errors?: never }
+  | { errors: LoadError[]; data?: never }
+> {
 
+    const { countries, yearRange, venues } = input
+    
     const resources = [
         `${BASE_URL}/institutions_by_country_iso_codes.json`,
         `${BASE_URL}/institutions.json`,
