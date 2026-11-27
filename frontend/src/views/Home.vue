@@ -34,7 +34,7 @@ import Card from '../components/Card.vue'
             image="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800"
             title="Publications count by university"
             description="You can choose which countries, years, and conferences/journals to generate the statistics. It will generate a table ranking the universities by publications count."
-            to="cs_statistics/publications-count-by-university"
+            to="/cs_statistics/publications-count-by-university"
           />
         </div>
       </section>
